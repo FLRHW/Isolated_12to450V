@@ -1,0 +1,277 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d4440dba-022e-49b2-97f2-6fc1871c7304")
+	(paper "A4")
+	(title_block
+		(title "Block Diagram")
+		(date "2025-12-20")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+		(comment 9 "NA")
+	)
+	(lib_symbols)
+	(text "Page 3"
+		(exclude_from_sim no)
+		(at 162.56 125.73 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#3")
+		)
+		(uuid "2a8ce917-34bd-497a-a119-f09b8607eec0")
+	)
+	(text "1\n2\n3\n4"
+		(exclude_from_sim no)
+		(at 118.745 100.33 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "2fac951a-665b-4818-92db-dfb89dfb59ae")
+	)
+	(text "Vout+\nVout-\nVin+\nVin-"
+		(exclude_from_sim no)
+		(at 115.57 100.33 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "4357d0d0-a77a-415c-a474-626189306692")
+	)
+	(text "AliExpress module example (link)"
+		(exclude_from_sim no)
+		(at 142.24 162.56 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "https://www.aliexpress.com/item/1005006040711629.html?spm=a2g0o.productlist.main.1.4014wvuTwvuTwa&algo_pvid=b4fe72e1-6b2f-4aef-ac8b-cf66adda3259&pdp_ext_f=%7B%22order%22%3A%22157%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006040711629%7C_p_origin_prod%3A")
+		)
+		(uuid "a8a57466-d20e-43d1-9753-ccb88e0859bb")
+	)
+	(text_box "MODULE INTERFACE:\nVin: 9 V to 24 V according to AliExpress product page\nVout: 200 V to 450 V, adjustable through VR1"
+		(exclude_from_sim no)
+		(at 63.5 88.9 0)
+		(size 38.1 25.4)
+		(margins 2 2 2 2)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type color)
+			(color 200 200 200 1)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "20ef7c21-4d5a-47aa-8913-d8f11d9289db")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 181.61 15.24 0)
+		(size 101.6 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 194 1)
+			)
+			(justify right)
+		)
+		(uuid "73b2b29c-2473-4e80-be0b-4f57c6856c3e")
+	)
+	(polyline
+		(pts
+			(xy 119.38 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d88c77-3d40-44b1-82d7-96c04d43e7c3")
+	)
+	(polyline
+		(pts
+			(xy 119.38 105.41) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d768664-6fc4-4fbb-9c78-0851b5ef38ce")
+	)
+	(polyline
+		(pts
+			(xy 119.38 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff581df-b4dc-4358-85c2-4537685c2ae2")
+	)
+	(polyline
+		(pts
+			(xy 121.92 96.52) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c741c6f-211d-45a2-8d0d-5aa9a56d520a")
+	)
+	(polyline
+		(pts
+			(xy 116.84 105.41) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89efd987-e7f6-462a-94bc-a05482574808")
+	)
+	(polyline
+		(pts
+			(xy 121.92 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc67bee-ada1-485b-83f8-b2dc87f6bf16")
+	)
+	(polyline
+		(pts
+			(xy 119.38 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7a60c2-3486-4cb4-ba8a-f32700ebe9df")
+	)
+	(polyline
+		(pts
+			(xy 116.84 95.25) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956695fb-f6f4-4aa3-97ce-425690b2bbea")
+	)
+	(polyline
+		(pts
+			(xy 121.92 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b8b6cc-f9cd-480b-837a-3ff53fa4cd39")
+	)
+	(polyline
+		(pts
+			(xy 121.92 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a311ad44-ee32-4587-b9f3-1f5114b356db")
+	)
+	(polyline
+		(pts
+			(xy 119.38 101.6) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e854ffe5-b670-49fa-bd24-721c711cc7b2")
+	)
+	(polyline
+		(pts
+			(xy 116.84 95.25) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7f3592-7132-45ad-94f8-a2f676a00bd8")
+	)
+	(sheet
+		(at 127 76.2)
+		(size 36.83 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "b0fdce11-0fa7-4399-9147-4b60eb490e1b")
+		(property "Sheetname" "Schematic"
+			(at 127 75.1709 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Schematic.kicad_sch"
+			(at 127 127.5846 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StepUp_module_12to450V"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1"
+					(page "3")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,49 @@
+{
+  "version": 20231120,
+  "generator": "KiCad",
+  "unit": "mm",
+  "symbol_libs": [
+    {
+      "name": "Connector",
+      "type": "KiCad",
+      "uri": "library/symbols/Connector.kicad_sym",
+      "description": "Local copy of Connector"
+    },
+    {
+      "name": "Device",
+      "type": "KiCad",
+      "uri": "library/symbols/Device.kicad_sym",
+      "description": "Local copy of Device"
+    },
+    {
+      "name": "Mechanical",
+      "type": "KiCad",
+      "uri": "library/symbols/Mechanical.kicad_sym",
+      "description": "Local copy of Mechanical"
+    },
+    {
+      "name": "personal",
+      "type": "KiCad",
+      "uri": "library/symbols/personal.kicad_sym",
+      "description": "Local copy of personal"
+    },
+    {
+      "name": "power",
+      "type": "KiCad",
+      "uri": "library/symbols/power.kicad_sym",
+      "description": "Local copy of power"
+    },
+    {
+      "name": "Transistor_BJT",
+      "type": "KiCad",
+      "uri": "library/symbols/Transistor_BJT.kicad_sym",
+      "description": "Local copy of Transistor_BJT"
+    },
+    {
+      "name": "Transistor_FET",
+      "type": "KiCad",
+      "uri": "library/symbols/Transistor_FET.kicad_sym",
+      "description": "Local copy of Transistor_FET"
+    }
+  ]
+}
