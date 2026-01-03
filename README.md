@@ -1,6 +1,6 @@
 <p align="center" width="100%">
-  <a href="https://github.com/FLRHW/StepUp_module_12to450V/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="https://github.com/FLRHW/StepUp_module_12to450V/actions/workflows/ci.yaml/badge.svg?branch=">
+  <a href="https://github.com/FLRHW/Isolated_12to450V/actions/workflows/ci.yaml">
+    <img alt="CI Badge" src="https://github.com/FLRHW/Isolated_12to450V/actions/workflows/ci.yaml/badge.svg?branch=">
   </a>
 </p>
 

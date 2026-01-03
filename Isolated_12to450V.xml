@@ -4,13 +4,74 @@
     <source>/github/workspace/Isolated_12to450V.kicad_sch</source>
     <date>Date1</date>
     <tool>Eeschema 9.0.6+1</tool>
-    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	DO NOT POPULATE PARTS MARKED WITH A RED CROSS.
+
+2)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY
+	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.
+
+3)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
+	WHEN VIEWED FROM THE TOP.</textvar>
     <textvar name="BOARD_NAME">Module</textvar>
     <textvar name="COMPANY">FR</textvar>
     <textvar name="DESIGNER">FR</textvar>
-    <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">f8c9afb</textvar>
-    <textvar name="GIT_HASH_SCH">f8c9afb</textvar>
+    <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
+
+1)	FABRICATE PER IPC-6012A CLASS 2.
+
+2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH
+	"Edge_Cuts.GBR" SUFFIX.
+
+	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS
+	DRAWING ARE FOR REFERENCE ONLY.
+
+3)	SEE SEPARATE DRILL FILES WITH ".DRL" SUFFIX 
+	FOR HOLE LOCATIONS.
+
+	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING 
+	ARE FOR REFERENCE ONLY.
+
+4)	SURFACE FINISH: IMMERSION GOLD
+
+5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
+	BE LPI, COLOR TOP: #8071501A / BOTTOM: GREEN.
+
+6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
+	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
+
+7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
+	SOLDERMASK OPENED IN GERBER.
+
+8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS 
+	AND Pb FREE FOR MANUFACTURING
+
+9)	PCB MATERIAL REQUIREMENTS:
+
+	A.	FLAMMABILITY RATING MUST MEET OR EXCEED 
+		UL94V-0 REQUIREMENTS.
+	B.	Tg 170 C OR EQUIVALENT.
+	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
+		HALOGEN FREE AND APPROVED BY FR.
+
+10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
+
+	BOARD SIZE				122.180 × 62.440 mm
+	BOARD THICKNESS		1.660 mm
+	TRACE WIDTH			0.500 mm
+	TRACE TO TRACE		0.200 mm
+	MIN. HOLE (PTH)			0.250 mm
+	MIN. HOLE (NPTH)		2.100 mm
+	ANNULAR RING			0.150 mm
+	COPPER TO HOLE		0.254 mm
+	COPPER TO EDGE		0.250 mm
+	HOLE TO HOLE			0.254 mm
+
+11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
+
+12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
+    <textvar name="GIT_HASH_PCB">515c3e6</textvar>
+    <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up module 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -28,8 +89,8 @@ CI failed on release - do not use.</textvar>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">30-Dec-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-12-30</textvar>
+    <textvar name="RELEASE_DATE">03-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-03</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2025-12-19</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -76,7 +137,7 @@ CI failed on release - do not use.</textvar>
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">DRAFT</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -185,15 +246,15 @@ CI failed on release - do not use.</textvar>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>2df99a36-9626-4818-928e-f38cd8405030</tstamps>
+      <tstamps>8add5df0-67df-4712-8520-39c2d6b30095</tstamps>
     </comp>
     <comp ref="C3">
-      <value>3,3n</value>
-      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <value>3n3</value>
+      <footprint>Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</field>
+        <field name="Footprint">Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -314,6 +375,114 @@ CI failed on release - do not use.</textvar>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>3a88e984-8e73-4824-92b8-c135b4da05fa</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1n</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>2df99a36-9626-4818-928e-f38cd8405030</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>6.8p</value>
+      <footprint>Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>6281f9cf-63a2-42ab-b5a1-cbad57bedba3</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>22p</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>0a043d5d-1477-416e-a5d6-dfef5be6ac84</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>175e8416-638e-4b24-8db1-7a8f73fd282a</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f0090533-fa6a-4456-b9e2-f1d003fe49e1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>XBS104S14R-G</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <datasheet>~</datasheet>
+      <description>Schottky diode</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>0021f368-8d1a-44bb-8eb7-2f1ed8745911</tstamps>
     </comp>
     <comp ref="D2">
       <value>?</value>
@@ -497,6 +666,26 @@ CI failed on release - do not use.</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>8dd15cfa-886b-4efa-b6c1-555697915d80</tstamps>
     </comp>
+    <comp ref="Mod1">
+      <value>WB2405S-1W</value>
+      <footprint>Personal:WB___S-1W</footprint>
+      <fields>
+        <field name="LCSC PN">C20598690</field>
+        <field name="Manufacturer">RLT</field>
+        <field name="Manufacturer PN">WB2405S-1W</field>
+        <field name="Footprint">Personal:WB___S-1W</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="WB____S-1W" description=""/>
+      <property name="LCSC PN" value="C20598690"/>
+      <property name="Manufacturer" value="RLT"/>
+      <property name="Manufacturer PN" value="WB2405S-1W"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>37f9a6df-c1e4-4c41-abe2-d30942454dee</tstamps>
+    </comp>
     <comp ref="Q1">
       <value>HY1707</value>
       <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
@@ -549,6 +738,42 @@ CI failed on release - do not use.</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>3297bd3c-fbd0-4f7b-9f95-aff5a96abf36</tstamps>
     </comp>
+    <comp ref="Q4">
+      <value>2N2222</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92L_Inline_Wide</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>e14c5f13-5eb6-4672-98ef-541e58c7921f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f3b045cf-37fa-465b-8e05-d56c429e0452</tstamps>
+    </comp>
     <comp ref="R2">
       <value>1k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
@@ -583,7 +808,7 @@ CI failed on release - do not use.</textvar>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>f3b045cf-37fa-465b-8e05-d56c429e0452</tstamps>
+      <tstamps>dde5c97a-2616-4090-a3d8-4b97139f546e</tstamps>
     </comp>
     <comp ref="R4">
       <value>3k</value>
@@ -604,7 +829,7 @@ CI failed on release - do not use.</textvar>
       <tstamps>bb10e904-2d70-44e7-9ca5-f24cdc6da508</tstamps>
     </comp>
     <comp ref="R5">
-      <value>5,1k</value>
+      <value>5k1</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
@@ -640,7 +865,7 @@ CI failed on release - do not use.</textvar>
       <tstamps>9fd57338-ef87-4e55-80db-70d5aa37b67c</tstamps>
     </comp>
     <comp ref="R7">
-      <value>5,1k</value>
+      <value>5k1</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
@@ -748,7 +973,7 @@ CI failed on release - do not use.</textvar>
       <tstamps>90f1e98a-f3c7-4e8d-95db-0aa5541cd232</tstamps>
     </comp>
     <comp ref="R13">
-      <value>5,1k</value>
+      <value>5k1</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
@@ -783,6 +1008,150 @@ CI failed on release - do not use.</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>f9d8b120-ef41-4607-a83a-7517d8eefcee</tstamps>
     </comp>
+    <comp ref="R15">
+      <value>15M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>12660768-74e8-4077-808d-462f25f84bb4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>6e8a49f0-fe7d-4881-888a-75a6d83a812d</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>a1445bf6-26eb-4214-afcb-0252470fef2b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>15k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>0d764c9a-0e9b-428b-9108-3b0c213f6c27</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>5k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>cc428c28-bf22-49f5-bb62-eb306bcaa94d</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>dfe0d53e-7dec-47df-aac6-c89b85bcfae1</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k2</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>94edc782-45b7-4993-9f34-d16b4001f00a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>3k3</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>3d8358f6-60c0-476e-a6cb-719720c1b80d</tstamps>
+    </comp>
     <comp ref="TR1">
       <value>?</value>
       <footprint>Personal:Tr12to450V_Alixp</footprint>
@@ -810,6 +1179,42 @@ CI failed on release - do not use.</textvar>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>62271add-a1bc-478c-a176-79cf1b6a5b39</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SFH618A-5</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
+      <datasheet>http://www.vishay.com/docs/83740/sfh617a.pdf</datasheet>
+      <description>Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</description>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+        <field name="Datasheet">http://www.vishay.com/docs/83740/sfh617a.pdf</field>
+        <field name="Description">Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</field>
+      </fields>
+      <libsource lib="Isolator" part="SFH617A-1" description="Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>c73a8e1d-edb6-4d2a-b200-a395d85a3228</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TL431LP</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
+      <description>Shunt Regulator, TO-92</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92L_Inline_Wide</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+        <field name="Description">Shunt Regulator, TO-92</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="TL431LP" description="Shunt Regulator, TO-92"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode device regulator shunt"/>
+      <property name="ki_fp_filters" value="TO*92*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f6bcda60-0ae3-483c-af60-875fc1b8fe80</tstamps>
     </comp>
     <comp ref="VR1">
       <value>5k</value>
@@ -910,6 +1315,27 @@ CI failed on release - do not use.</textvar>
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="Fuse">
       <description>Fuse</description>
       <docs>~</docs>
@@ -986,6 +1412,26 @@ CI failed on release - do not use.</textvar>
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Isolator" part="SFH617A-1">
+      <description>Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</description>
+      <docs>http://www.vishay.com/docs/83740/sfh617a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SFH617A-1</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+        <field name="Datasheet">http://www.vishay.com/docs/83740/sfh617a.pdf</field>
+        <field name="Description">Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole">
       <description>Mounting Hole without connection</description>
       <docs>~</docs>
@@ -999,6 +1445,44 @@ CI failed on release - do not use.</textvar>
         <field name="Datasheet">~</field>
         <field name="Description">Mounting Hole without connection</field>
       </fields>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="TL431LP">
+      <description>Shunt Regulator, TO-92</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>TO*92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL431LP</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+        <field name="Description">Shunt Regulator, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
     </libpart>
     <libpart lib="Transistor_BJT" part="S8050">
       <description>0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92</description>
@@ -1069,6 +1553,24 @@ CI failed on release - do not use.</textvar>
         <pin num="8" name="VREF" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="personal" part="WB____S-1W">
+      <fields>
+        <field name="Reference">Mod</field>
+        <field name="Value"/>
+        <field name="Footprint">Personal:WB___S-1W</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC PN">C20598690</field>
+        <field name="Manufacturer">RLT</field>
+        <field name="Manufacturer PN">WB2405S-1W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin-" type="passive"/>
+        <pin num="2" name="Vin+" type="passive"/>
+        <pin num="3" name="0V" type="passive"/>
+        <pin num="4" name="Vo+" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -1077,8 +1579,14 @@ CI failed on release - do not use.</textvar>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Isolator">
+      <uri>/usr/share/kicad/symbols//Isolator.kicad_sym</uri>
+    </library>
     <library logical="Mechanical">
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
     </library>
     <library logical="Transistor_BJT">
       <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
@@ -1088,125 +1596,227 @@ CI failed on release - do not use.</textvar>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/Block Diagram/Schematic/B" class="Default">
-      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="1" name="+5V" class="Default">
+      <node ref="Mod1" pin="4" pinfunction="Vo+" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
     </net>
     <net code="2" name="/Block Diagram/Schematic/Comp" class="Default">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="COMP" pintype="output"/>
     </net>
-    <net code="3" name="/Block Diagram/Schematic/Emm" class="Default">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-    </net>
-    <net code="4" name="/Block Diagram/Schematic/G" class="Default">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="3" name="/Block Diagram/Schematic/G" class="Default">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="5" name="/Block Diagram/Schematic/Isns" class="Default">
+    <net code="4" name="/Block Diagram/Schematic/Isns" class="Default">
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="ISENSE" pintype="input"/>
     </net>
-    <net code="6" name="/Block Diagram/Schematic/Out_trafo" class="Default">
-      <node ref="C9" pin="1" pintype="passive"/>
+    <net code="5" name="/Block Diagram/Schematic/Out_trafo" class="Default">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="TR1" pin="7" pintype="passive"/>
     </net>
-    <net code="7" name="/Block Diagram/Schematic/RT_CT" class="Default">
+    <net code="6" name="/Block Diagram/Schematic/RT_CT" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="B" pintype="input"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
     </net>
-    <net code="8" name="/Block Diagram/Schematic/SW" class="Default">
+    <net code="7" name="/Block Diagram/Schematic/SW" class="Default">
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="TR1" pin="1" pintype="passive"/>
       <node ref="TR1" pin="2" pintype="passive"/>
     </net>
-    <net code="9" name="/Block Diagram/Schematic/Src" class="Default">
+    <net code="8" name="/Block Diagram/Schematic/Src" class="Default">
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="/Block Diagram/Schematic/Vfb" class="Default">
+    <net code="9" name="/Block Diagram/Schematic/Vfb" class="Default">
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
     </net>
-    <net code="11" name="/Block Diagram/Schematic/Vin+" class="Default">
+    <net code="10" name="/Block Diagram/Schematic/Vin+" class="Default">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Mod1" pin="2" pinfunction="Vin+" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
       <node ref="TR1" pin="5" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="12" name="/Block Diagram/Schematic/Vin-" class="Default">
+    <net code="11" name="/Block Diagram/Schematic/Vin-" class="Default">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="13" name="/Block Diagram/Schematic/Vout+" class="Default">
+    <net code="12" name="/Block Diagram/Schematic/Vout+" class="Default">
       <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
     </net>
-    <net code="14" name="/Block Diagram/Schematic/Vref" class="Default">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C5" pin="1" pintype="passive"/>
+    <net code="13" name="/Block Diagram/Schematic/Vref" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
+      <node ref="U2" pin="4" pintype="passive"/>
     </net>
-    <net code="15" name="GND" class="Default">
+    <net code="14" name="GND" class="Default">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Mod1" pin="1" pinfunction="Vin-" pintype="passive"/>
+      <node ref="Mod1" pin="3" pinfunction="0V" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D2-K)" class="Default">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
+    <net code="15" name="Net-(C11-Pad2)" class="Default">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(Q2-D)" class="Default">
+    <net code="16" name="Net-(D1-A)" class="Default">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D1-K)" class="Default">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q2-D)" class="Default">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(Q2-G)" class="Default">
+    <net code="19" name="Net-(Q2-G)" class="Default">
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(R4-Pad1)" class="Default">
-      <node ref="R4" pin="1" pintype="passive"/>
+    <net code="20" name="Net-(Q4-E)" class="Default">
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R10-Pad1)" class="Default">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R17-Pad1)" class="Default">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R19-Pad2)" class="Default">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R20-Pad1)" class="Default">
+      <node ref="R20" pin="1" pintype="passive"/>
       <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(R10-Pad1)" class="Default">
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
+    <net code="25" name="Net-(U1-OUTPUT)" class="Default">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(U3-REF)" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="REF" pintype="passive"/>
+      <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(C1-Pad1)" class="Default">
+      <node ref="C1" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(C1-Pad2)" class="Default">
+      <node ref="C1" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(C5-Pad1)" class="Default">
+      <node ref="C5" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(C5-Pad2)" class="Default">
+      <node ref="C5" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(C9-Pad1)" class="Default">
+      <node ref="C9" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(C9-Pad2)" class="Default">
+      <node ref="C9" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(C10-Pad1)" class="Default">
+      <node ref="C10" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(C10-Pad2)" class="Default">
+      <node ref="C10" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(D2-A-Pad2)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(D2-K-Pad1)" class="Default">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(D3-A-Pad2)" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(D3-K-Pad1)" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(Q3-B-Pad2)" class="Default">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(Q3-C-Pad3)" class="Default">
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(Q3-E-Pad1)" class="Default">
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(R1-Pad1)" class="Default">
+      <node ref="R1" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(R1-Pad2)" class="Default">
+      <node ref="R1" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(R2-Pad1)" class="Default">
+      <node ref="R2" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(R2-Pad2)" class="Default">
+      <node ref="R2" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(R4-Pad1)" class="Default">
+      <node ref="R4" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(R4-Pad2)" class="Default">
+      <node ref="R4" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(R12-Pad1)" class="Default">
+      <node ref="R12" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(R12-Pad2)" class="Default">
+      <node ref="R12" pin="2" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>
