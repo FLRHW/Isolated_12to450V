@@ -3984,12 +3984,6 @@
 		(uuid "0e252d90-9045-461e-8241-4b9bf64455c5")
 	)
 	(junction
-		(at 77.47 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "135ab856-38bf-4d50-9cec-9493e342d880")
-	)
-	(junction
 		(at 116.84 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8139,71 +8133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 77.47 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8260cc18-26a4-48d4-aa23-0ed9dd5a242d")
-		(property "Reference" "#FLG0101"
-			(at 77.47 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 77.47 74.93 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96ea9106-769a-4de3-b391-45e178d2685b")
-		)
-		(instances
-			(project "Isolated_12to450V"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
-					(reference "#FLG0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 158.75 181.61 0)
 		(unit 1)
@@ -8352,10 +8281,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "67d9f329-8e8f-497e-8f44-7be97b97d99f")
+			(uuid "67d9f329-8e8f-497e-8f44-7be97b97d9a0")
 		)
 		(pin "2"
-			(uuid "ef08bcd1-e6c7-48d7-9bec-a61f688c7981")
+			(uuid "ef08bcd1-e6c7-48d7-9bec-a61f688c7982")
 		)
 		(instances
 			(project "StepUp_module_12to450V"
@@ -11102,10 +11031,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "299c603e-e644-4345-9cac-7d41699b2389")
+			(uuid "299c603e-e644-4345-9cac-7d41699b238a")
 		)
 		(pin "1"
-			(uuid "e18993e7-c5e6-4305-8a07-931f73ed6010")
+			(uuid "e18993e7-c5e6-4305-8a07-931f73ed6011")
 		)
 		(instances
 			(project "Isolated_12to450V"
