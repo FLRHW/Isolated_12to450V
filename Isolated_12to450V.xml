@@ -70,7 +70,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">515c3e6</textvar>
+    <textvar name="GIT_HASH_PCB">ad9300f</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up module 12:450 V</textvar>
