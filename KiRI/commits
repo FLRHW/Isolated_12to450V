@@ -1,4 +1,4 @@
-_local_|2026-01-03|root|Local changes not committed|False|True
+_local_|2026-01-04|root|Local changes not committed|False|True
+6341779|2026-01-04|FLRHW|Minor schematic changes (arrangement only)|True|False
 515c3e6|2026-01-03|FLRHW|Updated state and changelog, fixed DRC issues|True|True
 120601b|2026-01-03|FLRHW|Sch and PCB ready, using existing PCB as basis w aux PCB for new parts|True|True
-f8c9afb|2025-12-30|FLRHW|Initial commit, no junk|True|True
