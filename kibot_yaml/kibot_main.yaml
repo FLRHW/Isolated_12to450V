@@ -557,7 +557,7 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: Isolated step-up module 12:450 V
+  PROJECT_NAME: Isolated step-up 12:450 V
   BOARD_NAME: Module
 
   COMPANY: FR

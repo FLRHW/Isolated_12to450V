@@ -61,7 +61,7 @@
 	(text_box "${RELEASE_BODY_1.0.0}"
 		(exclude_from_sim no)
 		(at 20.32 35.56 0)
-		(size 63.5 34.29)
+		(size 63.5 154.94)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -127,8 +127,8 @@
 	)
 	(text_box "${RELEASE_BODY_1.0.1}"
 		(exclude_from_sim no)
-		(at 20.32 80.01 0)
-		(size 63.5 105.41)
+		(at 86.36 35.56 0)
+		(size 63.5 46.99)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -172,7 +172,7 @@
 	)
 	(text_box "${RELEASE_TITLE_1.0.1}"
 		(exclude_from_sim no)
-		(at 20.32 76.2 0)
+		(at 86.36 30.48 0)
 		(size 63.5 3.81)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
