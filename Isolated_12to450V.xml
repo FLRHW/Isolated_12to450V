@@ -70,23 +70,45 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">b97c65b</textvar>
-    <textvar name="GIT_HASH_SCH">120601b</textvar>
+    <textvar name="GIT_HASH_PCB">f8fc805</textvar>
+    <textvar name="GIT_HASH_SCH">f8fc805</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
-    <textvar name="RELEASE_BODY_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_1.0.0">___________________________________
+
+Change description
+
+Cloned non-isolated design revision 1.1.0 as a working base.
+
+Updated R10 and R11 to 240 kΩ (cloned design incorrectly used 140 kΩ).
+
+Updated U1 to UC3845 (cloned design incorrectly used UC3843).
+
+Reworked feedback loop to include opto-coupler while keeping the same reference on both sides to facilitate testing / reuse of original board.
+
+Added two options of slope compensation / ramp injection (from U1 RT_CT pin and from U1 OUTPUT pin).
+
+Adjusted R2 to 10 kΩ, R3 to 5 kΩ and C2 to 1 nF to improve behaviour (output swaps from bursts to 0 % duty periodically).
+
+Added soft-start (D21, R27 and C23).
+
+Increased C5 to 100 nF.
+
+Adjusted C4 to 1.5 nF and R6 to 1 kΩ (similar time constant) to facilitate ramp injection.
+
+Updated parts placement where suitable to reuse existing layout and added an auxiliary perf-board to accomodate the new parts.</textvar>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">24-Jan-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-01-24</textvar>
-    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="REVISION">1.0.0</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -127,12 +149,12 @@
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>FR</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Isolated_12to450V.kicad_sch</source>
         <comment number="1" value=""/>
@@ -150,7 +172,7 @@
       <title_block>
         <title>Block Diagram</title>
         <company>FR</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -168,7 +190,7 @@
       <title_block>
         <title>Schematic</title>
         <company>FR</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Schematic.kicad_sch</source>
         <comment number="1" value=""/>
@@ -186,7 +208,7 @@
       <title_block>
         <title>Revision History</title>
         <company>FR</company>
-        <rev>+ (Unreleased)</rev>
+        <rev>1.0.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
