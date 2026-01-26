@@ -1,2 +1,4 @@
-_local_|2026-01-24|root|Local changes not committed|False|True
-f8fc805|2026-01-24|FLRHW|Merge pull request #1 from FLRHW/dev2|True|True
+_local_|2026-01-26|root|Local changes not committed|False|True
+47043d9|2026-01-26|FLRHW|Schematic topology completed, adjusting packages|True|True
+733860c|2026-01-24|GitHub Actions|Update Outputs (release)|False|True
+b97c65b|2026-01-24|FLRHW|First working prototype - still not isolated, ERC and DRC clear|False|True

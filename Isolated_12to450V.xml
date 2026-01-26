@@ -56,13 +56,13 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				122.180 × 62.440 mm
+	BOARD SIZE				81.540 × 46.692 mm
 	BOARD THICKNESS		1.660 mm
-	TRACE WIDTH			0.500 mm
+	TRACE WIDTH			N/A mm
 	TRACE TO TRACE		0.200 mm
-	MIN. HOLE (PTH)			0.250 mm
+	MIN. HOLE (PTH)			0.800 mm
 	MIN. HOLE (NPTH)		2.100 mm
-	ANNULAR RING			0.150 mm
+	ANNULAR RING			0.320 mm
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm
@@ -70,13 +70,11 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">f8fc805</textvar>
-    <textvar name="GIT_HASH_SCH">f8fc805</textvar>
+    <textvar name="GIT_HASH_PCB">47043d9</textvar>
+    <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
-
-Change description
 
 Cloned non-isolated design revision 1.1.0 as a working base.
 
@@ -101,14 +99,14 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">24-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-24</textvar>
+    <textvar name="RELEASE_DATE">26-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-26</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.0</textvar>
+    <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -149,12 +147,12 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>FR</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Isolated_12to450V.kicad_sch</source>
         <comment number="1" value=""/>
@@ -172,7 +170,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <title_block>
         <title>Block Diagram</title>
         <company>FR</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -190,7 +188,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <title_block>
         <title>Schematic</title>
         <company>FR</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Schematic.kicad_sch</source>
         <comment number="1" value=""/>
@@ -208,7 +206,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <title_block>
         <title>Revision History</title>
         <company>FR</company>
-        <rev>1.0.0</rev>
+        <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
@@ -226,11 +224,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
   <components>
     <comp ref="C2">
       <value>1n</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -244,11 +242,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="C3">
       <value>3n3</value>
-      <footprint>Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -262,11 +260,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="C4">
       <value>1.5n</value>
-      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -280,11 +278,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="C5">
       <value>100n</value>
-      <footprint>Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -352,11 +350,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="C20">
       <value>6.8p</value>
-      <footprint>Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -370,11 +368,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="C21">
       <value>22p</value>
-      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -388,11 +386,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="C22">
       <value>10n</value>
-      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -417,10 +415,48 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="CP_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>f0090533-fa6a-4456-b9e2-f1d003fe49e1</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>e19bf728-a517-445c-b15b-97020ef2da39</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>581aaff8-f810-4dbf-bfab-0fd9f20152b1</tstamps>
     </comp>
     <comp ref="D4">
       <value>?</value>
@@ -447,7 +483,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>d3403016-f6ea-4152-b070-14ed88679e72</tstamps>
     </comp>
     <comp ref="D20">
-      <value>XBS104S14R-G</value>
+      <value>XBS104S14R</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
       <datasheet>~</datasheet>
       <description>Schottky diode</description>
@@ -465,7 +501,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>96108887-603a-4752-a091-083d0cfa8181</tstamps>
     </comp>
     <comp ref="D21">
-      <value>XBS104S14R-G</value>
+      <value>XBS104S14R</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
       <datasheet>~</datasheet>
       <description>Schottky diode</description>
@@ -477,13 +513,32 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>0021f368-8d1a-44bb-8eb7-2f1ed8745911</tstamps>
     </comp>
+    <comp ref="D22">
+      <value>BZX84C15</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</datasheet>
+      <description>300mW Zener Diode, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</field>
+        <field name="Description">300mW Zener Diode, SOT-23</field>
+      </fields>
+      <libsource lib="Diode" part="BZX84Cxx" description="300mW Zener Diode, SOT-23"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="zener diode"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>21a98f35-f6c3-4f4e-8563-b7ca124a3626</tstamps>
+    </comp>
     <comp ref="F1">
-      <value>?</value>
+      <value>10A</value>
       <footprint>Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Fuse</description>
@@ -594,6 +649,50 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>8dd15cfa-886b-4efa-b6c1-555697915d80</tstamps>
     </comp>
+    <comp ref="J20">
+      <value>T44007</value>
+      <footprint>Personal:T44007</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Field5">https://lcsc.com/product-detail/PCB-Welding-Terminal_XFCN-T44007_C481455.html?s_z=n_screw%2520terminal</field>
+        <field name="Field6">LCSC</field>
+        <field name="Footprint">Personal:T44007</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Field5" value="https://lcsc.com/product-detail/PCB-Welding-Terminal_XFCN-T44007_C481455.html?s_z=n_screw%2520terminal"/>
+      <property name="Field6" value="LCSC"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>dfe0ec40-ca3f-4628-aa01-efb8eae4ae70</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>T44007</value>
+      <footprint>Personal:T44007</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Field5">https://lcsc.com/product-detail/PCB-Welding-Terminal_XFCN-T44007_C481455.html?s_z=n_screw%2520terminal</field>
+        <field name="Field6">LCSC</field>
+        <field name="Footprint">Personal:T44007</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Field5" value="https://lcsc.com/product-detail/PCB-Welding-Terminal_XFCN-T44007_C481455.html?s_z=n_screw%2520terminal"/>
+      <property name="Field6" value="LCSC"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <property name="ki_fp_filters" value="TerminalBlock*:*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>fe8b23ea-20b0-4eb0-995c-1c6025de0b9c</tstamps>
+    </comp>
     <comp ref="Mod20">
       <value>WB2405S-1W</value>
       <footprint>Personal:WB___S-1W</footprint>
@@ -605,14 +704,239 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="personal" part="WB____S-1W" description=""/>
+      <libsource lib="personal" part="WB____S-1W_long" description=""/>
       <property name="LCSC PN" value="C20598690"/>
       <property name="Manufacturer" value="RLT"/>
       <property name="Manufacturer PN" value="WB2405S-1W"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>37f9a6df-c1e4-4c41-abe2-d30942454dee</tstamps>
+      <tstamps>b43e0d83-3759-4615-917d-eb5ba9b0e479</tstamps>
+    </comp>
+    <comp ref="P20">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>1d03792c-6a22-45c5-b864-bb483048201f</tstamps>
+    </comp>
+    <comp ref="P21">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>04e58419-a97d-48ca-9a96-7b6a80d4bd19</tstamps>
+    </comp>
+    <comp ref="P22">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>0755b072-44f1-40de-961e-b0a826197614</tstamps>
+    </comp>
+    <comp ref="P23">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>b88728a4-5bb4-446c-9b64-1bd79567fbbf</tstamps>
+    </comp>
+    <comp ref="P24">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>e202dc9e-8652-449c-9bed-52f4e03f0630</tstamps>
+    </comp>
+    <comp ref="P25">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>ad789132-8af5-4b98-a0b7-08b7ec7e9f29</tstamps>
+    </comp>
+    <comp ref="P26">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR_SRC" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f83928ec-54cc-40f9-8181-6a0ac00cf631</tstamps>
+    </comp>
+    <comp ref="P28">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR_SRC" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>56400cbe-4854-4130-8b32-f6a5488bf99d</tstamps>
+    </comp>
+    <comp ref="P29">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR_SRC" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>8814c9c0-426d-40f6-9725-6762dbe3616e</tstamps>
+    </comp>
+    <comp ref="P30">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>30ca6dd3-a3ee-4aef-9b4a-debe3d732966</tstamps>
+    </comp>
+    <comp ref="P31">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>071a3a31-0b02-413c-b209-f57c2dbcc7ba</tstamps>
+    </comp>
+    <comp ref="P32">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>9825562a-0d4f-4fe2-a19e-ea4498efd1cd</tstamps>
+    </comp>
+    <comp ref="P33">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>0e8bcb0d-b4c8-4460-90a6-be71fe5341ab</tstamps>
+    </comp>
+    <comp ref="P105">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>567b0fff-f79b-4935-a1ba-cbbbde3dc8a9</tstamps>
+    </comp>
+    <comp ref="P106">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR_SRC" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>36fe5ac3-6e1c-4442-b653-28b18409e2b7</tstamps>
     </comp>
     <comp ref="Q1">
       <value>HY1707</value>
@@ -631,23 +955,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>5231c459-ba8d-465a-877b-3dce4ade35cd</tstamps>
     </comp>
-    <comp ref="Q2">
-      <value>HY1707</value>
-      <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <description>N-MOSFET transistor, gate/drain/source</description>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_THT:TO-220F-3_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">N-MOSFET transistor, gate/drain/source</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>48d2c3db-208f-409a-b788-898cd7f8d105</tstamps>
-    </comp>
     <comp ref="Q20">
       <value>2N2222</value>
       <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
@@ -661,18 +968,41 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="NPN Transistor"/>
       <property name="ki_fp_filters" value="TO?92*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>e14c5f13-5eb6-4672-98ef-541e58c7921f</tstamps>
     </comp>
+    <comp ref="Q21">
+      <value>PMOS</value>
+      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</datasheet>
+      <description>P-MOSFET transistor, drain/source/gate</description>
+      <fields>
+        <field name="Sim.Device">PMOS</field>
+        <field name="Sim.Type">VDMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</field>
+        <field name="Description">P-MOSFET transistor, drain/source/gate</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="PMOS" description="P-MOSFET transistor, drain/source/gate"/>
+      <property name="Sim.Device" value="PMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET simulation"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>e30399a4-cdf3-4c4c-a973-b5e00fe9cef1</tstamps>
+    </comp>
     <comp ref="R2">
       <value>10k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -686,11 +1016,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R3">
       <value>5k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -704,11 +1034,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R4">
       <value>2k2</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -722,11 +1052,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R5">
       <value>5k1</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -740,11 +1070,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R6">
       <value>1k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -758,11 +1088,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R7">
       <value>5k1</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -776,11 +1106,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R8">
       <value>20</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -848,11 +1178,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R12">
       <value>1k2</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -864,49 +1194,13 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>94edc782-45b7-4993-9f34-d16b4001f00a</tstamps>
     </comp>
-    <comp ref="R13">
-      <value>5k1</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>c178d818-73d2-4e4f-a34f-d180bd3541d2</tstamps>
-    </comp>
-    <comp ref="R14">
-      <value>100</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>f9d8b120-ef41-4607-a83a-7517d8eefcee</tstamps>
-    </comp>
     <comp ref="R20">
-      <value>4.7M</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical</footprint>
+      <value>15M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -919,12 +1213,12 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>a111a45e-c55e-424a-95de-e0b0ca675ac3</tstamps>
     </comp>
     <comp ref="R21">
-      <value>10M</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -934,15 +1228,15 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>12660768-74e8-4077-808d-462f25f84bb4</tstamps>
+      <tstamps>c178d818-73d2-4e4f-a34f-d180bd3541d2</tstamps>
     </comp>
     <comp ref="R22">
       <value>2k2</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -956,11 +1250,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R23">
       <value>1k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -974,11 +1268,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R24">
       <value>4k7</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -992,11 +1286,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R25">
       <value>2k2</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -1010,17 +1304,18 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R26">
       <value>3k3</value>
-      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
@@ -1028,11 +1323,49 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="R27">
       <value>15k</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>0d764c9a-0e9b-428b-9108-3b0c213f6c27</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>c46a3cfb-2b25-488d-a074-ef373419f5b1</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -1042,21 +1375,21 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>0d764c9a-0e9b-428b-9108-3b0c213f6c27</tstamps>
+      <tstamps>e61e9a79-5e22-40ac-840c-5bd480f5cbd5</tstamps>
     </comp>
     <comp ref="TR1">
-      <value>?</value>
+      <value>Custom_1:19.5</value>
       <footprint>Personal:Tr12to450V_Alixp</footprint>
       <fields>
         <field name="Footprint">Personal:Tr12to450V_Alixp</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="personal" part="TR_12to450V_alixp" description=""/>
+      <libsource lib="personal" part="TR_12to450V_alixp_inv" description=""/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>0eed4208-d852-4e25-b67d-5533ac0a7800</tstamps>
+      <tstamps>897a3c85-eecd-42d2-a125-1262b3c37336</tstamps>
     </comp>
     <comp ref="U1">
       <value>UC3845</value>
@@ -1108,6 +1441,60 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>f6bcda60-0ae3-483c-af60-875fc1b8fe80</tstamps>
     </comp>
+    <comp ref="U23">
+      <value>TCMT1108</value>
+      <footprint>Package_SO:SOP-4_4.4x2.6mm_P1.27mm</footprint>
+      <datasheet>http://www.vishay.com/docs/83510/tcmt1100.pdf</datasheet>
+      <description>Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOP-4_4.4x2.6mm_P1.27mm</field>
+        <field name="Datasheet">http://www.vishay.com/docs/83510/tcmt1100.pdf</field>
+        <field name="Description">Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4</field>
+      </fields>
+      <libsource lib="Isolator" part="TCMT1108" description="Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="NPN DC opto"/>
+      <property name="ki_fp_filters" value="SOP*4.4x2.6mm*P1.27mm*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>65c15b60-e93a-45a6-9c8c-f86da8921ea8</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>UC3843_SOIC8</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/uc3842.pdf</datasheet>
+      <description>Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uc3842.pdf</field>
+        <field name="Description">Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</field>
+      </fields>
+      <libsource lib="Regulator_Controller" part="UC3843_SOIC8" description="Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="SMPS PWM Controller"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>30536067-74f9-4399-a85a-5c7bf1c63fd7</tstamps>
+    </comp>
+    <comp ref="U26">
+      <value>TL432DBZ</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
+      <description>Shunt Regulator, SOT-23</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+        <field name="Description">Shunt Regulator, SOT-23</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="TL432DBZ" description="Shunt Regulator, SOT-23"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode device shunt regulator"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>ad4dd466-39da-4dc2-a3ca-59acd44d0e72</tstamps>
+    </comp>
     <comp ref="VR1">
       <value>5k</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
@@ -1128,6 +1515,23 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x01">
+      <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x01</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="Screw_Terminal_01x04">
       <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -1283,6 +1687,25 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Diode" part="BZX84Cxx">
+      <description>300mW Zener Diode, SOT-23</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZX84Cxx</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</field>
+        <field name="Description">300mW Zener Diode, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Isolator" part="SFH617A-1">
       <description>Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</description>
       <docs>http://www.vishay.com/docs/83740/sfh617a.pdf</docs>
@@ -1295,6 +1718,26 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
         <field name="Datasheet">http://www.vishay.com/docs/83740/sfh617a.pdf</field>
         <field name="Description">Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="TCMT1108">
+      <description>Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4</description>
+      <docs>http://www.vishay.com/docs/83510/tcmt1100.pdf</docs>
+      <footprints>
+        <fp>SOP*4.4x2.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCMT1108</field>
+        <field name="Footprint">Package_SO:SOP-4_4.4x2.6mm_P1.27mm</field>
+        <field name="Datasheet">http://www.vishay.com/docs/83510/tcmt1100.pdf</field>
+        <field name="Description">Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1336,6 +1779,68 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="K" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Reference_Voltage" part="TL432DBZ">
+      <description>Shunt Regulator, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL432DBZ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+        <field name="Description">Shunt Regulator, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Controller" part="UC3843_SOIC8">
+      <description>Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/uc3842.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">UC3843_SOIC8</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uc3842.pdf</field>
+        <field name="Description">Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="passive"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="CS" type="input"/>
+        <pin num="4" name="RC" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="VREF" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="PMOS">
+      <description>P-MOSFET transistor, drain/source/gate</description>
+      <docs>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMOS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</field>
+        <field name="Description">P-MOSFET transistor, drain/source/gate</field>
+        <field name="Sim.Device">PMOS</field>
+        <field name="Sim.Type">VDMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistor_BJT" part="2N3904">
       <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
       <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
@@ -1371,10 +1876,34 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="personal" part="TR_12to450V_alixp">
+    <libpart lib="personal" part="Cosmetic_PWR">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Cosmetic_PWR_SRC">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="TR_12to450V_alixp_inv">
       <fields>
         <field name="Reference">TR</field>
-        <field name="Value"/>
+        <field name="Value">Custom_1:19.5</field>
         <field name="Footprint">Personal:Tr12to450V_Alixp</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1405,10 +1934,10 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="8" name="VREF" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="personal" part="WB____S-1W">
+    <libpart lib="personal" part="WB____S-1W_long">
       <fields>
         <field name="Reference">Mod</field>
-        <field name="Value"/>
+        <field name="Value">WB____S-1W</field>
         <field name="Footprint">Personal:WB___S-1W</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1431,6 +1960,9 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
     <library logical="Isolator">
       <uri>/usr/share/kicad/symbols//Isolator.kicad_sym</uri>
     </library>
@@ -1440,6 +1972,12 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <library logical="Reference_Voltage">
       <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
     </library>
+    <library logical="Regulator_Controller">
+      <uri>/usr/share/kicad/symbols//Regulator_Controller.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>/usr/share/kicad/symbols//Simulation_SPICE.kicad_sym</uri>
+    </library>
     <library logical="Transistor_BJT">
       <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
     </library>
@@ -1448,172 +1986,243 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+5V" class="Default">
-      <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
-      <node ref="R22" pin="1" pintype="passive"/>
-      <node ref="R23" pin="2" pintype="passive"/>
-      <node ref="R27" pin="2" pintype="passive"/>
-    </net>
-    <net code="2" name="/Block Diagram/Schematic/Comp" class="Default">
-      <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+    <net code="1" name="/Block Diagram/Schematic/Comp" class="Default">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="COMP" pintype="output"/>
     </net>
-    <net code="3" name="/Block Diagram/Schematic/G" class="Default">
+    <net code="2" name="/Block Diagram/Schematic/Gate" class="Default">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="4" name="/Block Diagram/Schematic/Isns" class="Default">
+    <net code="3" name="/Block Diagram/Schematic/Isns" class="Default">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
-      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="ISENSE" pintype="input"/>
     </net>
-    <net code="5" name="/Block Diagram/Schematic/Out_trafo" class="Default">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="TR1" pin="7" pintype="passive"/>
-    </net>
-    <net code="6" name="/Block Diagram/Schematic/RT_CT" class="Default">
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="Q20" pin="2" pinfunction="B" pintype="input"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
-    </net>
-    <net code="7" name="/Block Diagram/Schematic/Ramp" class="Default">
-      <node ref="C22" pin="1" pintype="passive"/>
-      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R24" pin="2" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
-    </net>
-    <net code="8" name="/Block Diagram/Schematic/SW" class="Default">
-      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="TR1" pin="1" pintype="passive"/>
-      <node ref="TR1" pin="2" pintype="passive"/>
-    </net>
-    <net code="9" name="/Block Diagram/Schematic/Src" class="Default">
-      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
-    </net>
-    <net code="10" name="/Block Diagram/Schematic/Vfb" class="Default">
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
-    </net>
-    <net code="11" name="/Block Diagram/Schematic/Vin+" class="Default">
-      <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="Mod20" pin="2" pinfunction="Vin+" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="TR1" pin="5" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
-    </net>
-    <net code="12" name="/Block Diagram/Schematic/Vin-" class="Default">
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-    </net>
-    <net code="13" name="/Block Diagram/Schematic/Vout+" class="Default">
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
-    </net>
-    <net code="14" name="/Block Diagram/Schematic/Vref" class="Default">
-      <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="Q20" pin="3" pinfunction="C" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
+    <net code="4" name="/Block Diagram/Schematic/OptoColl" class="Default">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
       <node ref="U20" pin="4" pintype="passive"/>
     </net>
-    <net code="15" name="/Block Diagram/Schematic/fbh" class="Default">
-      <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
-      <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="5" name="/Block Diagram/Schematic/OptoEmm" class="Default">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U20" pin="3" pintype="passive"/>
     </net>
-    <net code="16" name="GND" class="Default">
-      <node ref="C22" pin="2" pintype="passive"/>
-      <node ref="C23" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="Mod20" pin="1" pinfunction="Vin-" pintype="passive"/>
-      <node ref="Mod20" pin="3" pinfunction="0V" pintype="passive"/>
-      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
-      <node ref="U21" pin="2" pinfunction="A" pintype="passive"/>
-    </net>
-    <net code="17" name="Net-(C20-Pad2)" class="Default">
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="R21" pin="1" pintype="passive"/>
-    </net>
-    <net code="18" name="Net-(D20-K)" class="Default">
-      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
-    </net>
-    <net code="19" name="Net-(D21-A)" class="Default">
+    <net code="6" name="/Block Diagram/Schematic/OptoK" class="Default">
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U20" pin="2" pintype="passive"/>
       <node ref="U21" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="U26" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(D21-K)" class="Default">
+    <net code="7" name="/Block Diagram/Schematic/PWM_out" class="Default">
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="8" name="/Block Diagram/Schematic/RT_CT" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="Q20" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
+    </net>
+    <net code="9" name="/Block Diagram/Schematic/Ramp" class="Default">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/Block Diagram/Schematic/SW" class="Default">
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="TR1" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/Block Diagram/Schematic/Src" class="Default">
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/Block Diagram/Schematic/U5_sec" class="Default">
+      <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
+      <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P30" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/Block Diagram/Schematic/Vfb" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
+    </net>
+    <net code="14" name="/Block Diagram/Schematic/Vin" class="Default">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D22" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="Mod20" pin="2" pinfunction="Vin+" pintype="passive"/>
+      <node ref="P21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="TR1" pin="5" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="15" name="/Block Diagram/Schematic/Vout" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/Block Diagram/Schematic/Vref" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="P105" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P106" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q20" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
+    </net>
+    <net code="17" name="/Block Diagram/Schematic/fb_sec" class="Default">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
+      <node ref="U26" pin="1" pinfunction="REF" pintype="passive"/>
+    </net>
+    <net code="18" name="GND" class="Default">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Mod20" pin="1" pinfunction="Vin-" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="19" name="GND_HV" class="Default">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Mod20" pin="3" pinfunction="0V" pintype="passive"/>
+      <node ref="TR1" pin="1" pintype="passive"/>
+      <node ref="U21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U26" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C20-Pad2)" class="Default">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D4-A)" class="Default">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="TR1" pin="7" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D21-K)" class="Default">
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(Q2-D)" class="Default">
-      <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+    <net code="23" name="Net-(D22-A)" class="Default">
+      <node ref="D22" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q21" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(Q2-G)" class="Default">
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
+    <net code="24" name="Net-(J20-Pin_1)" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(Q20-E)" class="Default">
+    <net code="25" name="Net-(Q20-E)" class="Default">
       <node ref="Q20" pin="1" pinfunction="E" pintype="passive"/>
-      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(R4-Pad1)" class="Default">
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="26" name="Net-(Q21-D)" class="Default">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="Q21" pin="1" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(R10-Pad1)" class="Default">
+    <net code="27" name="Net-(R4-Pad2)" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R10-Pad1)" class="Default">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(R12-Pad1)" class="Default">
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="U20" pin="3" pintype="passive"/>
-    </net>
-    <net code="27" name="Net-(R20-Pad2)" class="Default">
-      <node ref="R20" pin="2" pintype="passive"/>
-      <node ref="R21" pin="2" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(R23-Pad1)" class="Default">
+    <net code="29" name="Net-(R23-Pad1)" class="Default">
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U20" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(D22-NC-Pad2)" class="Default">
+      <node ref="D22" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J1-Pin_2-Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U23-Pad1)" class="Default">
+      <node ref="U23" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U23-Pad2)" class="Default">
+      <node ref="U23" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U23-Pad3)" class="Default">
+      <node ref="U23" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U23-Pad4)" class="Default">
+      <node ref="U23" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U24-COMP-Pad1)" class="Default">
+      <node ref="U24" pin="1" pinfunction="COMP" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U24-CS-Pad3)" class="Default">
+      <node ref="U24" pin="3" pinfunction="CS" pintype="input+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U24-FB-Pad2)" class="Default">
+      <node ref="U24" pin="2" pinfunction="FB" pintype="input+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U24-GND-Pad5)" class="Default">
+      <node ref="U24" pin="5" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U24-OUT-Pad6)" class="Default">
+      <node ref="U24" pin="6" pinfunction="OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U24-RC-Pad4)" class="Default">
+      <node ref="U24" pin="4" pinfunction="RC" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U24-VCC-Pad7)" class="Default">
+      <node ref="U24" pin="7" pinfunction="VCC" pintype="power_in+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U24-VREF-Pad8)" class="Default">
+      <node ref="U24" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
     </net>
   </nets>
 </export>
