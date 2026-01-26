@@ -2,11 +2,22 @@
 
 ## [Unreleased]
 
+### Updated UC3845 symbol
+Added R29 as feed-forward option
+Updated UC3845 symbol
+Isolated primary ("LV") and secondary ("HV") sides
+Reorganised schematic for readability
+Replaced reverse polarity protection circuit by one based on a P-channel MOSFET
+Added dedicated screw terminals for input power and reused existing 4-way connector for the output
+
+To do:
+- Identify suitable P-MOS
+- Identify suitable output diode
+- Find alternative to 2N2222
+
 ## [1.0.0] - 2026-01-24
 
-### Change description
-
-Cloned non-isolated design revision 1.1.0 as a working base.
+### Cloned non-isolated design revision 1.1.0 as a working base.
 Updated R10 and R11 to 240 kΩ (cloned design incorrectly used 140 kΩ).
 Updated U1 to UC3845 (cloned design incorrectly used UC3843).
 Reworked feedback loop to include opto-coupler while keeping the same reference on both sides to facilitate testing / reuse of original board.
