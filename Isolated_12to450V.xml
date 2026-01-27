@@ -70,7 +70,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">47043d9</textvar>
+    <textvar name="GIT_HASH_PCB">21873cc</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -99,8 +99,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">26-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-26</textvar>
+    <textvar name="RELEASE_DATE">27-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-27</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -295,22 +295,22 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>175e8416-638e-4b24-8db1-7a8f73fd282a</tstamps>
     </comp>
     <comp ref="C6">
-      <value>100u</value>
-      <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Polarized capacitor</description>
+      <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Polarized capacitor</field>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="CP_*"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>bace643f-db99-4b17-858d-91428b8fa9d1</tstamps>
+      <tstamps>3a88e493-35a4-4d39-b979-02e741fd0ee6</tstamps>
     </comp>
     <comp ref="C7">
       <value>1000u</value>
@@ -458,6 +458,24 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>581aaff8-f810-4dbf-bfab-0fd9f20152b1</tstamps>
     </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f49d27c1-385a-4d7f-8438-0de192b2a841</tstamps>
+    </comp>
     <comp ref="D4">
       <value>?</value>
       <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
@@ -483,67 +501,89 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>d3403016-f6ea-4152-b070-14ed88679e72</tstamps>
     </comp>
     <comp ref="D20">
-      <value>XBS104S14R</value>
+      <value>PMEG4010CEH</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
-      <datasheet>~</datasheet>
-      <description>Schottky diode</description>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMEG4010CEH_PMEG4010CEJ.pdf</datasheet>
+      <description>40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F</description>
       <fields>
         <field name="Footprint">Diode_SMD:D_SOD-123F</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Schottky diode</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG4010CEH_PMEG4010CEJ.pdf</field>
+        <field name="Description">40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F</field>
       </fields>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <libsource lib="Diode" part="PMEG4010CEH" description="40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <property name="ki_keywords" value="forward voltage diode"/>
+      <property name="ki_fp_filters" value="D*SOD?123F*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>96108887-603a-4752-a091-083d0cfa8181</tstamps>
     </comp>
     <comp ref="D21">
-      <value>XBS104S14R</value>
-      <footprint>Diode_SMD:D_SOD-123F</footprint>
-      <datasheet>~</datasheet>
-      <description>Schottky diode</description>
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
       <fields>
-        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Schottky diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+        <field name="Description">75V 0.15A Fast Switching Diode, SOD-123</field>
       </fields>
-      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <property name="dnp"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*SOD?123*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>0021f368-8d1a-44bb-8eb7-2f1ed8745911</tstamps>
     </comp>
     <comp ref="D22">
-      <value>BZX84C15</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</datasheet>
-      <description>300mW Zener Diode, SOT-23</description>
+      <value>BZT52B15</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</datasheet>
+      <description>500mW Zener Diode, SOD-123F</description>
       <fields>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</field>
-        <field name="Description">300mW Zener Diode, SOT-23</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</field>
+        <field name="Description">500mW Zener Diode, SOD-123F</field>
       </fields>
-      <libsource lib="Diode" part="BZX84Cxx" description="300mW Zener Diode, SOT-23"/>
+      <libsource lib="Diode" part="BZT52Bxx" description="500mW Zener Diode, SOD-123F"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <property name="ki_keywords" value="zener diode"/>
-      <property name="ki_fp_filters" value="SOT?23*"/>
+      <property name="ki_fp_filters" value="D?SOD?123F*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>21a98f35-f6c3-4f4e-8563-b7ca124a3626</tstamps>
     </comp>
+    <comp ref="D23">
+      <value>BZT52B5V1</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <description>Zener diode</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>7d9ef0bf-e358-45c0-8ea7-67723e02e379</tstamps>
+    </comp>
     <comp ref="F1">
       <value>10A</value>
-      <footprint>Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal</footprint>
+      <footprint>Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Fuse</description>
       <fields>
-        <field name="Footprint">Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal</field>
+        <field name="Footprint">Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal</field>
         <field name="Datasheet">~</field>
         <field name="Description">Fuse</field>
       </fields>
@@ -956,23 +996,22 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>5231c459-ba8d-465a-877b-3dce4ade35cd</tstamps>
     </comp>
     <comp ref="Q20">
-      <value>2N2222</value>
-      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
-      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <value>BC817</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
       <fields>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92L_Inline_Wide</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
-        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+        <field name="Description">0.8A Ic, 45V Vce, NPN Transistor, SOT-23</field>
       </fields>
-      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="dnp"/>
       <property name="ki_keywords" value="NPN Transistor"/>
-      <property name="ki_fp_filters" value="TO?92*"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>e14c5f13-5eb6-4672-98ef-541e58c7921f</tstamps>
+      <tstamps>ac23e73d-4850-4fcb-a903-f423a08aed36</tstamps>
     </comp>
     <comp ref="Q21">
       <value>PMOS</value>
@@ -1303,7 +1342,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>71af8341-d56f-4ece-8f11-061f9a262412</tstamps>
     </comp>
     <comp ref="R26">
-      <value>3k3</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
@@ -1315,11 +1354,10 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>3d8358f6-60c0-476e-a6cb-719720c1b80d</tstamps>
+      <tstamps>06b7cec1-984b-4bbe-bcf7-d063e92c5da8</tstamps>
     </comp>
     <comp ref="R27">
       <value>15k</value>
@@ -1393,9 +1431,9 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="U1">
       <value>UC3845</value>
-      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <footprint>Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
-        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Footprint">Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1406,42 +1444,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>2c39c1fe-1d17-49da-aaf8-40ef1ef3bd11</tstamps>
     </comp>
     <comp ref="U20">
-      <value>SFH618A-5</value>
-      <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
-      <datasheet>http://www.vishay.com/docs/83740/sfh617a.pdf</datasheet>
-      <description>Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</description>
-      <fields>
-        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
-        <field name="Datasheet">http://www.vishay.com/docs/83740/sfh617a.pdf</field>
-        <field name="Description">Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</field>
-      </fields>
-      <libsource lib="Isolator" part="SFH617A-1" description="Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80"/>
-      <property name="ki_fp_filters" value="DIP*W7.62mm*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>c73a8e1d-edb6-4d2a-b200-a395d85a3228</tstamps>
-    </comp>
-    <comp ref="U21">
-      <value>TL431LP</value>
-      <footprint>Package_TO_SOT_THT:TO-92L_Inline_Wide</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
-      <description>Shunt Regulator, TO-92</description>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92L_Inline_Wide</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
-        <field name="Description">Shunt Regulator, TO-92</field>
-      </fields>
-      <libsource lib="Reference_Voltage" part="TL431LP" description="Shunt Regulator, TO-92"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="diode device regulator shunt"/>
-      <property name="ki_fp_filters" value="TO*92*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>f6bcda60-0ae3-483c-af60-875fc1b8fe80</tstamps>
-    </comp>
-    <comp ref="U23">
       <value>TCMT1108</value>
       <footprint>Package_SO:SOP-4_4.4x2.6mm_P1.27mm</footprint>
       <datasheet>http://www.vishay.com/docs/83510/tcmt1100.pdf</datasheet>
@@ -1459,35 +1461,20 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>65c15b60-e93a-45a6-9c8c-f86da8921ea8</tstamps>
     </comp>
-    <comp ref="U24">
-      <value>UC3843_SOIC8</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/uc3842.pdf</datasheet>
-      <description>Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</description>
-      <fields>
-        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uc3842.pdf</field>
-        <field name="Description">Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</field>
-      </fields>
-      <libsource lib="Regulator_Controller" part="UC3843_SOIC8" description="Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="SMPS PWM Controller"/>
-      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>30536067-74f9-4399-a85a-5c7bf1c63fd7</tstamps>
-    </comp>
-    <comp ref="U26">
-      <value>TL432DBZ</value>
+    <comp ref="U21">
+      <value>TL431M</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tl431.pdf</datasheet>
       <description>Shunt Regulator, SOT-23</description>
       <fields>
+        <field name="MPN">FOSAN TL431M-0.3%-6AF</field>
+        <field name="Link">https://www.lcsc.com/product-detail/C48947167.html</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
+        <field name="Datasheet"/>
         <field name="Description">Shunt Regulator, SOT-23</field>
       </fields>
       <libsource lib="Reference_Voltage" part="TL432DBZ" description="Shunt Regulator, SOT-23"/>
+      <property name="MPN" value="FOSAN TL431M-0.3%-6AF"/>
+      <property name="Link" value="https://www.lcsc.com/product-detail/C48947167.html"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <property name="ki_keywords" value="diode device shunt regulator"/>
@@ -1611,8 +1598,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="D_Schottky">
-      <description>Schottky diode</description>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
       <docs>~</docs>
       <footprints>
         <fp>TO-???*</fp>
@@ -1622,10 +1609,10 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">D_Schottky</field>
+        <field name="Value">D_Zener</field>
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
-        <field name="Description">Schottky diode</field>
+        <field name="Description">Zener diode</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -1687,43 +1674,60 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="BZX84Cxx">
-      <description>300mW Zener Diode, SOT-23</description>
-      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</docs>
+    <libpart lib="Diode" part="1N4148W">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
       <footprints>
-        <fp>SOT?23*</fp>
+        <fp>D*SOD?123*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">BZX84Cxx</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf</field>
-        <field name="Description">300mW Zener Diode, SOT-23</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+        <field name="Description">75V 0.15A Fast Switching Diode, SOD-123</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="NC" type="no_connect"/>
-        <pin num="3" name="K" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Isolator" part="SFH617A-1">
-      <description>Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</description>
-      <docs>http://www.vishay.com/docs/83740/sfh617a.pdf</docs>
+    <libpart lib="Diode" part="BZT52Bxx">
+      <description>500mW Zener Diode, SOD-123F</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</docs>
       <footprints>
-        <fp>DIP*W7.62mm*</fp>
+        <fp>D?SOD?123F*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">SFH617A-1</field>
-        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
-        <field name="Datasheet">http://www.vishay.com/docs/83740/sfh617a.pdf</field>
-        <field name="Description">Optocoupler, Phototransistor Output, 5300 VRMS, VCEO 70V, CTR% 40-80, -55 to +110 degree Celsius, UL, BSI, FIMKO, cUL, THT PDIP-4</field>
+        <field name="Reference">D</field>
+        <field name="Value">BZT52Bxx</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</field>
+        <field name="Description">500mW Zener Diode, SOD-123F</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-        <pin num="3" name="" type="passive"/>
-        <pin num="4" name="" type="passive"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="PMEG4010CEH">
+      <description>40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMEG4010CEH_PMEG4010CEJ.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PMEG4010CEH</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123F</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMEG4010CEH_PMEG4010CEJ.pdf</field>
+        <field name="Description">40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Isolator" part="TCMT1108">
@@ -1760,25 +1764,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <field name="Description">Mounting Hole without connection</field>
       </fields>
     </libpart>
-    <libpart lib="Reference_Voltage" part="TL431LP">
-      <description>Shunt Regulator, TO-92</description>
-      <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
-      <footprints>
-        <fp>TO*92*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TL431LP</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl431.pdf</field>
-        <field name="Description">Shunt Regulator, TO-92</field>
-      </fields>
-      <pins>
-        <pin num="1" name="REF" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-        <pin num="3" name="K" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Reference_Voltage" part="TL432DBZ">
       <description>Shunt Regulator, SOT-23</description>
       <docs>http://www.ti.com/lit/ds/symlink/tl431.pdf</docs>
@@ -1796,30 +1781,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="1" name="REF" type="passive"/>
         <pin num="2" name="K" type="passive"/>
         <pin num="3" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Regulator_Controller" part="UC3843_SOIC8">
-      <description>Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</description>
-      <docs>http://www.ti.com/lit/ds/symlink/uc3842.pdf</docs>
-      <footprints>
-        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">UC3843_SOIC8</field>
-        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/uc3842.pdf</field>
-        <field name="Description">Current-Mode PWM Controllers, 100% Duty Cycle, 8.4V/7.6V UVLO, SOIC-8</field>
-      </fields>
-      <pins>
-        <pin num="1" name="COMP" type="passive"/>
-        <pin num="2" name="FB" type="input"/>
-        <pin num="3" name="CS" type="input"/>
-        <pin num="4" name="RC" type="passive"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="OUT" type="output"/>
-        <pin num="7" name="VCC" type="power_in"/>
-        <pin num="8" name="VREF" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="Simulation_SPICE" part="PMOS">
@@ -1841,22 +1802,22 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_BJT" part="2N3904">
-      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
-      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
       <footprints>
-        <fp>TO?92*</fp>
+        <fp>SOT?23*</fp>
       </footprints>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">2N3904</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
-        <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
+        <field name="Description">0.8A Ic, 45V Vce, NPN Transistor, SOT-23</field>
       </fields>
       <pins>
-        <pin num="1" name="E" type="passive"/>
-        <pin num="2" name="B" type="input"/>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
@@ -1972,9 +1933,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <library logical="Reference_Voltage">
       <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
     </library>
-    <library logical="Regulator_Controller">
-      <uri>/usr/share/kicad/symbols//Regulator_Controller.kicad_sym</uri>
-    </library>
     <library logical="Simulation_SPICE">
       <uri>/usr/share/kicad/symbols//Simulation_SPICE.kicad_sym</uri>
     </library>
@@ -1998,59 +1956,67 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </net>
     <net code="3" name="/Block Diagram/Schematic/Isns" class="Default">
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="ISENSE" pintype="input"/>
     </net>
-    <net code="4" name="/Block Diagram/Schematic/OptoColl" class="Default">
+    <net code="4" name="/Block Diagram/Schematic/OpA" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U20" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Block Diagram/Schematic/OpCol" class="Default">
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="U20" pin="4" pintype="passive"/>
     </net>
-    <net code="5" name="/Block Diagram/Schematic/OptoEmm" class="Default">
+    <net code="6" name="/Block Diagram/Schematic/OpEm" class="Default">
       <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U20" pin="3" pintype="passive"/>
     </net>
-    <net code="6" name="/Block Diagram/Schematic/OptoK" class="Default">
+    <net code="7" name="/Block Diagram/Schematic/OpK" class="Default">
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U20" pin="2" pintype="passive"/>
-      <node ref="U21" pin="3" pinfunction="K" pintype="passive"/>
-      <node ref="U26" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U21" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="7" name="/Block Diagram/Schematic/PWM_out" class="Default">
+    <net code="8" name="/Block Diagram/Schematic/PWM_out" class="Default">
       <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
     </net>
-    <net code="8" name="/Block Diagram/Schematic/RT_CT" class="Default">
+    <net code="9" name="/Block Diagram/Schematic/RT_CT" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="Q20" pin="2" pinfunction="B" pintype="input"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
     </net>
-    <net code="9" name="/Block Diagram/Schematic/Ramp" class="Default">
+    <net code="10" name="/Block Diagram/Schematic/Ramp" class="Default">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R24" pin="2" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="/Block Diagram/Schematic/SW" class="Default">
+    <net code="11" name="/Block Diagram/Schematic/Ref_sns" class="Default">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
+    </net>
+    <net code="12" name="/Block Diagram/Schematic/SW" class="Default">
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="TR1" pin="2" pintype="passive"/>
     </net>
-    <net code="11" name="/Block Diagram/Schematic/Src" class="Default">
+    <net code="13" name="/Block Diagram/Schematic/Src" class="Default">
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="/Block Diagram/Schematic/U5_sec" class="Default">
+    <net code="14" name="/Block Diagram/Schematic/U5_sec" class="Default">
       <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
       <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P30" pin="1" pinfunction="1" pintype="passive"/>
@@ -2060,17 +2026,18 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
     </net>
-    <net code="13" name="/Block Diagram/Schematic/Vfb" class="Default">
+    <net code="15" name="/Block Diagram/Schematic/Vfb" class="Default">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
     </net>
-    <net code="14" name="/Block Diagram/Schematic/Vin" class="Default">
+    <net code="16" name="/Block Diagram/Schematic/Vin" class="Default">
       <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="D22" pin="3" pinfunction="K" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Mod20" pin="2" pinfunction="Vin+" pintype="passive"/>
       <node ref="P21" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P23" pin="1" pinfunction="1" pintype="passive"/>
@@ -2082,7 +2049,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="TR1" pin="5" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="15" name="/Block Diagram/Schematic/Vout" class="Default">
+    <net code="17" name="/Block Diagram/Schematic/Vout" class="Default">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -2090,7 +2057,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="P32" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
     </net>
-    <net code="16" name="/Block Diagram/Schematic/Vref" class="Default">
+    <net code="18" name="/Block Diagram/Schematic/Vref" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="P105" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P106" pin="1" pinfunction="1" pintype="passive"/>
@@ -2101,22 +2068,17 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
     </net>
-    <net code="17" name="/Block Diagram/Schematic/fb_sec" class="Default">
-      <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
-      <node ref="U26" pin="1" pinfunction="REF" pintype="passive"/>
-    </net>
-    <net code="18" name="GND" class="Default">
+    <net code="19" name="GND" class="Default">
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Mod20" pin="1" pinfunction="Vin-" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
@@ -2125,104 +2087,64 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="19" name="GND_HV" class="Default">
+    <net code="20" name="GND_HV" class="Default">
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Mod20" pin="3" pinfunction="0V" pintype="passive"/>
       <node ref="TR1" pin="1" pintype="passive"/>
-      <node ref="U21" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="U26" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U21" pin="3" pinfunction="A" pintype="passive"/>
       <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(C20-Pad2)" class="Default">
+    <net code="21" name="Net-(C20-Pad2)" class="Default">
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(D4-A)" class="Default">
+    <net code="22" name="Net-(D4-A)" class="Default">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="TR1" pin="7" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D21-K)" class="Default">
+    <net code="23" name="Net-(D21-K)" class="Default">
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(D22-A)" class="Default">
-      <node ref="D22" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="24" name="Net-(D22-A)" class="Default">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q21" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(J20-Pin_1)" class="Default">
+    <net code="25" name="Net-(J20-Pin_1)" class="Default">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(Q20-E)" class="Default">
-      <node ref="Q20" pin="1" pinfunction="E" pintype="passive"/>
-      <node ref="R26" pin="1" pintype="passive"/>
+    <net code="26" name="Net-(Q20-B)" class="Default">
+      <node ref="Q20" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(Q21-D)" class="Default">
+    <net code="27" name="Net-(Q20-E)" class="Default">
+      <node ref="Q20" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q21-D)" class="Default">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="Q21" pin="1" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(R4-Pad2)" class="Default">
+    <net code="29" name="Net-(R4-Pad2)" class="Default">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(R10-Pad1)" class="Default">
+    <net code="30" name="Net-(R10-Pad1)" class="Default">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
-    </net>
-    <net code="29" name="Net-(R23-Pad1)" class="Default">
-      <node ref="R23" pin="1" pintype="passive"/>
-      <node ref="U20" pin="1" pintype="passive"/>
-    </net>
-    <net code="30" name="unconnected-(D22-NC-Pad2)" class="Default">
-      <node ref="D22" pin="2" pinfunction="NC" pintype="no_connect"/>
     </net>
     <net code="31" name="unconnected-(J1-Pin_2-Pad2)" class="Default">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
     <net code="32" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
-    </net>
-    <net code="33" name="unconnected-(U23-Pad1)" class="Default">
-      <node ref="U23" pin="1" pintype="passive+no_connect"/>
-    </net>
-    <net code="34" name="unconnected-(U23-Pad2)" class="Default">
-      <node ref="U23" pin="2" pintype="passive+no_connect"/>
-    </net>
-    <net code="35" name="unconnected-(U23-Pad3)" class="Default">
-      <node ref="U23" pin="3" pintype="passive+no_connect"/>
-    </net>
-    <net code="36" name="unconnected-(U23-Pad4)" class="Default">
-      <node ref="U23" pin="4" pintype="passive+no_connect"/>
-    </net>
-    <net code="37" name="unconnected-(U24-COMP-Pad1)" class="Default">
-      <node ref="U24" pin="1" pinfunction="COMP" pintype="passive+no_connect"/>
-    </net>
-    <net code="38" name="unconnected-(U24-CS-Pad3)" class="Default">
-      <node ref="U24" pin="3" pinfunction="CS" pintype="input+no_connect"/>
-    </net>
-    <net code="39" name="unconnected-(U24-FB-Pad2)" class="Default">
-      <node ref="U24" pin="2" pinfunction="FB" pintype="input+no_connect"/>
-    </net>
-    <net code="40" name="unconnected-(U24-GND-Pad5)" class="Default">
-      <node ref="U24" pin="5" pinfunction="GND" pintype="power_in+no_connect"/>
-    </net>
-    <net code="41" name="unconnected-(U24-OUT-Pad6)" class="Default">
-      <node ref="U24" pin="6" pinfunction="OUT" pintype="output+no_connect"/>
-    </net>
-    <net code="42" name="unconnected-(U24-RC-Pad4)" class="Default">
-      <node ref="U24" pin="4" pinfunction="RC" pintype="passive+no_connect"/>
-    </net>
-    <net code="43" name="unconnected-(U24-VCC-Pad7)" class="Default">
-      <node ref="U24" pin="7" pinfunction="VCC" pintype="power_in+no_connect"/>
-    </net>
-    <net code="44" name="unconnected-(U24-VREF-Pad8)" class="Default">
-      <node ref="U24" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
     </net>
   </nets>
 </export>
