@@ -9,6 +9,15 @@ Isolated primary ("LV") and secondary ("HV") sides
 Reorganised schematic for readability
 Replaced reverse polarity protection circuit by one based on a P-channel MOSFET
 Added dedicated screw terminals for input power and reused existing 4-way connector for the output
+Replaced C6 from 100 uF elco to 4.7 uF + 100 nF MLCCs
+Reserved footprint for C25 to test a different compensation circuit
+Replaced U1 package from DIP-8 to SOIC-8
+Replaced U21 package from TO-92 to SOT-23
+Replaced U20 from SH816 to TCMT1108
+Replaced Q20 from 2N2222 to BC817
+Reworked slope compensation / ramp generation
+Updated fuse clip footprint
+
 
 To do:
 - Identify suitable P-MOS
