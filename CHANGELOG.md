@@ -19,6 +19,12 @@ Reworked slope compensation / ramp generation
 Updated fuse clip footprint
 Added part number to D4
 Layout candidate #1 produced
+Updated decoupling of Mod20
+Updated diameter of C23 to 6.3 mm
+Layout candidate #2 produced (draft)
+
+TODO
+- copy libraries
 
 ## [1.0.0] - 2026-01-24
 
