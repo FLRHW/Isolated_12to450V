@@ -17,12 +17,11 @@ Replaced U20 from SH816 to TCMT1108
 Replaced Q20 from 2N2222 to BC817
 Reworked slope compensation / ramp generation
 Updated fuse clip footprint
+Added part number to D4
 
 
 To do:
 - Identify suitable P-MOS
-- Identify suitable output diode
-- Find alternative to 2N2222
 
 ## [1.0.0] - 2026-01-24
 
