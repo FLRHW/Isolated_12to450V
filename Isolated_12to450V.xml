@@ -70,7 +70,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">72a8147</textvar>
+    <textvar name="GIT_HASH_PCB">4f30933</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -404,11 +404,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="C23">
       <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
       <description>Polarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">Polarized capacitor</field>
       </fields>
@@ -422,12 +422,12 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>f0090533-fa6a-4456-b9e2-f1d003fe49e1</tstamps>
     </comp>
     <comp ref="C24">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -437,7 +437,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_keywords" value="cap capacitor"/>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>e19bf728-a517-445c-b15b-97020ef2da39</tstamps>
+      <tstamps>7ec6e197-fc1d-4595-a28a-570a4a3edc2e</tstamps>
     </comp>
     <comp ref="C25">
       <value>1n</value>
@@ -475,6 +475,42 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>f49d27c1-385a-4d7f-8438-0de192b2a841</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>67354fed-24ad-4f7e-b640-dc3626a087f4</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Polarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>41edc753-d924-444a-97ca-ad5a5cc137fe</tstamps>
     </comp>
     <comp ref="D4">
       <value>UF4007</value>
@@ -2024,6 +2060,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="TR1" pin="7" pintype="passive"/>
     </net>
     <net code="17" name="/Block Diagram/Schematic/U5_sec" class="Default">
+      <node ref="C28" pin="1" pintype="passive"/>
       <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
       <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P30" pin="1" pinfunction="1" pintype="passive"/>
@@ -2050,6 +2087,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <net code="21" name="/Block Diagram/Schematic/Vin_p" class="Default">
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
@@ -2088,6 +2126,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -2104,6 +2143,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </net>
     <net code="25" name="GND_HV" class="Default">
       <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Mod20" pin="3" pinfunction="0V" pintype="passive"/>
