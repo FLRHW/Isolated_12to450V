@@ -18,10 +18,7 @@ Replaced Q20 from 2N2222 to BC817
 Reworked slope compensation / ramp generation
 Updated fuse clip footprint
 Added part number to D4
-
-
-To do:
-- Identify suitable P-MOS
+Layout candidate #1 produced
 
 ## [1.0.0] - 2026-01-24
 
