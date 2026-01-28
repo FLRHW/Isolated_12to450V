@@ -56,9 +56,9 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				81.540 × 46.692 mm
+	BOARD SIZE				85.000 × 47.800 mm
 	BOARD THICKNESS		1.660 mm
-	TRACE WIDTH			N/A mm
+	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
 	MIN. HOLE (PTH)			0.800 mm
 	MIN. HOLE (NPTH)		2.100 mm
@@ -70,7 +70,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">21873cc</textvar>
+    <textvar name="GIT_HASH_PCB">4087f53</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -99,8 +99,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">27-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-27</textvar>
+    <textvar name="RELEASE_DATE">28-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-28</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -477,7 +477,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>f49d27c1-385a-4d7f-8438-0de192b2a841</tstamps>
     </comp>
     <comp ref="D4">
-      <value>?</value>
+      <value>UF4007</value>
       <footprint>Diode_THT:D_A-405_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Diode</description>
@@ -1014,26 +1014,40 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <tstamps>ac23e73d-4850-4fcb-a903-f423a08aed36</tstamps>
     </comp>
     <comp ref="Q21">
-      <value>PMOS</value>
-      <datasheet>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</datasheet>
-      <description>P-MOSFET transistor, drain/source/gate</description>
+      <value>SUD50P06-15</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.vishay.com/docs/68940/sud50p06.pdf</datasheet>
+      <description>-50A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 15mOhm Ron, 165nC Qg, -55 to 150 °C, TO-252-2</description>
       <fields>
-        <field name="Sim.Device">PMOS</field>
-        <field name="Sim.Type">VDMOS</field>
-        <field name="Sim.Pins">1=D 2=G 3=S</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</field>
-        <field name="Description">P-MOSFET transistor, drain/source/gate</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">https://www.vishay.com/docs/68940/sud50p06.pdf</field>
+        <field name="Description">-50A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 15mOhm Ron, 165nC Qg, -55 to 150 °C, TO-252-2</field>
       </fields>
-      <libsource lib="Simulation_SPICE" part="PMOS" description="P-MOSFET transistor, drain/source/gate"/>
-      <property name="Sim.Device" value="PMOS"/>
-      <property name="Sim.Type" value="VDMOS"/>
-      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <libsource lib="Transistor_FET" part="SUD50P06-15" description="-50A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 15mOhm Ron, 165nC Qg, -55 to 150 °C, TO-252-2"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET simulation"/>
+      <property name="ki_keywords" value="TrenchFET P-Channel Power MOSFET"/>
+      <property name="ki_fp_filters" value="TO?252*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>e30399a4-cdf3-4c4c-a973-b5e00fe9cef1</tstamps>
+    </comp>
+    <comp ref="Q22">
+      <value>IRF4905</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</datasheet>
+      <description>-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</field>
+        <field name="Description">-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRF4905" description="-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="Single P-Channel HEXFET Power MOSFET"/>
+      <property name="ki_fp_filters" value="TO?220*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>df63649b-1cb0-4035-acec-fa1c9693c0c6</tstamps>
     </comp>
     <comp ref="R2">
       <value>10k</value>
@@ -1783,25 +1797,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Simulation_SPICE" part="PMOS">
-      <description>P-MOSFET transistor, drain/source/gate</description>
-      <docs>https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</docs>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">PMOS</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs</field>
-        <field name="Description">P-MOSFET transistor, drain/source/gate</field>
-        <field name="Sim.Device">PMOS</field>
-        <field name="Sim.Type">VDMOS</field>
-        <field name="Sim.Pins">1=D 2=G 3=S</field>
-      </fields>
-      <pins>
-        <pin num="1" name="D" type="passive"/>
-        <pin num="2" name="G" type="input"/>
-        <pin num="3" name="S" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Transistor_BJT" part="BC817">
       <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
       <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
@@ -1821,6 +1816,25 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Transistor_FET" part="IRF4905">
+      <description>-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</description>
+      <docs>http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF4905</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</field>
+        <field name="Description">-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistor_FET" part="Q_NMOS_GDS">
       <description>N-MOSFET transistor, gate/drain/source</description>
       <docs>~</docs>
@@ -1830,6 +1844,25 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
         <field name="Description">N-MOSFET transistor, gate/drain/source</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="SUD50P06-15">
+      <description>-50A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 15mOhm Ron, 165nC Qg, -55 to 150 °C, TO-252-2</description>
+      <docs>https://www.vishay.com/docs/68940/sud50p06.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SUD50P06-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">https://www.vishay.com/docs/68940/sud50p06.pdf</field>
+        <field name="Description">-50A Id, -60V Vds, TrenchFET P-Channel Power MOSFET, 15mOhm Ron, 165nC Qg, -55 to 150 °C, TO-252-2</field>
       </fields>
       <pins>
         <pin num="1" name="G" type="input"/>
@@ -1933,9 +1966,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <library logical="Reference_Voltage">
       <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
     </library>
-    <library logical="Simulation_SPICE">
-      <uri>/usr/share/kicad/symbols//Simulation_SPICE.kicad_sym</uri>
-    </library>
     <library logical="Transistor_BJT">
       <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
     </library>
@@ -1990,33 +2020,47 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
     </net>
-    <net code="9" name="/Block Diagram/Schematic/RT_CT" class="Default">
+    <net code="9" name="/Block Diagram/Schematic/RP_Gate" class="Default">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q22" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/Block Diagram/Schematic/RT_CT" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
     </net>
-    <net code="10" name="/Block Diagram/Schematic/Ramp" class="Default">
+    <net code="11" name="/Block Diagram/Schematic/Ramp" class="Default">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="/Block Diagram/Schematic/Ref_sns" class="Default">
+    <net code="12" name="/Block Diagram/Schematic/Ref_sns" class="Default">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
     </net>
-    <net code="12" name="/Block Diagram/Schematic/SW" class="Default">
+    <net code="13" name="/Block Diagram/Schematic/SS_cap" class="Default">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/Block Diagram/Schematic/SW" class="Default">
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="TR1" pin="2" pintype="passive"/>
     </net>
-    <net code="13" name="/Block Diagram/Schematic/Src" class="Default">
+    <net code="15" name="/Block Diagram/Schematic/Src" class="Default">
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="/Block Diagram/Schematic/U5_sec" class="Default">
+    <net code="16" name="/Block Diagram/Schematic/TR_out" class="Default">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="TR1" pin="7" pintype="passive"/>
+    </net>
+    <net code="17" name="/Block Diagram/Schematic/U5_sec" class="Default">
       <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
       <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P30" pin="1" pinfunction="1" pintype="passive"/>
@@ -2026,13 +2070,21 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="/Block Diagram/Schematic/Vfb" class="Default">
+    <net code="18" name="/Block Diagram/Schematic/Vfb" class="Default">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
     </net>
-    <net code="16" name="/Block Diagram/Schematic/Vin" class="Default">
+    <net code="19" name="/Block Diagram/Schematic/Vin" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="20" name="/Block Diagram/Schematic/Vin_f" class="Default">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="Q22" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="21" name="/Block Diagram/Schematic/Vin_p" class="Default">
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
@@ -2044,12 +2096,12 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="P24" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P25" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P26" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q22" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="TR1" pin="5" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="17" name="/Block Diagram/Schematic/Vout" class="Default">
+    <net code="22" name="/Block Diagram/Schematic/Vout" class="Default">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -2057,7 +2109,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="P32" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
     </net>
-    <net code="18" name="/Block Diagram/Schematic/Vref" class="Default">
+    <net code="23" name="/Block Diagram/Schematic/Vref" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="P105" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P106" pin="1" pinfunction="1" pintype="passive"/>
@@ -2068,7 +2120,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
     </net>
-    <net code="19" name="GND" class="Default">
+    <net code="24" name="GND" class="Default">
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
@@ -2087,7 +2139,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="20" name="GND_HV" class="Default">
+    <net code="25" name="GND_HV" class="Default">
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
@@ -2097,40 +2149,18 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(C20-Pad2)" class="Default">
+    <net code="26" name="Net-(C20-Pad2)" class="Default">
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D4-A)" class="Default">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="TR1" pin="7" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(D21-K)" class="Default">
-      <node ref="C23" pin="1" pintype="passive"/>
-      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R27" pin="1" pintype="passive"/>
-    </net>
-    <net code="24" name="Net-(D22-A)" class="Default">
-      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q21" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="R21" pin="1" pintype="passive"/>
-    </net>
-    <net code="25" name="Net-(J20-Pin_1)" class="Default">
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="26" name="Net-(Q20-B)" class="Default">
+    <net code="27" name="Net-(Q20-B)" class="Default">
       <node ref="Q20" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R24" pin="2" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(Q20-E)" class="Default">
+    <net code="28" name="Net-(Q20-E)" class="Default">
       <node ref="Q20" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(Q21-D)" class="Default">
-      <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="Q21" pin="1" pinfunction="D" pintype="passive"/>
     </net>
     <net code="29" name="Net-(R4-Pad2)" class="Default">
       <node ref="R4" pin="2" pintype="passive"/>
@@ -2145,6 +2175,15 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </net>
     <net code="32" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(Q21-D-Pad2)" class="Default">
+      <node ref="Q21" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(Q21-G-Pad1)" class="Default">
+      <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="35" name="unconnected-(Q21-S-Pad3)" class="Default">
+      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
     </net>
   </nets>
 </export>
