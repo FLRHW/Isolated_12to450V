@@ -58,11 +58,11 @@
 
 	BOARD SIZE				85.000 × 47.800 mm
 	BOARD THICKNESS		1.660 mm
-	TRACE WIDTH			0.200 mm
+	TRACE WIDTH			0.300 mm
 	TRACE TO TRACE		0.200 mm
-	MIN. HOLE (PTH)			0.800 mm
+	MIN. HOLE (PTH)			0.250 mm
 	MIN. HOLE (NPTH)		2.100 mm
-	ANNULAR RING			0.320 mm
+	ANNULAR RING			0.150 mm
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm
@@ -70,7 +70,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">4087f53</textvar>
+    <textvar name="GIT_HASH_PCB">72a8147</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -1031,24 +1031,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>e30399a4-cdf3-4c4c-a973-b5e00fe9cef1</tstamps>
     </comp>
-    <comp ref="Q22">
-      <value>IRF4905</value>
-      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
-      <datasheet>http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</datasheet>
-      <description>-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</description>
-      <fields>
-        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
-        <field name="Datasheet">http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</field>
-        <field name="Description">-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</field>
-      </fields>
-      <libsource lib="Transistor_FET" part="IRF4905" description="-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="Single P-Channel HEXFET Power MOSFET"/>
-      <property name="ki_fp_filters" value="TO?220*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>df63649b-1cb0-4035-acec-fa1c9693c0c6</tstamps>
-    </comp>
     <comp ref="R2">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
@@ -1445,9 +1427,9 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="U1">
       <value>UC3845</value>
-      <footprint>Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
       <fields>
-        <field name="Footprint">Package_SO:JEITA_SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1816,25 +1798,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_FET" part="IRF4905">
-      <description>-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</description>
-      <docs>http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</docs>
-      <footprints>
-        <fp>TO?220*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">IRF4905</field>
-        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
-        <field name="Datasheet">http://www.infineon.com/dgdl/irf4905.pdf?fileId=5546d462533600a4015355e32165197c</field>
-        <field name="Description">-74A Id, -55V Vds, Single P-Channel HEXFET Power MOSFET, 20mOhm Ron, TO-220AB</field>
-      </fields>
-      <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="D" type="passive"/>
-        <pin num="3" name="S" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Transistor_FET" part="Q_NMOS_GDS">
       <description>N-MOSFET transistor, gate/drain/source</description>
       <docs>~</docs>
@@ -2022,7 +1985,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </net>
     <net code="9" name="/Block Diagram/Schematic/RP_Gate" class="Default">
       <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q22" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
     <net code="10" name="/Block Diagram/Schematic/RT_CT" class="Default">
@@ -2082,7 +2045,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </net>
     <net code="20" name="/Block Diagram/Schematic/Vin_f" class="Default">
       <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="Q22" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q21" pin="2" pinfunction="D" pintype="passive"/>
     </net>
     <net code="21" name="/Block Diagram/Schematic/Vin_p" class="Default">
       <node ref="C24" pin="1" pintype="passive"/>
@@ -2096,7 +2059,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="P24" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P25" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P26" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="Q22" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="TR1" pin="5" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
@@ -2175,15 +2138,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </net>
     <net code="32" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
-    </net>
-    <net code="33" name="unconnected-(Q21-D-Pad2)" class="Default">
-      <node ref="Q21" pin="2" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="34" name="unconnected-(Q21-G-Pad1)" class="Default">
-      <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
-    </net>
-    <net code="35" name="unconnected-(Q21-S-Pad3)" class="Default">
-      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
     </net>
   </nets>
 </export>
