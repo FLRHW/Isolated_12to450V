@@ -58,19 +58,15 @@
 
 	BOARD SIZE				85.000 × 47.800 mm
 	BOARD THICKNESS		1.660 mm
-	TRACE WIDTH			0.300 mm
-	TRACE TO TRACE		0.200 mm
+	TRACE WIDTH			0.200 mm
+	TRACE TO TRACE		-0.000 mm
 	MIN. HOLE (PTH)			0.250 mm
 	MIN. HOLE (NPTH)		2.100 mm
 	ANNULAR RING			0.150 mm
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
-	HOLE TO HOLE			0.254 mm
-
-11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
-
-12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">4f30933</textvar>
+	HOLE TO HOLE			0.254 mm</textvar>
+    <textvar name="GIT_HASH_PCB">fdba862</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -99,8 +95,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">28-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-28</textvar>
+    <textvar name="RELEASE_DATE">30-Jan-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-01-30</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -1447,6 +1443,276 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>e61e9a79-5e22-40ac-840c-5bd480f5cbd5</tstamps>
     </comp>
+    <comp ref="R30">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>c96633a2-2a28-433e-839d-ad6cff32e502</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>1757ec5b-832a-4dcc-92bc-f5c575a93ce7</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>1fb96924-3fe3-456a-979c-69c7fc763bb6</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>6af26950-af67-488d-91c2-3ce0914e54cb</tstamps>
+    </comp>
+    <comp ref="TP23">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>9c6420c9-4a45-4552-afc8-f314eb62104b</tstamps>
+    </comp>
+    <comp ref="TP24">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>6e621cdb-4b49-458a-9950-be54b63dd6b7</tstamps>
+    </comp>
+    <comp ref="TP25">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f0fcacaf-5f39-4425-9ce9-2b96cd2e5549</tstamps>
+    </comp>
+    <comp ref="TP26">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>5ec6cb1c-16e8-4951-9243-963923b5f406</tstamps>
+    </comp>
+    <comp ref="TP27">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>17da0f7f-3e92-4006-82b9-e96967638b27</tstamps>
+    </comp>
+    <comp ref="TP28">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>aacd386c-7422-41e6-8201-77ab05702bee</tstamps>
+    </comp>
+    <comp ref="TP29">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>3c480014-ee72-4fe8-a9b3-d1125e31dc39</tstamps>
+    </comp>
+    <comp ref="TP31">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>c837fa10-0cb0-4280-b275-aaf7651a3cc7</tstamps>
+    </comp>
+    <comp ref="TP32">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>a13d959a-597f-4d1c-9822-872f633bcdaf</tstamps>
+    </comp>
+    <comp ref="TP33">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>48f6603b-e9ed-4a8d-9cbb-6e4e8c79d0ea</tstamps>
+    </comp>
+    <comp ref="TP34">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>e1ee4023-de15-4988-a887-2c7bc53207b1</tstamps>
+    </comp>
     <comp ref="TR1">
       <value>Custom_1:19.5</value>
       <footprint>Personal:Tr12to450V_Alixp</footprint>
@@ -1455,11 +1721,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="personal" part="TR_12to450V_alixp_inv" description=""/>
+      <libsource lib="" part="TR_12to450V_alixp_inv_1" description=""/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>897a3c85-eecd-42d2-a125-1262b3c37336</tstamps>
+      <tstamps>897a3c85-eecd-42d2-a125-1262b3c37336 0fcf9ff3-0e3a-44d9-9ba7-daabb64d03ec</tstamps>
     </comp>
     <comp ref="U1">
       <value>UC3845</value>
@@ -1534,6 +1800,29 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="TR_12to450V_alixp_inv_1">
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">Custom_1:19.5</field>
+        <field name="Footprint">Personal:Tr12to450V_Alixp</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="Screw_Terminal_01x01">
       <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -1569,6 +1858,24 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Alt">
+      <description>test point (alternative shape)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Alt</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -1893,21 +2200,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="personal" part="TR_12to450V_alixp_inv">
-      <fields>
-        <field name="Reference">TR</field>
-        <field name="Value">Custom_1:19.5</field>
-        <field name="Footprint">Personal:Tr12to450V_Alixp</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-        <pin num="5" name="" type="passive"/>
-        <pin num="7" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="personal" part="UC3845">
       <fields>
         <field name="Reference">U</field>
@@ -1976,6 +2268,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <net code="1" name="/Block Diagram/Schematic/Comp" class="Default">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="COMP" pintype="output"/>
     </net>
     <net code="2" name="/Block Diagram/Schematic/Gate" class="Default">
@@ -1987,25 +2280,79 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="ISENSE" pintype="input"/>
     </net>
-    <net code="4" name="/Block Diagram/Schematic/OpA" class="Default">
-      <node ref="R23" pin="1" pintype="passive"/>
-      <node ref="U20" pin="1" pintype="passive"/>
-    </net>
-    <net code="5" name="/Block Diagram/Schematic/OpCol" class="Default">
+    <net code="4" name="/Block Diagram/Schematic/OpCol" class="Default">
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="U20" pin="4" pintype="passive"/>
     </net>
-    <net code="6" name="/Block Diagram/Schematic/OpEm" class="Default">
+    <net code="5" name="/Block Diagram/Schematic/OpEm" class="Default">
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U20" pin="3" pintype="passive"/>
     </net>
-    <net code="7" name="/Block Diagram/Schematic/OpK" class="Default">
+    <net code="6" name="/Block Diagram/Schematic/PWM" class="Default">
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
+    </net>
+    <net code="7" name="/Block Diagram/Schematic/Pri_NR3" class="Default">
+      <node ref="TR1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="8" name="/Block Diagram/Schematic/Pri_NR4" class="Default">
+      <node ref="TR1" pin="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="9" name="/Block Diagram/Schematic/Pri_NR6" class="Default">
+      <node ref="TR1" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="/Block Diagram/Schematic/RP_Gate" class="Default">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/Block Diagram/Schematic/RT_CT" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
+    </net>
+    <net code="12" name="/Block Diagram/Schematic/Ramp" class="Default">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/Block Diagram/Schematic/SW" class="Default">
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TR1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/Block Diagram/Schematic/Sec_NR8" class="Default">
+      <node ref="TR1" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="/Block Diagram/Schematic/Sec_NR9" class="Default">
+      <node ref="TR1" pin="9" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="/Block Diagram/Schematic/Sec_NR10" class="Default">
+      <node ref="TR1" pin="10" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="/Block Diagram/Schematic/Sec_NR11" class="Default">
+      <node ref="TR1" pin="11" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="/Block Diagram/Schematic/Sec_NR12" class="Default">
+      <node ref="TR1" pin="12" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="/Block Diagram/Schematic/Sec_OpA" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U20" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="/Block Diagram/Schematic/Sec_OpK" class="Default">
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
@@ -2013,53 +2360,37 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="U20" pin="2" pintype="passive"/>
       <node ref="U21" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="8" name="/Block Diagram/Schematic/PWM_out" class="Default">
-      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
+    <net code="21" name="/Block Diagram/Schematic/Sec_comp_mid" class="Default">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="9" name="/Block Diagram/Schematic/RP_Gate" class="Default">
-      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R21" pin="1" pintype="passive"/>
+    <net code="22" name="/Block Diagram/Schematic/Sec_div_h" class="Default">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="10" name="/Block Diagram/Schematic/RT_CT" class="Default">
-      <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
+    <net code="23" name="/Block Diagram/Schematic/Sec_div_l" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="11" name="/Block Diagram/Schematic/Ramp" class="Default">
-      <node ref="C22" pin="1" pintype="passive"/>
-      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
-      <node ref="R26" pin="1" pintype="passive"/>
-    </net>
-    <net code="12" name="/Block Diagram/Schematic/Ref_sns" class="Default">
+    <net code="24" name="/Block Diagram/Schematic/Sec_ref_sns" class="Default">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
     </net>
-    <net code="13" name="/Block Diagram/Schematic/SS_cap" class="Default">
+    <net code="25" name="/Block Diagram/Schematic/Sec_ss_cap" class="Default">
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="/Block Diagram/Schematic/SW" class="Default">
-      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="TR1" pin="2" pintype="passive"/>
-    </net>
-    <net code="15" name="/Block Diagram/Schematic/Src" class="Default">
+    <net code="26" name="/Block Diagram/Schematic/Src" class="Default">
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="16" name="/Block Diagram/Schematic/TR_out" class="Default">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="TR1" pin="7" pintype="passive"/>
-    </net>
-    <net code="17" name="/Block Diagram/Schematic/U5_sec" class="Default">
+    <net code="27" name="/Block Diagram/Schematic/U5_sec" class="Default">
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
       <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
@@ -2069,22 +2400,38 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="TP34" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="18" name="/Block Diagram/Schematic/Vfb" class="Default">
+    <net code="28" name="/Block Diagram/Schematic/U500_sec" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P28" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/Block Diagram/Schematic/U500_tr_sec" class="Default">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="TR1" pin="7" pintype="passive"/>
+    </net>
+    <net code="30" name="/Block Diagram/Schematic/Vfb" class="Default">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
     </net>
-    <net code="19" name="/Block Diagram/Schematic/Vin" class="Default">
+    <net code="31" name="/Block Diagram/Schematic/Vin" class="Default">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="20" name="/Block Diagram/Schematic/Vin_f" class="Default">
+    <net code="32" name="/Block Diagram/Schematic/Vin_f" class="Default">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="Q21" pin="2" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="21" name="/Block Diagram/Schematic/Vin_p" class="Default">
+    <net code="33" name="/Block Diagram/Schematic/Vin_p" class="Default">
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
@@ -2099,18 +2446,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="P26" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="5" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="22" name="/Block Diagram/Schematic/Vout" class="Default">
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="P28" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P32" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
-    </net>
-    <net code="23" name="/Block Diagram/Schematic/Vref" class="Default">
+    <net code="34" name="/Block Diagram/Schematic/Vref" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="P105" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P106" pin="1" pinfunction="1" pintype="passive"/>
@@ -2121,7 +2461,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
     </net>
-    <net code="24" name="GND" class="Default">
+    <net code="35" name="GND" class="Default">
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
@@ -2139,44 +2479,36 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R21" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP33" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="25" name="GND_HV" class="Default">
+    <net code="36" name="Net-(Q20-B)" class="Default">
+      <node ref="Q20" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(Q20-E)" class="Default">
+      <node ref="Q20" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Sec_GND" class="Default">
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Mod20" pin="3" pinfunction="0V" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="TP28" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="1" pintype="passive"/>
       <node ref="U21" pin="3" pinfunction="A" pintype="passive"/>
       <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(C20-Pad2)" class="Default">
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="R20" pin="2" pintype="passive"/>
-    </net>
-    <net code="27" name="Net-(Q20-B)" class="Default">
-      <node ref="Q20" pin="1" pinfunction="B" pintype="input"/>
-      <node ref="R24" pin="2" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(Q20-E)" class="Default">
-      <node ref="Q20" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
-    </net>
-    <net code="29" name="Net-(R4-Pad2)" class="Default">
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
-    </net>
-    <net code="30" name="Net-(R10-Pad1)" class="Default">
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-    </net>
-    <net code="31" name="unconnected-(J1-Pin_2-Pad2)" class="Default">
+    <net code="39" name="unconnected-(J1-Pin_2-Pad2)" class="Default">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="32" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
+    <net code="40" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
   </nets>
