@@ -1,0 +1,6 @@
+(version 1)
+
+#specify clearance for Secondary to primary domain
+(rule "Sec Pri"
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('Secondary') && !B.hasNetclass('Secondary') && !B.hasNetclass('NR')"))

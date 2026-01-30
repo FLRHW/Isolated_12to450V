@@ -22,9 +22,13 @@ Layout candidate #1 produced
 Updated decoupling of Mod20
 Updated diameter of C23 to 6.3 mm
 Layout candidate #2 produced (draft)
+Added testpoints
+Added resistor to ensure min. load on 5 V rail
+Started adding rules
 
 TODO
 - copy libraries
+- add remaining rules
 
 ## [1.0.0] - 2026-01-24
 
