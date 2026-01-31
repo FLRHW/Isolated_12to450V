@@ -1,6 +1,11 @@
 (version 1)
 
-#specify clearance for Secondary to primary domain
+# Specify clearance for Secondary to primary domain, ignoring nets of class NR (Not Relevant)
 (rule "Sec Pri"
    (constraint clearance (min 2.5mm))
    (condition "A.hasNetclass('Secondary') && !B.hasNetclass('Secondary') && !B.hasNetclass('NR')"))
+
+# Specify clearance for HV lines, ignoring nets of class NR (Not Relevant)
+(rule "HV"
+   (constraint clearance (min 2.5mm))
+   (condition "A.hasNetclass('HV') && !B.hasNetclass('HV') && !B.hasNetclass('NR')"))
