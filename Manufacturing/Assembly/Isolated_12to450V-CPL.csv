@@ -4,8 +4,8 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C4","1.5n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",30.8300,19.2560,180.0000,bottom
 "C5","100n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",37.9420,19.2560,0.0000,bottom
 "C6","4.7u","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",46.3240,22.0500,90.0000,bottom
-"C7","1000u","C_Radial_D10.0mm_H20.0mm_P5.00mm",50.3880,44.4020,90.0000,top
-"C8","10u","C_Radial_D10.0mm_H16.0mm_P5.00mm",91.2820,12.9162,135.0000,top
+"C7","1000u","CP_Radial_D10.0mm_P5.00mm",50.3880,44.4020,90.0000,top
+"C8","10u","CP_Radial_D10.0mm_P5.00mm",91.2820,12.9162,135.0000,top
 "C20","6.8p","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",86.7100,43.3860,180.0000,bottom
 "C21","22p","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",86.7100,40.3380,0.0000,bottom
 "C22","10n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",37.9420,13.1600,180.0000,bottom
@@ -15,9 +15,9 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C28","100u","CP_Radial_D6.3mm_P2.50mm",89.6704,34.7500,180.0000,top
 "D4","UF4007","D_A-405_P10.16mm_Horizontal",63.0880,10.1120,180.0000,top
 "D20","PMEG4010CEH","D_SOD-123F",40.9900,11.6360,-90.0000,bottom
-"D22","BZT52B15","D_SOD-123",45.8160,43.6400,-90.0000,bottom
+"D22","BZT52B15","D_SOD-123F",45.8160,43.3860,-90.0000,bottom
 "D23","BZT52B5V1","D_SOD-123",70.2000,24.5900,180.0000,bottom
-"F1","10A","Fuse_5x20mm_w_holders",37.4340,39.3220,-90.0000,top
+"F1","10A","Fuse_5x20mm_w_holders",37.4340,39.4120,-90.0000,top
 "J1","Screw_Terminal_01x04","TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",97.6320,32.6240,90.0000,top
 "J20","T44007","T44007",25.7500,44.1480,-90.0000,top
 "J21","T44007","T44007",25.7500,32.9720,90.0000,top
@@ -27,7 +27,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "Q21","SUD50P06-15","TO-252-2",44.1105,33.4800,-90.0000,bottom
 "R2","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",39.2120,23.0660,90.0000,bottom
 "R3","5k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",37.6880,23.0660,90.0000,bottom
-"R4","2k2","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",86.7100,44.9100,180.0000,bottom
+"R4","2k7","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",86.7100,44.9100,180.0000,bottom
 "R5","5k1","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",37.9420,17.7320,0.0000,bottom
 "R6","1k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",30.8300,17.7320,180.0000,bottom
 "R7","5k1","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",65.1200,45.9260,180.0000,bottom
