@@ -1,15 +1,15 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
-TP20,/Block Diagram/Schematic/SW,Default,62.0720,49.9900,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP21,/Block Diagram/Schematic/Src,Default,45.8160,11.3820,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP22,/Block Diagram/Schematic/Isns,Default,29.0520,11.3820,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP23,/Block Diagram/Schematic/PWM,Default,45.8160,20.0180,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP24,/Block Diagram/Schematic/Vfb,Default,20.6700,16.2080,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP25,/Block Diagram/Schematic/Comp,Default,20.6700,20.5260,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP26,/Block Diagram/Schematic/OpEm,Default,20.6700,24.8440,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP27,/Block Diagram/Schematic/U500_sec,"HV,Secondary,Default",91.5360,11.3820,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP20,/Block Diagram/Schematic/SW,Default,62.0720,49.2280,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP21,/Block Diagram/Schematic/Src,Default,26.7660,15.1920,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP22,/Block Diagram/Schematic/Isns,Default,29.0520,11.6360,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP23,/Block Diagram/Schematic/PWM,Default,45.0540,17.2240,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP24,/Block Diagram/Schematic/Vfb,Default,28.0360,19.5100,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP25,/Block Diagram/Schematic/Comp,Default,30.8300,23.5740,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP26,/Block Diagram/Schematic/OpEm,Default,25.7500,23.5740,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP27,/Block Diagram/Schematic/U500_sec,"HV,Secondary,Default",81.6300,14.6840,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
 TP28,Sec_GND,"Secondary,Default",96.3620,11.3820,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP29,GND,GND,24.7340,11.3820,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP31,/Block Diagram/Schematic/Vin_p,Default,43.0220,49.9900,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP32,GND,GND,25.2420,20.5260,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP33,GND,GND,57.7540,49.9900,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP29,GND,GND,24.4800,11.6360,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP31,/Block Diagram/Schematic/Vin_p,Default,43.0220,47.1960,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP32,GND,GND,20.9240,23.5740,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+TP33,GND,GND,57.7540,49.2280,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
 TP34,/Block Diagram/Schematic/U5_sec,"Secondary,Default",82.1380,37.5440,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded

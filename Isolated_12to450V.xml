@@ -58,7 +58,7 @@
 
 	BOARD SIZE				85.000 × 47.800 mm
 	BOARD THICKNESS		1.660 mm
-	TRACE WIDTH			0.200 mm
+	TRACE WIDTH			0.400 mm
 	TRACE TO TRACE		-0.000 mm
 	MIN. HOLE (PTH)			0.250 mm
 	MIN. HOLE (NPTH)		2.100 mm
@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">34dba06</textvar>
+    <textvar name="GIT_HASH_PCB">f8869b7</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -95,8 +95,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">31-Jan-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-01-31</textvar>
+    <textvar name="RELEASE_DATE">01-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-01</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -611,11 +611,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </comp>
     <comp ref="F1">
       <value>10A</value>
-      <footprint>Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal</footprint>
+      <footprint>Personal:Fuse_5x20mm_w_holders</footprint>
       <datasheet>~</datasheet>
       <description>Fuse</description>
       <fields>
-        <field name="Footprint">Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal</field>
+        <field name="Footprint">Personal:Fuse_5x20mm_w_holders</field>
         <field name="Datasheet">~</field>
         <field name="Description">Fuse</field>
       </fields>

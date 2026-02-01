@@ -14,7 +14,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 13,1,D23,BZT52B5V1,~,D_SOD-123,Zener diode,,,
 14,1,D20,PMEG4010CEH,https://assets.nexperia.com/documents/data-sheet/PMEG4010CEH_PMEG4010CEJ.pdf,D_SOD-123F,"40V, 1A very low Vf MEGA Schottky barrier rectifier, SOD-123F",,,
 15,1,D4,UF4007,~,D_A-405_P10.16mm_Horizontal,Diode,,,
-16,1,F1,10A,~,Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal,Fuse,,,
+16,1,F1,10A,~,Fuse_5x20mm_w_holders,Fuse,,,
 17,3,J1 J20 J21,Screw_Terminal_01x04,~,"TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal","Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/) Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)",,,
 18,1,Mod20,WB2405S-1W,,WB___S-1W,,RLT,,
 19,1,Q20,BC817,https://www.onsemi.com/pub/Collateral/BC818-D.pdf,SOT-23,"0.8A Ic, 45V Vce, NPN Transistor, SOT-23",,,
