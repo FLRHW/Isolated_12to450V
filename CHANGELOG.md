@@ -2,34 +2,25 @@
 
 ## [Unreleased]
 
-### Updated UC3845 symbol
-Added R29 as feed-forward option
-Updated UC3845 symbol
+### Added R29 as feed-forward option
 Isolated primary ("LV") and secondary ("HV") sides
-Reorganised schematic for readability
-Replaced reverse polarity protection circuit by one based on a P-channel MOSFET
-Added dedicated screw terminals for input power and reused existing 4-way connector for the output
-Replaced C6 from 100 uF elco to 4.7 uF + 100 nF MLCCs
-Reserved footprint for C25 to test a different compensation circuit
-Replaced U1 package from DIP-8 to SOIC-8
-Replaced U21 package from TO-92 to SOT-23
-Replaced U20 from SH816 to TCMT1108
-Replaced Q20 from 2N2222 to BC817
-Reworked slope compensation / ramp generation
-Updated fuse clip footprint
+Updated reverse polarity protection (based on P-channel MOSFET)
+Added dedicated connectors for supply input
+Replaced C6 (100 uF elco -> 4.7 uF + 100 nF MLCCs)
+Added C25 to support testing
+Replaced packages (U1: DIP-8 -> SOIC-8; U21: TO-92 -> SOT-23)
+Replaced U20 (SH816 -> TCMT1108)
+Replaced Q20 (2N2222 -> BC817)
+Reworked slope compensation
+Updated F1 footprint and 3D model
 Added part number to D4
-Updated decoupling of Mod20
-Updated diameter of C23 to 6.3 mm
+Updated Mod20 decoupling and added R30 as load
 Added testpoints
-Added resistor to ensure min. load on 5 V rail
 Added clearance rules
-Added 3D model for fuse and its holder
-Routing complete
-ERC & DRC passed
 
 TODO
-- copy libraries
-- update readme
+- check sizes on paper mock update
+- check fabrication
 
 ## [1.0.0] - 2026-01-24
 

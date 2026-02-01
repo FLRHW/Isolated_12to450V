@@ -1,0 +1,143 @@
+(footprint "WB___S-1W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.715 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f20d3513-282a-4319-9cb9-aeb296d2bb8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "WB***S-1W"
+		(at 0 -3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b008a5a-25c1-40d7-ad7f-c78475a7c196")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79c8d230-aa3a-47e4-a8ba-c99f6a41d1e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4b39ea1-bffc-40a4-9c6d-aa3235db04bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.05 -3.25)
+		(end 6.05 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7cf80179-6656-492a-80d9-2c5c9e30d52f")
+	)
+	(fp_rect
+		(start -5.8 -3)
+		(end 5.8 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1b2a6127-39da-4692-b3a8-7a886d553288")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92fe8443-3499-44dc-bbd2-a87e5f61f876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.81 2.1)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "f0722eea-3ea4-4025-b2a6-99006250825a")
+	)
+	(pad "2" thru_hole oval
+		(at -1.27 2.1)
+		(size 1.2 1.8)
+		(drill 0.7
+			(offset -0.1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 1)
+		(uuid "a4dd8633-8a54-4e57-b5f7-f31504f22439")
+	)
+	(pad "3" thru_hole oval
+		(at 1.27 2.1)
+		(size 1.2 1.8)
+		(drill 0.7
+			(offset 0.1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 1)
+		(uuid "582abd53-8571-4e6e-ab0e-003c35118bc4")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 2.1)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b99ac5d-3f30-4aab-bc08-c085eb92ec77")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/WB____S-1W.step"
+		(offset
+			(xyz 0 -2.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
