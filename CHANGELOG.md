@@ -18,17 +18,17 @@ Replaced Q20 from 2N2222 to BC817
 Reworked slope compensation / ramp generation
 Updated fuse clip footprint
 Added part number to D4
-Layout candidate #1 produced
 Updated decoupling of Mod20
 Updated diameter of C23 to 6.3 mm
-Layout candidate #2 produced (draft)
 Added testpoints
 Added resistor to ensure min. load on 5 V rail
 Added clearance rules
+Added 3D model for fuse and its holder
+Routing complete
+ERC & DRC passed
 
 TODO
 - copy libraries
-- model fuse holder
 - update readme
 
 ## [1.0.0] - 2026-01-24

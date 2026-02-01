@@ -13769,7 +13769,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal"
+		(property "Footprint" "Personal:Fuse_5x20mm_w_holders"
 			(at 227.33 70.358 90)
 			(effects
 				(font
