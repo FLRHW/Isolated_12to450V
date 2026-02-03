@@ -56,7 +56,7 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				85.000 × 47.800 mm
+	BOARD SIZE				100.000 × 100.000 mm
 	BOARD THICKNESS		1.660 mm
 	TRACE WIDTH			0.400 mm
 	TRACE TO TRACE		-0.000 mm
@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">da3196a</textvar>
+    <textvar name="GIT_HASH_PCB">3c81618</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -95,8 +95,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">01-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-01</textvar>
+    <textvar name="RELEASE_DATE">03-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-03</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -702,6 +702,120 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>6a4c4f2d-b06b-4a2b-9b91-76f4855fa11f</tstamps>
+    </comp>
+    <comp ref="H20">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>3278aed1-21d7-4f09-a694-6455d83d92a9</tstamps>
+    </comp>
+    <comp ref="H21">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>848968b5-7317-495f-9e2d-8bad96e8b26a</tstamps>
+    </comp>
+    <comp ref="H22">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>5c3040cc-5344-477d-b3ed-dc3692414927</tstamps>
+    </comp>
+    <comp ref="H23">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f2d90af5-06ea-4b0a-b8b0-c0be17857798</tstamps>
+    </comp>
+    <comp ref="H24">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>2a1fdc01-aabb-4daf-86cb-c81cffbe49a7</tstamps>
+    </comp>
+    <comp ref="H25">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>fb6cdfa7-c42c-4e04-9ec2-22f99fa1d55d</tstamps>
     </comp>
     <comp ref="J1">
       <value>Screw_Terminal_01x04</value>
@@ -1795,6 +1909,62 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>ad4dd466-39da-4dc2-a3ca-59acd44d0e72</tstamps>
     </comp>
+    <comp ref="U22">
+      <value>UC3845</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="UC3845" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>9d573475-1de0-4cbd-acea-53e4c3d4f559</tstamps>
+    </comp>
+    <comp ref="U23">
+      <value>UC3845</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="UC3845" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>3a35b780-290d-4488-b097-ce6462bf3cc0</tstamps>
+    </comp>
+    <comp ref="U24">
+      <value>UC3845</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="UC3845" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>017882c7-2258-4aaf-9ad0-0da959762ee1</tstamps>
+    </comp>
+    <comp ref="U25">
+      <value>UC3845</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="UC3845" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>ed8d755f-270e-4b7f-b13d-d81e63e07cc2</tstamps>
+    </comp>
     <comp ref="VR1">
       <value>5k</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
@@ -2527,6 +2697,102 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="U21" pin="3" pinfunction="A" pintype="passive"/>
       <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="unconnected-(U22-COMP-Pad1)" class="Default">
+      <node ref="U22" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U22-GND-Pad5)" class="Default">
+      <node ref="U22" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U22-ISENSE-Pad3)" class="Default">
+      <node ref="U22" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U22-OUTPUT-Pad6)" class="Default">
+      <node ref="U22" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U22-RT_CT-Pad4)" class="Default">
+      <node ref="U22" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U22-VCC-Pad7)" class="Default">
+      <node ref="U22" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U22-VFB-Pad2)" class="Default">
+      <node ref="U22" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U22-VREF-Pad8)" class="Default">
+      <node ref="U22" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U23-COMP-Pad1)" class="Default">
+      <node ref="U23" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U23-GND-Pad5)" class="Default">
+      <node ref="U23" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U23-ISENSE-Pad3)" class="Default">
+      <node ref="U23" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U23-OUTPUT-Pad6)" class="Default">
+      <node ref="U23" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U23-RT_CT-Pad4)" class="Default">
+      <node ref="U23" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U23-VCC-Pad7)" class="Default">
+      <node ref="U23" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U23-VFB-Pad2)" class="Default">
+      <node ref="U23" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U23-VREF-Pad8)" class="Default">
+      <node ref="U23" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U24-COMP-Pad1)" class="Default">
+      <node ref="U24" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U24-GND-Pad5)" class="Default">
+      <node ref="U24" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U24-ISENSE-Pad3)" class="Default">
+      <node ref="U24" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U24-OUTPUT-Pad6)" class="Default">
+      <node ref="U24" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U24-RT_CT-Pad4)" class="Default">
+      <node ref="U24" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U24-VCC-Pad7)" class="Default">
+      <node ref="U24" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U24-VFB-Pad2)" class="Default">
+      <node ref="U24" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U24-VREF-Pad8)" class="Default">
+      <node ref="U24" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U25-COMP-Pad1)" class="Default">
+      <node ref="U25" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U25-GND-Pad5)" class="Default">
+      <node ref="U25" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U25-ISENSE-Pad3)" class="Default">
+      <node ref="U25" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U25-OUTPUT-Pad6)" class="Default">
+      <node ref="U25" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U25-RT_CT-Pad4)" class="Default">
+      <node ref="U25" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U25-VCC-Pad7)" class="Default">
+      <node ref="U25" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U25-VFB-Pad2)" class="Default">
+      <node ref="U25" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U25-VREF-Pad8)" class="Default">
+      <node ref="U25" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
     </net>
   </nets>
 </export>

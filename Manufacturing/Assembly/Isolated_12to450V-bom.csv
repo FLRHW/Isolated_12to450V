@@ -37,4 +37,4 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 36,1,TR1,Custom_1:19.5,,Tr12to450V_Alixp,,,,
 37,1,U20,TCMT1108,http://www.vishay.com/docs/83510/tcmt1100.pdf,SOP-4_4.4x2.6mm_P1.27mm,"Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4",,,
 38,1,U21,TL431M,,SOT-23,"Shunt Regulator, SOT-23",,,
-39,1,U1,UC3845,,DIP-8_W7.62mm,,,,
+39,5,U1 U22 U23 U24 U25,UC3845,,DIP-8_W7.62mm,,,,
