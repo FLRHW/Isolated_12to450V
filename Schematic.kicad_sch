@@ -6049,7 +6049,7 @@
 	)
 	(text_box "Estimated specs for unidentified / custom parts:\n- R9: ~13.7 mΩ (110 mV @ 8.04 A)\n- TR1: ~1:19.5 turns ratio, 3.54:1453 uH "
 		(exclude_from_sim no)
-		(at 266.7 190.5 0)
+		(at 266.7 193.04 0)
 		(size 63.5 12.7)
 		(margins 2 2 2 2)
 		(stroke
