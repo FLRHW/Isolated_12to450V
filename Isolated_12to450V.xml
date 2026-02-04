@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">3c81618</textvar>
+    <textvar name="GIT_HASH_PCB">af0b929</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -95,8 +95,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">03-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-03</textvar>
+    <textvar name="RELEASE_DATE">04-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-04</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -507,6 +507,24 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_fp_filters" value="CP_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>41edc753-d924-444a-97ca-ad5a5cc137fe</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>1.5n</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>abd13b9a-3a4d-48bd-8cd9-701c6e316ad3</tstamps>
     </comp>
     <comp ref="D4">
       <value>UF4007</value>
@@ -1770,6 +1788,24 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>3c480014-ee72-4fe8-a9b3-d1125e31dc39</tstamps>
     </comp>
+    <comp ref="TP30">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>180b8ac6-8f6d-4f79-9f97-4e16e590ab3a</tstamps>
+    </comp>
     <comp ref="TP31">
       <value>TestPoint_Alt</value>
       <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
@@ -2653,6 +2689,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     </net>
     <net code="37" name="/Block Diagram/Schematic/U500_tr_sec" class="Default">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="TP30" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="7" pintype="passive"/>
     </net>
     <net code="38" name="/Block Diagram/Schematic/Vfb" class="Default">
@@ -2668,6 +2705,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -2688,6 +2726,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <net code="40" name="U0_sec" class="Default">
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Mod20" pin="3" pinfunction="0V" pintype="passive"/>

@@ -1,4 +1,4 @@
-_local_|2026-02-03|root|Local changes not committed|False|True
+_local_|2026-02-04|root|Local changes not committed|False|True
+af0b929|2026-02-04|FLRHW|Layout rework in progress after checking paper mock up|True|True
 98eec19|2026-02-03|FLRHW|Investigating CI failure, no design changes|True|False
 3c81618|2026-02-02|FLRHW|Added other design into PCB to take advantage of 100 x 100 mm limit from JLCPCB|True|True
-da3196a|2026-02-01|FLRHW|Libraries added, revision notes and readme updated|True|True
