@@ -14,11 +14,15 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C27","4.7u","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",127.8580,29.9240,180.0000,bottom
 "C28","100u","CP_Radial_D6.3mm_P2.50mm",138.2283,33.6121,45.0000,top
 "C29","1.5n","C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal",123.7270,48.8470,0.0000,top
-"D4","UF4007","D_A-405_P10.16mm_Horizontal",121.0000,10.3660,180.0000,top
+"D4","UF4007","D_A-405_P10.16mm_Horizontal",115.0310,10.3660,180.0000,top
 "D20","PMEG4010CEH","D_SOD-123F",91.7900,11.6360,-90.0000,bottom
 "D22","BZT52B15","D_SOD-123F",87.9800,41.3540,-90.0000,bottom
 "D23","BZT52B5V1","D_SOD-123",121.0000,24.5900,180.0000,bottom
 "F1","10A","Fuse_5x20mm_w_holders",83.0270,39.4490,-90.0000,top
+"IP20","Adaptor 8:8 pins","Soic-8_to_DIP-8",161.6400,48.5930,0.0000,top
+"IP21","Adaptor 8:8 pins","Soic-8_to_DIP-8",161.6400,36.5280,0.0000,top
+"IP22","Adaptor 8:8 pins","Soic-8_to_DIP-8",161.6400,24.7170,0.0000,top
+"IP23","Adaptor 8:8 pins","Soic-8_to_DIP-8",161.6400,12.7790,0.0000,top
 "J1","Screw_Terminal_01x04","TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal",148.4320,32.6240,90.0000,top
 "J20","T44007","T44007",74.1370,41.9890,0.0000,top
 "J21","T44007","T44007",74.1370,26.1140,180.0000,top
@@ -65,8 +69,4 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "U1","UC3845","DIP-8_W7.62mm",84.9370,23.8280,0.0000,top
 "U20","TCMT1108","SOP-4_4.4x2.6mm_P1.27mm",136.2400,22.3040,180.0000,bottom
 "U21","TL431M","SOT-23",136.7480,38.5600,180.0000,bottom
-"U22","UC3845","Soic-8_to_DIP-8",162.0210,47.7040,0.0000,top
-"U23","UC3845","Soic-8_to_DIP-8",162.0210,36.1470,0.0000,top
-"U24","UC3845","Soic-8_to_DIP-8",162.0210,25.0980,0.0000,top
-"U25","UC3845","Soic-8_to_DIP-8",162.0210,13.5410,0.0000,top
 "VR1","5k","Potentiometer_Bourns_3296W_Vertical",134.9700,48.8470,180.0000,top

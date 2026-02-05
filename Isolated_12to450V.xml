@@ -63,10 +63,10 @@
 	MIN. HOLE (PTH)			0.250 mm
 	MIN. HOLE (NPTH)		2.100 mm
 	ANNULAR RING			0.150 mm
-	COPPER TO HOLE		0.254 mm
+	COPPER TO HOLE		0.000 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">af0b929</textvar>
+    <textvar name="GIT_HASH_PCB">f1c6b62</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -95,8 +95,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">04-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-04</textvar>
+    <textvar name="RELEASE_DATE">05-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-05</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -834,6 +834,70 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>fb6cdfa7-c42c-4e04-9ec2-22f99fa1d55d</tstamps>
+    </comp>
+    <comp ref="IP20">
+      <value>Adaptor 8:8 pins</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <description>Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</description>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</field>
+      </fields>
+      <libsource lib="personal" part="Adaptor_8_to_8" description="Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>9c1c4c2e-bb9e-4bcc-9733-af06b148c5a6</tstamps>
+    </comp>
+    <comp ref="IP21">
+      <value>Adaptor 8:8 pins</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <description>Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</description>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</field>
+      </fields>
+      <libsource lib="personal" part="Adaptor_8_to_8" description="Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>70f283ae-d20a-410a-a70f-290b1a2d8aca</tstamps>
+    </comp>
+    <comp ref="IP22">
+      <value>Adaptor 8:8 pins</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <description>Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</description>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</field>
+      </fields>
+      <libsource lib="personal" part="Adaptor_8_to_8" description="Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>97afc7a0-5905-466f-8c44-b8c9e09e25d1</tstamps>
+    </comp>
+    <comp ref="IP23">
+      <value>Adaptor 8:8 pins</value>
+      <footprint>Personal:Soic-8_to_DIP-8</footprint>
+      <description>Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</description>
+      <fields>
+        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</field>
+      </fields>
+      <libsource lib="personal" part="Adaptor_8_to_8" description="Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>8543b97f-2e81-418a-a6a8-5a19b1822202</tstamps>
     </comp>
     <comp ref="J1">
       <value>Screw_Terminal_01x04</value>
@@ -1945,62 +2009,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>ad4dd466-39da-4dc2-a3ca-59acd44d0e72</tstamps>
     </comp>
-    <comp ref="U22">
-      <value>UC3845</value>
-      <footprint>Personal:Soic-8_to_DIP-8</footprint>
-      <fields>
-        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="UC3845" description=""/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>9d573475-1de0-4cbd-acea-53e4c3d4f559</tstamps>
-    </comp>
-    <comp ref="U23">
-      <value>UC3845</value>
-      <footprint>Personal:Soic-8_to_DIP-8</footprint>
-      <fields>
-        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="UC3845" description=""/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>3a35b780-290d-4488-b097-ce6462bf3cc0</tstamps>
-    </comp>
-    <comp ref="U24">
-      <value>UC3845</value>
-      <footprint>Personal:Soic-8_to_DIP-8</footprint>
-      <fields>
-        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="UC3845" description=""/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>017882c7-2258-4aaf-9ad0-0da959762ee1</tstamps>
-    </comp>
-    <comp ref="U25">
-      <value>UC3845</value>
-      <footprint>Personal:Soic-8_to_DIP-8</footprint>
-      <fields>
-        <field name="Footprint">Personal:Soic-8_to_DIP-8</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="personal" part="UC3845" description=""/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>ed8d755f-270e-4b7f-b13d-d81e63e07cc2</tstamps>
-    </comp>
     <comp ref="VR1">
       <value>5k</value>
       <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
@@ -2397,6 +2405,34 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="personal" part="Adaptor_8_to_8">
+      <description>Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</description>
+      <fields>
+        <field name="Reference">IP</field>
+        <field name="Value">Adaptor 8:8 pins</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic interposer / adaptor simbol (e.g. dip 8 to soic 8)</field>
+      </fields>
+      <pins>
+        <pin num="1A" name="1A" type="passive"/>
+        <pin num="1B" name="1B" type="passive"/>
+        <pin num="2A" name="2A" type="passive"/>
+        <pin num="2B" name="2B" type="passive"/>
+        <pin num="3A" name="3A" type="passive"/>
+        <pin num="3B" name="3B" type="passive"/>
+        <pin num="4A" name="4A" type="passive"/>
+        <pin num="4B" name="4B" type="passive"/>
+        <pin num="5A" name="5" type="passive"/>
+        <pin num="5B" name="5B" type="passive"/>
+        <pin num="6A" name="6A" type="passive"/>
+        <pin num="6B" name="6B" type="passive"/>
+        <pin num="7A" name="7A" type="passive"/>
+        <pin num="7B" name="7B" type="passive"/>
+        <pin num="8A" name="8A" type="passive"/>
+        <pin num="8B" name="8B" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="personal" part="Cosmetic_PWR">
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
@@ -2492,34 +2528,162 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="Q20" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R24" pin="2" pintype="passive"/>
     </net>
-    <net code="2" name="/Block Diagram/Schematic/Comp" class="Default">
+    <net code="2" name="/Block Diagram/Schematic/CL0" class="Default">
+      <node ref="IP20" pin="1A" pinfunction="1A" pintype="passive"/>
+      <node ref="IP20" pin="1B" pinfunction="1B" pintype="passive"/>
+    </net>
+    <net code="3" name="/Block Diagram/Schematic/CL1" class="Default">
+      <node ref="IP20" pin="2A" pinfunction="2A" pintype="passive"/>
+      <node ref="IP20" pin="2B" pinfunction="2B" pintype="passive"/>
+    </net>
+    <net code="4" name="/Block Diagram/Schematic/CL2" class="Default">
+      <node ref="IP20" pin="3A" pinfunction="3A" pintype="passive"/>
+      <node ref="IP20" pin="3B" pinfunction="3B" pintype="passive"/>
+    </net>
+    <net code="5" name="/Block Diagram/Schematic/CL3" class="Default">
+      <node ref="IP20" pin="4A" pinfunction="4A" pintype="passive"/>
+      <node ref="IP20" pin="4B" pinfunction="4B" pintype="passive"/>
+    </net>
+    <net code="6" name="/Block Diagram/Schematic/CL4" class="Default">
+      <node ref="IP20" pin="5A" pinfunction="5" pintype="passive"/>
+      <node ref="IP20" pin="5B" pinfunction="5B" pintype="passive"/>
+    </net>
+    <net code="7" name="/Block Diagram/Schematic/CL5" class="Default">
+      <node ref="IP20" pin="6A" pinfunction="6A" pintype="passive"/>
+      <node ref="IP20" pin="6B" pinfunction="6B" pintype="passive"/>
+    </net>
+    <net code="8" name="/Block Diagram/Schematic/CL6" class="Default">
+      <node ref="IP20" pin="7A" pinfunction="7A" pintype="passive"/>
+      <node ref="IP20" pin="7B" pinfunction="7B" pintype="passive"/>
+    </net>
+    <net code="9" name="/Block Diagram/Schematic/CL7" class="Default">
+      <node ref="IP20" pin="8A" pinfunction="8A" pintype="passive"/>
+      <node ref="IP20" pin="8B" pinfunction="8B" pintype="passive"/>
+    </net>
+    <net code="10" name="/Block Diagram/Schematic/CL8" class="Default">
+      <node ref="IP21" pin="1A" pinfunction="1A" pintype="passive"/>
+      <node ref="IP21" pin="1B" pinfunction="1B" pintype="passive"/>
+    </net>
+    <net code="11" name="/Block Diagram/Schematic/CL9" class="Default">
+      <node ref="IP21" pin="2A" pinfunction="2A" pintype="passive"/>
+      <node ref="IP21" pin="2B" pinfunction="2B" pintype="passive"/>
+    </net>
+    <net code="12" name="/Block Diagram/Schematic/CL10" class="Default">
+      <node ref="IP21" pin="3A" pinfunction="3A" pintype="passive"/>
+      <node ref="IP21" pin="3B" pinfunction="3B" pintype="passive"/>
+    </net>
+    <net code="13" name="/Block Diagram/Schematic/CL11" class="Default">
+      <node ref="IP21" pin="4A" pinfunction="4A" pintype="passive"/>
+      <node ref="IP21" pin="4B" pinfunction="4B" pintype="passive"/>
+    </net>
+    <net code="14" name="/Block Diagram/Schematic/CL12" class="Default">
+      <node ref="IP21" pin="5A" pinfunction="5" pintype="passive"/>
+      <node ref="IP21" pin="5B" pinfunction="5B" pintype="passive"/>
+    </net>
+    <net code="15" name="/Block Diagram/Schematic/CL13" class="Default">
+      <node ref="IP21" pin="6A" pinfunction="6A" pintype="passive"/>
+      <node ref="IP21" pin="6B" pinfunction="6B" pintype="passive"/>
+    </net>
+    <net code="16" name="/Block Diagram/Schematic/CL14" class="Default">
+      <node ref="IP21" pin="7A" pinfunction="7A" pintype="passive"/>
+      <node ref="IP21" pin="7B" pinfunction="7B" pintype="passive"/>
+    </net>
+    <net code="17" name="/Block Diagram/Schematic/CL15" class="Default">
+      <node ref="IP21" pin="8A" pinfunction="8A" pintype="passive"/>
+      <node ref="IP21" pin="8B" pinfunction="8B" pintype="passive"/>
+    </net>
+    <net code="18" name="/Block Diagram/Schematic/CL16" class="Default">
+      <node ref="IP22" pin="1A" pinfunction="1A" pintype="passive"/>
+      <node ref="IP22" pin="1B" pinfunction="1B" pintype="passive"/>
+    </net>
+    <net code="19" name="/Block Diagram/Schematic/CL17" class="Default">
+      <node ref="IP22" pin="2A" pinfunction="2A" pintype="passive"/>
+      <node ref="IP22" pin="2B" pinfunction="2B" pintype="passive"/>
+    </net>
+    <net code="20" name="/Block Diagram/Schematic/CL18" class="Default">
+      <node ref="IP22" pin="3A" pinfunction="3A" pintype="passive"/>
+      <node ref="IP22" pin="3B" pinfunction="3B" pintype="passive"/>
+    </net>
+    <net code="21" name="/Block Diagram/Schematic/CL19" class="Default">
+      <node ref="IP22" pin="4A" pinfunction="4A" pintype="passive"/>
+      <node ref="IP22" pin="4B" pinfunction="4B" pintype="passive"/>
+    </net>
+    <net code="22" name="/Block Diagram/Schematic/CL20" class="Default">
+      <node ref="IP22" pin="5A" pinfunction="5" pintype="passive"/>
+      <node ref="IP22" pin="5B" pinfunction="5B" pintype="passive"/>
+    </net>
+    <net code="23" name="/Block Diagram/Schematic/CL21" class="Default">
+      <node ref="IP22" pin="6A" pinfunction="6A" pintype="passive"/>
+      <node ref="IP22" pin="6B" pinfunction="6B" pintype="passive"/>
+    </net>
+    <net code="24" name="/Block Diagram/Schematic/CL22" class="Default">
+      <node ref="IP22" pin="7A" pinfunction="7A" pintype="passive"/>
+      <node ref="IP22" pin="7B" pinfunction="7B" pintype="passive"/>
+    </net>
+    <net code="25" name="/Block Diagram/Schematic/CL23" class="Default">
+      <node ref="IP22" pin="8A" pinfunction="8A" pintype="passive"/>
+      <node ref="IP22" pin="8B" pinfunction="8B" pintype="passive"/>
+    </net>
+    <net code="26" name="/Block Diagram/Schematic/CL24" class="Default">
+      <node ref="IP23" pin="1A" pinfunction="1A" pintype="passive"/>
+      <node ref="IP23" pin="1B" pinfunction="1B" pintype="passive"/>
+    </net>
+    <net code="27" name="/Block Diagram/Schematic/CL25" class="Default">
+      <node ref="IP23" pin="2A" pinfunction="2A" pintype="passive"/>
+      <node ref="IP23" pin="2B" pinfunction="2B" pintype="passive"/>
+    </net>
+    <net code="28" name="/Block Diagram/Schematic/CL26" class="Default">
+      <node ref="IP23" pin="3A" pinfunction="3A" pintype="passive"/>
+      <node ref="IP23" pin="3B" pinfunction="3B" pintype="passive"/>
+    </net>
+    <net code="29" name="/Block Diagram/Schematic/CL27" class="Default">
+      <node ref="IP23" pin="4A" pinfunction="4A" pintype="passive"/>
+      <node ref="IP23" pin="4B" pinfunction="4B" pintype="passive"/>
+    </net>
+    <net code="30" name="/Block Diagram/Schematic/CL28" class="Default">
+      <node ref="IP23" pin="5A" pinfunction="5" pintype="passive"/>
+      <node ref="IP23" pin="5B" pinfunction="5B" pintype="passive"/>
+    </net>
+    <net code="31" name="/Block Diagram/Schematic/CL29" class="Default">
+      <node ref="IP23" pin="6A" pinfunction="6A" pintype="passive"/>
+      <node ref="IP23" pin="6B" pinfunction="6B" pintype="passive"/>
+    </net>
+    <net code="32" name="/Block Diagram/Schematic/CL30" class="Default">
+      <node ref="IP23" pin="7A" pinfunction="7A" pintype="passive"/>
+      <node ref="IP23" pin="7B" pinfunction="7B" pintype="passive"/>
+    </net>
+    <net code="33" name="/Block Diagram/Schematic/CL31" class="Default">
+      <node ref="IP23" pin="8A" pinfunction="8A" pintype="passive"/>
+      <node ref="IP23" pin="8B" pinfunction="8B" pintype="passive"/>
+    </net>
+    <net code="34" name="/Block Diagram/Schematic/Comp" class="Default">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="COMP" pintype="output"/>
     </net>
-    <net code="3" name="/Block Diagram/Schematic/E" class="Default">
+    <net code="35" name="/Block Diagram/Schematic/E" class="Default">
       <node ref="Q20" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
     </net>
-    <net code="4" name="/Block Diagram/Schematic/Gate" class="Default">
+    <net code="36" name="/Block Diagram/Schematic/Gate" class="Default">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="5" name="/Block Diagram/Schematic/Isns" class="Default">
+    <net code="37" name="/Block Diagram/Schematic/Isns" class="Default">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="ISENSE" pintype="input"/>
     </net>
-    <net code="6" name="/Block Diagram/Schematic/OpCol" class="Default">
+    <net code="38" name="/Block Diagram/Schematic/OpCol" class="Default">
       <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="U20" pin="4" pintype="passive"/>
     </net>
-    <net code="7" name="/Block Diagram/Schematic/OpEm" class="Default">
+    <net code="39" name="/Block Diagram/Schematic/OpEm" class="Default">
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
@@ -2527,69 +2691,64 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U20" pin="3" pintype="passive"/>
     </net>
-    <net code="8" name="/Block Diagram/Schematic/PWM" class="Default">
+    <net code="40" name="/Block Diagram/Schematic/PWM" class="Default">
       <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="OUTPUT" pintype="output"/>
     </net>
-    <net code="9" name="/Block Diagram/Schematic/Pri_NR3" class="Default">
-      <node ref="TR1" pin="3" pintype="passive+no_connect"/>
-    </net>
-    <net code="10" name="/Block Diagram/Schematic/Pri_NR4" class="Default">
+    <net code="41" name="/Block Diagram/Schematic/Pri_NR4" class="Default">
       <node ref="TR1" pin="4" pintype="passive+no_connect"/>
     </net>
-    <net code="11" name="/Block Diagram/Schematic/Pri_NR6" class="Default">
-      <node ref="TR1" pin="6" pintype="passive+no_connect"/>
-    </net>
-    <net code="12" name="/Block Diagram/Schematic/RP_Gate" class="Default">
+    <net code="42" name="/Block Diagram/Schematic/RP_Gate" class="Default">
       <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="/Block Diagram/Schematic/RT_CT" class="Default">
+    <net code="43" name="/Block Diagram/Schematic/RT_CT" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="RT_CT" pintype="input"/>
     </net>
-    <net code="14" name="/Block Diagram/Schematic/Ramp" class="Default">
+    <net code="44" name="/Block Diagram/Schematic/Ramp" class="Default">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="/Block Diagram/Schematic/SW" class="Default">
+    <net code="45" name="/Block Diagram/Schematic/SW" class="Default">
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="2" pintype="passive"/>
+      <node ref="TR1" pin="3" pintype="passive"/>
     </net>
-    <net code="16" name="/Block Diagram/Schematic/Sec_NR8" class="Default">
+    <net code="46" name="/Block Diagram/Schematic/Sec_NR8" class="Default">
       <node ref="TR1" pin="8" pintype="passive+no_connect"/>
     </net>
-    <net code="17" name="/Block Diagram/Schematic/Sec_NR9" class="Default">
+    <net code="47" name="/Block Diagram/Schematic/Sec_NR9" class="Default">
       <node ref="TR1" pin="9" pintype="passive+no_connect"/>
     </net>
-    <net code="18" name="/Block Diagram/Schematic/Sec_NR10" class="Default">
+    <net code="48" name="/Block Diagram/Schematic/Sec_NR10" class="Default">
       <node ref="TR1" pin="10" pintype="passive+no_connect"/>
     </net>
-    <net code="19" name="/Block Diagram/Schematic/Sec_NR11" class="Default">
+    <net code="49" name="/Block Diagram/Schematic/Sec_NR11" class="Default">
       <node ref="TR1" pin="11" pintype="passive+no_connect"/>
     </net>
-    <net code="20" name="/Block Diagram/Schematic/Sec_NR12" class="Default">
+    <net code="50" name="/Block Diagram/Schematic/Sec_NR12" class="Default">
       <node ref="TR1" pin="12" pintype="passive+no_connect"/>
     </net>
-    <net code="21" name="/Block Diagram/Schematic/Sec_NR_2" class="Default">
+    <net code="51" name="/Block Diagram/Schematic/Sec_NR_2" class="Default">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="22" name="/Block Diagram/Schematic/Sec_NR_3" class="Default">
+    <net code="52" name="/Block Diagram/Schematic/Sec_NR_3" class="Default">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="23" name="/Block Diagram/Schematic/Sec_OpA" class="Default">
+    <net code="53" name="/Block Diagram/Schematic/Sec_OpA" class="Default">
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="U20" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="/Block Diagram/Schematic/Sec_OpK" class="Default">
+    <net code="54" name="/Block Diagram/Schematic/Sec_OpK" class="Default">
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
@@ -2597,37 +2756,37 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="U20" pin="2" pintype="passive"/>
       <node ref="U21" pin="2" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="25" name="/Block Diagram/Schematic/Sec_comp_mid" class="Default">
+    <net code="55" name="/Block Diagram/Schematic/Sec_comp_mid" class="Default">
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
     </net>
-    <net code="26" name="/Block Diagram/Schematic/Sec_div_h" class="Default">
+    <net code="56" name="/Block Diagram/Schematic/Sec_div_h" class="Default">
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="27" name="/Block Diagram/Schematic/Sec_div_l" class="Default">
+    <net code="57" name="/Block Diagram/Schematic/Sec_div_l" class="Default">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="28" name="/Block Diagram/Schematic/Sec_ref_sns" class="Default">
+    <net code="58" name="/Block Diagram/Schematic/Sec_ref_sns" class="Default">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
     </net>
-    <net code="29" name="/Block Diagram/Schematic/Sec_ss_cap" class="Default">
+    <net code="59" name="/Block Diagram/Schematic/Sec_ss_cap" class="Default">
       <node ref="C23" pin="1" pintype="passive"/>
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="/Block Diagram/Schematic/Src" class="Default">
+    <net code="60" name="/Block Diagram/Schematic/Src" class="Default">
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="31" name="/Block Diagram/Schematic/U5_ref" class="Default">
+    <net code="61" name="/Block Diagram/Schematic/U5_ref" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="P105" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P106" pin="1" pinfunction="1" pintype="passive"/>
@@ -2638,7 +2797,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
     </net>
-    <net code="32" name="/Block Diagram/Schematic/U5_sec" class="Default">
+    <net code="62" name="/Block Diagram/Schematic/U5_sec" class="Default">
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
       <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
@@ -2651,15 +2810,15 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R30" pin="1" pintype="passive"/>
       <node ref="TP34" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="33" name="/Block Diagram/Schematic/U12_f" class="Default">
+    <net code="63" name="/Block Diagram/Schematic/U12_f" class="Default">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="Q21" pin="2" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="34" name="/Block Diagram/Schematic/U12_in" class="Default">
+    <net code="64" name="/Block Diagram/Schematic/U12_in" class="Default">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="35" name="/Block Diagram/Schematic/U12_p" class="Default">
+    <net code="65" name="/Block Diagram/Schematic/U12_p" class="Default">
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
@@ -2676,9 +2835,10 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="5" pintype="passive"/>
+      <node ref="TR1" pin="6" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="36" name="/Block Diagram/Schematic/U500_sec" class="Default">
+    <net code="66" name="/Block Diagram/Schematic/U500_sec" class="Default">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -2687,19 +2847,19 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="37" name="/Block Diagram/Schematic/U500_tr_sec" class="Default">
+    <net code="67" name="/Block Diagram/Schematic/U500_tr_sec" class="Default">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="TP30" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="7" pintype="passive"/>
     </net>
-    <net code="38" name="/Block Diagram/Schematic/Vfb" class="Default">
+    <net code="68" name="/Block Diagram/Schematic/Vfb" class="Default">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VFB" pintype="input"/>
     </net>
-    <net code="39" name="U0" class="Default">
+    <net code="69" name="U0" class="Default">
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
@@ -2723,7 +2883,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="TP33" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="40" name="U0_sec" class="Default">
+    <net code="70" name="U0_sec" class="Default">
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
@@ -2736,102 +2896,6 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <node ref="U21" pin="3" pinfunction="A" pintype="passive"/>
       <node ref="VR1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="VR1" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="41" name="unconnected-(U22-COMP-Pad1)" class="Default">
-      <node ref="U22" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
-    </net>
-    <net code="42" name="unconnected-(U22-GND-Pad5)" class="Default">
-      <node ref="U22" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
-    </net>
-    <net code="43" name="unconnected-(U22-ISENSE-Pad3)" class="Default">
-      <node ref="U22" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
-    </net>
-    <net code="44" name="unconnected-(U22-OUTPUT-Pad6)" class="Default">
-      <node ref="U22" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
-    </net>
-    <net code="45" name="unconnected-(U22-RT_CT-Pad4)" class="Default">
-      <node ref="U22" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
-    </net>
-    <net code="46" name="unconnected-(U22-VCC-Pad7)" class="Default">
-      <node ref="U22" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
-    </net>
-    <net code="47" name="unconnected-(U22-VFB-Pad2)" class="Default">
-      <node ref="U22" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
-    </net>
-    <net code="48" name="unconnected-(U22-VREF-Pad8)" class="Default">
-      <node ref="U22" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
-    </net>
-    <net code="49" name="unconnected-(U23-COMP-Pad1)" class="Default">
-      <node ref="U23" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
-    </net>
-    <net code="50" name="unconnected-(U23-GND-Pad5)" class="Default">
-      <node ref="U23" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
-    </net>
-    <net code="51" name="unconnected-(U23-ISENSE-Pad3)" class="Default">
-      <node ref="U23" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
-    </net>
-    <net code="52" name="unconnected-(U23-OUTPUT-Pad6)" class="Default">
-      <node ref="U23" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
-    </net>
-    <net code="53" name="unconnected-(U23-RT_CT-Pad4)" class="Default">
-      <node ref="U23" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
-    </net>
-    <net code="54" name="unconnected-(U23-VCC-Pad7)" class="Default">
-      <node ref="U23" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
-    </net>
-    <net code="55" name="unconnected-(U23-VFB-Pad2)" class="Default">
-      <node ref="U23" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
-    </net>
-    <net code="56" name="unconnected-(U23-VREF-Pad8)" class="Default">
-      <node ref="U23" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
-    </net>
-    <net code="57" name="unconnected-(U24-COMP-Pad1)" class="Default">
-      <node ref="U24" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
-    </net>
-    <net code="58" name="unconnected-(U24-GND-Pad5)" class="Default">
-      <node ref="U24" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
-    </net>
-    <net code="59" name="unconnected-(U24-ISENSE-Pad3)" class="Default">
-      <node ref="U24" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
-    </net>
-    <net code="60" name="unconnected-(U24-OUTPUT-Pad6)" class="Default">
-      <node ref="U24" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
-    </net>
-    <net code="61" name="unconnected-(U24-RT_CT-Pad4)" class="Default">
-      <node ref="U24" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
-    </net>
-    <net code="62" name="unconnected-(U24-VCC-Pad7)" class="Default">
-      <node ref="U24" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
-    </net>
-    <net code="63" name="unconnected-(U24-VFB-Pad2)" class="Default">
-      <node ref="U24" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
-    </net>
-    <net code="64" name="unconnected-(U24-VREF-Pad8)" class="Default">
-      <node ref="U24" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
-    </net>
-    <net code="65" name="unconnected-(U25-COMP-Pad1)" class="Default">
-      <node ref="U25" pin="1" pinfunction="COMP" pintype="output+no_connect"/>
-    </net>
-    <net code="66" name="unconnected-(U25-GND-Pad5)" class="Default">
-      <node ref="U25" pin="5" pinfunction="GND" pintype="passive+no_connect"/>
-    </net>
-    <net code="67" name="unconnected-(U25-ISENSE-Pad3)" class="Default">
-      <node ref="U25" pin="3" pinfunction="ISENSE" pintype="input+no_connect"/>
-    </net>
-    <net code="68" name="unconnected-(U25-OUTPUT-Pad6)" class="Default">
-      <node ref="U25" pin="6" pinfunction="OUTPUT" pintype="output+no_connect"/>
-    </net>
-    <net code="69" name="unconnected-(U25-RT_CT-Pad4)" class="Default">
-      <node ref="U25" pin="4" pinfunction="RT_CT" pintype="input+no_connect"/>
-    </net>
-    <net code="70" name="unconnected-(U25-VCC-Pad7)" class="Default">
-      <node ref="U25" pin="7" pinfunction="VCC" pintype="passive+no_connect"/>
-    </net>
-    <net code="71" name="unconnected-(U25-VFB-Pad2)" class="Default">
-      <node ref="U25" pin="2" pinfunction="VFB" pintype="input+no_connect"/>
-    </net>
-    <net code="72" name="unconnected-(U25-VREF-Pad8)" class="Default">
-      <node ref="U25" pin="8" pinfunction="VREF" pintype="power_out+no_connect"/>
     </net>
   </nets>
 </export>
