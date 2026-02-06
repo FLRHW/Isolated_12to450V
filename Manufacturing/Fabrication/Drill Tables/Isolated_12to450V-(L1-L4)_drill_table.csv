@@ -1,27 +1,10 @@
 Count,Hole Size,Plated,Hole Shape,Drill Layer Pair,Hole Type
 19,0.25mm (9.84mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,0.30mm (11.81mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,0.40mm (15.75mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,0.50mm (19.69mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,0.60mm (23.62mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,0.70mm (27.56mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-18,0.70mm (27.56mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
-937,0.80mm (31.50mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-41,0.80mm (31.50mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
-1,0.90mm (35.43mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
+2,0.70mm (27.56mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
+25,0.80mm (31.50mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
 17,0.90mm (35.43mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
-1,1.00mm (39.37mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
 16,1.00mm (39.37mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
-1,1.20mm (47.24mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
 3,1.20mm (47.24mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
 8,1.30mm (51.18mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
-1,1.40mm (55.12mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,1.60mm (62.99mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,1.80mm (70.87mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
 8,1.80mm (70.87mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Pad
-1,2.00mm (78.74mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,2.50mm (98.43mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,3.00mm (118.11mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,3.50mm (137.80mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-1,4.00mm (157.48mils),PTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Via
-Total 1083,,,,,
+Total 98,,,,,
