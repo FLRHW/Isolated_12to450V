@@ -206,10 +206,21 @@ outputs:
         colored_holes: true
         holes_color: "#FFFFFF"
         # repeat_for_layer: 'F.Cu'
-        repeat_for_layer: 'B.Cu'                    # NEW
         # repeat_layers: 'copper'
         layers:
           - layer: 'F.Cu'
+
+    # Entirely new block
+      - scaling: @SCALING@
+        sheet: 'B.Cu (Scale @SCALING@:1)'          
+        layer_var: 'B.Cu (Scale @SCALING@:1)'      
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'B.Cu'
+
 
 ...
 definitions:
