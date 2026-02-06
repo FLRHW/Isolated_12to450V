@@ -1,4 +1,4 @@
-_local_|2026-02-05|root|Local changes not committed|False|True
+_local_|2026-02-06|root|Local changes not committed|False|True
+6e67d3e|2026-02-06|FLRHW|Minor changes to resolve potential DFM issues flagged by JLCPCB|True|True
 f1c6b62|2026-02-05|FLRHW|Layout ready and checked|True|True
 af0b929|2026-02-04|FLRHW|Layout rework in progress after checking paper mock up|True|True
-98eec19|2026-02-03|FLRHW|Investigating CI failure, no design changes|True|False

@@ -1,4 +1,21 @@
 Count,Hole Size,Plated,Hole Shape,Drill Layer Pair,Hole Type
+1,0.30mm (11.81mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,0.40mm (15.75mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,0.50mm (19.69mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,0.60mm (23.62mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,0.70mm (27.56mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,0.80mm (31.50mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,0.90mm (35.43mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,1.00mm (39.37mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,1.20mm (47.24mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,1.40mm (55.12mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,1.60mm (62.99mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,1.80mm (70.87mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,2.00mm (78.74mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
 4,2.10mm (82.68mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,2.50mm (98.43mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,3.00mm (118.11mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
 6,3.20mm (125.98mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
-Total 10,,,,,
+1,3.50mm (137.80mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+1,4.00mm (157.48mils),NPTH,Round,"L1 (Ref) - L2 (Sig, PWR)",Mechanical
+Total 27,,,,,

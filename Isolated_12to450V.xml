@@ -61,12 +61,12 @@
 	TRACE WIDTH			0.400 mm
 	TRACE TO TRACE		-0.000 mm
 	MIN. HOLE (PTH)			0.250 mm
-	MIN. HOLE (NPTH)		2.100 mm
+	MIN. HOLE (NPTH)		0.300 mm
 	ANNULAR RING			0.150 mm
 	COPPER TO HOLE		0.000 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">f1c6b62</textvar>
+    <textvar name="GIT_HASH_PCB">6e67d3e</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -95,8 +95,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">05-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-05</textvar>
+    <textvar name="RELEASE_DATE">06-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-06</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -834,6 +834,329 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <property name="ki_fp_filters" value="MountingHole*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>fb6cdfa7-c42c-4e04-9ec2-22f99fa1d55d</tstamps>
+    </comp>
+    <comp ref="H26">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_0.3mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_0.3mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>7ecd0423-643c-4b7f-9f7a-9952fe915e7a</tstamps>
+    </comp>
+    <comp ref="H27">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_0.4mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_0.4mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>80262057-0b17-47ef-89d8-1371ca836a8f</tstamps>
+    </comp>
+    <comp ref="H28">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_0.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_0.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>a1ef02fe-1151-4410-a172-63808d43d19a</tstamps>
+    </comp>
+    <comp ref="H29">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_0.6mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_0.6mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>acec3bce-64e3-4814-8acc-91d59cd79c92</tstamps>
+    </comp>
+    <comp ref="H30">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_0.7mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>91e1537f-3886-4bc0-be1c-dacb09e8f0a2</tstamps>
+    </comp>
+    <comp ref="H31">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_0.8mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_0.8mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>bc6fe6bf-e054-4f85-941b-b297829a0923</tstamps>
+    </comp>
+    <comp ref="H32">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_0.9mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_0.9mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>32ff7f2e-31b3-4f3f-9f96-3dc8ff7fb8b0</tstamps>
+    </comp>
+    <comp ref="H33">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>da0799d6-bb3c-42b9-98a6-c0f49e3a2e24</tstamps>
+    </comp>
+    <comp ref="H34">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.2mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.2mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>4ed29baf-3dda-4944-a3eb-19208a42d49c</tstamps>
+    </comp>
+    <comp ref="H35">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.4mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.4mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>4da1eccf-96c3-49d4-a61e-b56edc70ee13</tstamps>
+    </comp>
+    <comp ref="H36">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.6mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.6mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>91f35231-5df5-473a-803f-b226ef85a993</tstamps>
+    </comp>
+    <comp ref="H37">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_1.8mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_1.8mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>839cb1a2-bbe2-4a11-80b8-448ff81f1030</tstamps>
+    </comp>
+    <comp ref="H38">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_2.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>7ca37ce5-28f6-4b16-a34b-01179a367869</tstamps>
+    </comp>
+    <comp ref="H39">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_2.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>769dec99-0ec0-4ab1-939e-96272e733c16</tstamps>
+    </comp>
+    <comp ref="H40">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_3.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>5967a77c-dbed-4e0a-812f-0384a929b880</tstamps>
+    </comp>
+    <comp ref="H41">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_3.5mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_3.5mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f0c425ea-3133-4c35-bd1c-3dcb9c43cabe</tstamps>
+    </comp>
+    <comp ref="H42">
+      <value>MountingHole</value>
+      <footprint>Personal:Hole_4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Personal:Hole_4.0mm</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>972bc17f-eb4e-4068-93f3-97f58e0c3522</tstamps>
     </comp>
     <comp ref="IP20">
       <value>Adaptor 8:8 pins</value>

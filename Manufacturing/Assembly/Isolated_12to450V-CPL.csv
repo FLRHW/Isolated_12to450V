@@ -19,6 +19,23 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "D22","BZT52B15","D_SOD-123F",87.9800,41.3540,-90.0000,bottom
 "D23","BZT52B5V1","D_SOD-123",121.0000,24.5900,180.0000,bottom
 "F1","10A","Fuse_5x20mm_w_holders",83.0270,39.4490,-90.0000,top
+"H26","MountingHole","Hole_0.3mm",75.2292,-40.9928,0.0000,top
+"H27","MountingHole","Hole_0.4mm",75.1784,-39.2148,0.0000,top
+"H28","MountingHole","Hole_0.5mm",75.1276,-37.4368,0.0000,top
+"H29","MountingHole","Hole_0.6mm",75.0768,-35.6588,0.0000,top
+"H30","MountingHole","Hole_0.7mm",75.0260,-33.8808,0.0000,top
+"H31","MountingHole","Hole_0.8mm",74.9752,-32.1028,0.0000,top
+"H32","MountingHole","Hole_0.9mm",74.9244,-30.3248,0.0000,top
+"H33","MountingHole","Hole_1.0mm",74.8736,-28.5468,0.0000,top
+"H34","MountingHole","Hole_1.2mm",74.7720,-26.5148,0.0000,top
+"H35","MountingHole","Hole_1.4mm",74.6958,-24.4828,0.0000,top
+"H36","MountingHole","Hole_1.6mm",74.5688,-22.1968,0.0000,top
+"H37","MountingHole","Hole_1.8mm",74.4926,-19.6568,0.0000,top
+"H38","MountingHole","Hole_2.0mm",74.3910,-16.8628,0.0000,top
+"H39","MountingHole","Hole_2.5mm",74.1370,-13.5608,0.0000,top
+"H40","MountingHole","Hole_3.0mm",73.8830,-9.7508,0.0000,top
+"H41","MountingHole","Hole_3.5mm",73.6290,-5.3312,0.0000,top
+"H42","MountingHole","Hole_4.0mm",73.3750,0.0028,0.0000,top
 "IP20","Adaptor 8:8 pins","Soic-8_to_DIP-8",161.6400,48.5930,0.0000,top
 "IP21","Adaptor 8:8 pins","Soic-8_to_DIP-8",161.6400,36.5280,0.0000,top
 "IP22","Adaptor 8:8 pins","Soic-8_to_DIP-8",161.6400,24.7170,0.0000,top
