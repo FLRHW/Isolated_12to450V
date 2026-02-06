@@ -56,8 +56,19 @@
 	)
 	(attr through_hole)
 	(fp_rect
+		(start -5.8 -3)
+		(end 5.8 3.2)
+		(stroke
+			(width 0.16)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8f19b729-d990-46cd-a47b-1a72a2e7e8f0")
+	)
+	(fp_rect
 		(start -6.05 -3.25)
-		(end 6.05 3.25)
+		(end 6.05 3.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -78,7 +89,7 @@
 		(uuid "1b2a6127-39da-4692-b3a8-7a886d553288")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 3.81 0)
+		(at 0 4.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "92fe8443-3499-44dc-bbd2-a87e5f61f876")
