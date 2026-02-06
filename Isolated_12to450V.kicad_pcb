@@ -135,7 +135,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(aux_axis_origin 149 98.546)
-		(grid_origin 149.86 97.79)
+		(grid_origin 191.77 72.39)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_555555d5_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_02000000)

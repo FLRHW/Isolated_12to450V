@@ -275,12 +275,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "no_connect_connected|3251200|1117600|973daa5a-38f8-401c-8b80-4f9582f93c71|aaa8d12e-f6ff-444b-904f-45764344d99a|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b|",
-        "Not a problem, Pin 3 is only connected so the polygon on the PCB will not have a hole on it"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
