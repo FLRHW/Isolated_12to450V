@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">5a566fe</textvar>
+    <textvar name="GIT_HASH_PCB">b578a46</textvar>
     <textvar name="GIT_HASH_SCH">120601b</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>

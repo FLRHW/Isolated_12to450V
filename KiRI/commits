@@ -1,4 +1,4 @@
 _local_|2026-02-06|root|Local changes not committed|False|True
+b578a46|2026-02-06|FLRHW|resolving ci failure|False|True
+31b4797|2026-02-06|FLRHW|fixing templates|False|True
 5a566fe|2026-02-06|FLRHW|Removed extra prototyping area and started updating mfg docs|True|True
-5d5480e|2026-02-06|FLRHW|Updated paths on footprint libraries to render 3D models on KiBot|False|True
-6e67d3e|2026-02-06|FLRHW|Minor changes to resolve potential DFM issues flagged by JLCPCB|True|True
