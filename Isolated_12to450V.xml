@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">f980299</textvar>
-    <textvar name="GIT_HASH_SCH">13a8efd</textvar>
+    <textvar name="GIT_HASH_PCB">fb82674</textvar>
+    <textvar name="GIT_HASH_SCH">fb82674</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -94,7 +94,43 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
-    <textvar name="RELEASE_BODY_2.0.0">Version 2.0.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_2.0.0">___________________________________
+
+Added R29 as feed-forward option
+
+Isolated primary ("LV") and secondary ("HV") sides
+
+Updated reverse polarity protection (based on P-channel MOSFET)
+
+Added dedicated connectors for supply input
+
+Replaced C6 (100 uF elco -&gt; 4.7 uF + 100 nF MLCCs)
+
+Added C25 to support testing
+
+Replaced packages (U1: DIP-8 -&gt; SOIC-8; U21: TO-92 -&gt; SOT-23)
+
+Replaced U20 (SH816 -&gt; TCMT1108)
+
+Replaced Q20 (2N2222 -&gt; BC817)
+
+Reworked slope compensation
+
+Updated F1 footprint and 3D model
+
+Added part number to D4
+
+Updated Mod20 decoupling and added R30 as load
+
+Added testpoints
+
+Added clearance rules
+
+TODO
+
+-   check sizes on paper mock update
+
+-   check fabrication</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">07-Feb-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-02-07</textvar>
@@ -102,9 +138,9 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
-    <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-02-07</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
+    <textvar name="REVISION">2.0.0</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -145,12 +181,12 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>NA</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>2.0.0</rev>
         <date>Date2</date>
         <source>Isolated_12to450V.kicad_sch</source>
         <comment number="1" value=""/>
@@ -168,7 +204,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <title_block>
         <title>Block Diagram</title>
         <company>NA</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>2.0.0</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -186,7 +222,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <title_block>
         <title>Schematic</title>
         <company>NA</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>2.0.0</rev>
         <date>Date2</date>
         <source>Schematic.kicad_sch</source>
         <comment number="1" value=""/>
@@ -204,7 +240,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
       <title_block>
         <title>Revision History</title>
         <company>NA</company>
-        <rev>1.0.0+ (Unreleased)</rev>
+        <rev>2.0.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
