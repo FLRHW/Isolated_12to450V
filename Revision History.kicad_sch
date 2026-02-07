@@ -125,7 +125,7 @@
 		)
 		(uuid "8ad0acb7-8a2e-40a2-87c7-888a93359ccd")
 	)
-	(text_box "${RELEASE_BODY_1.0.1}"
+	(text_box "${RELEASE_BODY_2.0.0}"
 		(exclude_from_sim no)
 		(at 20.32 33.02 0)
 		(size 63.5 162.56)
@@ -170,7 +170,7 @@
 		)
 		(uuid "d183a6b7-e8a2-46ec-8c3c-ec3041423bc1")
 	)
-	(text_box "${RELEASE_TITLE_1.0.1}"
+	(text_box "${RELEASE_TITLE_2.0.0}"
 		(exclude_from_sim no)
 		(at 20.32 30.48 0)
 		(size 63.5 3.81)
