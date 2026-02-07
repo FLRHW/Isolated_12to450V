@@ -14,7 +14,7 @@
 3)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
     <textvar name="BOARD_NAME">Step-Up</textvar>
-    <textvar name="COMPANY">null</textvar>
+    <textvar name="COMPANY">NA</textvar>
     <textvar name="DESIGNER">FR</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
 
@@ -52,7 +52,7 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY FR.
+		HALOGEN FREE AND APPROVED BY NULL.
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">5fb04d2</textvar>
+    <textvar name="GIT_HASH_PCB">f980299</textvar>
     <textvar name="GIT_HASH_SCH">5fb04d2</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -143,11 +143,11 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company>null</company>
+        <company>NA</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Isolated_12to450V.kicad_sch</source>
@@ -165,7 +165,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
       <title_block>
         <title>Block Diagram</title>
-        <company>null</company>
+        <company>NA</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
@@ -183,7 +183,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <sheet number="3" name="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/">
       <title_block>
         <title>Schematic</title>
-        <company>null</company>
+        <company>NA</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Schematic.kicad_sch</source>
@@ -201,7 +201,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <sheet number="4" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
-        <company>null</company>
+        <company>NA</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
