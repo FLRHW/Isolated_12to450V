@@ -558,9 +558,9 @@ definitions:
   # Metadata ===================================================================
 
   PROJECT_NAME: Isolated step-up 12:450 V
-  BOARD_NAME: Module
+  BOARD_NAME: Step-Up
 
-  COMPANY: FR
+  COMPANY: 
   DESIGNER: FR
 
   LOGO: 'Logos/module.png'

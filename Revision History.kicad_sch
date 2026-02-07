@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Revision History")
-		(date "2025-12-20")
+		(date "2026-02-07")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
-		(comment 9 "NA")
+		(comment 9 "FR")
 	)
 	(lib_symbols)
 	(text_box "${RELEASE_BODY_1.1.0}"

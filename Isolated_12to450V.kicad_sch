@@ -5,10 +5,10 @@
 	(uuid "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c")
 	(paper "A3")
 	(title_block
-		(date "2025-12-20")
+		(date "2026-02-07")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
-		(comment 9 "NA")
+		(comment 9 "FR")
 	)
 	(lib_symbols)
 	(text "Variant: ${VARIANT}"
