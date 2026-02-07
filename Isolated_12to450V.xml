@@ -52,7 +52,7 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY NULL.
+		HALOGEN FREE AND APPROVED BY NA.
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
@@ -67,7 +67,7 @@
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
     <textvar name="GIT_HASH_PCB">f980299</textvar>
-    <textvar name="GIT_HASH_SCH">5fb04d2</textvar>
+    <textvar name="GIT_HASH_SCH">13a8efd</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -94,6 +94,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
+    <textvar name="RELEASE_BODY_2.0.0">Version 2.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">07-Feb-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-02-07</textvar>
@@ -101,6 +102,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
+    <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">1.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
