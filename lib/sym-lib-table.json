@@ -16,6 +16,18 @@
       "description": "Local copy of Device"
     },
     {
+      "name": "Diode",
+      "type": "KiCad",
+      "uri": "library/symbols/Diode.kicad_sym",
+      "description": "Local copy of Diode"
+    },
+    {
+      "name": "Isolator",
+      "type": "KiCad",
+      "uri": "library/symbols/Isolator.kicad_sym",
+      "description": "Local copy of Isolator"
+    },
+    {
       "name": "Mechanical",
       "type": "KiCad",
       "uri": "library/symbols/Mechanical.kicad_sym",
@@ -32,6 +44,12 @@
       "type": "KiCad",
       "uri": "library/symbols/power.kicad_sym",
       "description": "Local copy of power"
+    },
+    {
+      "name": "Reference_Voltage",
+      "type": "KiCad",
+      "uri": "library/symbols/Reference_Voltage.kicad_sym",
+      "description": "Local copy of Reference_Voltage"
     },
     {
       "name": "Transistor_BJT",

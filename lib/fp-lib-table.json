@@ -4,28 +4,28 @@
   "unit": "mm",
   "footprint_libs": [
     {
+      "name": "Capacitor_SMD.pretty",
+      "type": "KiCad",
+      "uri": "library/footprints/Capacitor_SMD.pretty",
+      "description": "Local copy of Capacitor_SMD.pretty"
+    },
+    {
       "name": "Capacitor_THT.pretty",
       "type": "KiCad",
       "uri": "library/footprints/Capacitor_THT.pretty",
       "description": "Local copy of Capacitor_THT.pretty"
     },
     {
+      "name": "Diode_SMD.pretty",
+      "type": "KiCad",
+      "uri": "library/footprints/Diode_SMD.pretty",
+      "description": "Local copy of Diode_SMD.pretty"
+    },
+    {
       "name": "Diode_THT.pretty",
       "type": "KiCad",
       "uri": "library/footprints/Diode_THT.pretty",
       "description": "Local copy of Diode_THT.pretty"
-    },
-    {
-      "name": "Fuse.pretty",
-      "type": "KiCad",
-      "uri": "library/footprints/Fuse.pretty",
-      "description": "Local copy of Fuse.pretty"
-    },
-    {
-      "name": "LED_THT.pretty",
-      "type": "KiCad",
-      "uri": "library/footprints/LED_THT.pretty",
-      "description": "Local copy of LED_THT.pretty"
     },
     {
       "name": "MountingHole.pretty",
@@ -38,6 +38,18 @@
       "type": "KiCad",
       "uri": "library/footprints/Package_DIP.pretty",
       "description": "Local copy of Package_DIP.pretty"
+    },
+    {
+      "name": "Package_SO.pretty",
+      "type": "KiCad",
+      "uri": "library/footprints/Package_SO.pretty",
+      "description": "Local copy of Package_SO.pretty"
+    },
+    {
+      "name": "Package_TO_SOT_SMD.pretty",
+      "type": "KiCad",
+      "uri": "library/footprints/Package_TO_SOT_SMD.pretty",
+      "description": "Local copy of Package_TO_SOT_SMD.pretty"
     },
     {
       "name": "Package_TO_SOT_THT.pretty",
@@ -58,22 +70,28 @@
       "description": "Local copy of Potentiometer_THT.pretty"
     },
     {
+      "name": "Resistor_SMD.pretty",
+      "type": "KiCad",
+      "uri": "library/footprints/Resistor_SMD.pretty",
+      "description": "Local copy of Resistor_SMD.pretty"
+    },
+    {
       "name": "Resistor_THT.pretty",
       "type": "KiCad",
       "uri": "library/footprints/Resistor_THT.pretty",
       "description": "Local copy of Resistor_THT.pretty"
     },
     {
-      "name": "TerminalBlock.pretty",
-      "type": "KiCad",
-      "uri": "library/footprints/TerminalBlock.pretty",
-      "description": "Local copy of TerminalBlock.pretty"
-    },
-    {
       "name": "TerminalBlock_Phoenix.pretty",
       "type": "KiCad",
       "uri": "library/footprints/TerminalBlock_Phoenix.pretty",
       "description": "Local copy of TerminalBlock_Phoenix.pretty"
+    },
+    {
+      "name": "TestPoint.pretty",
+      "type": "KiCad",
+      "uri": "library/footprints/TestPoint.pretty",
+      "description": "Local copy of TestPoint.pretty"
     }
   ]
 }

@@ -61,8 +61,8 @@ outputs:
             color: '#B9B9B9'
           - layer: F.Paste
             color: '#E1A98E'
-          - layer: F.Silkscreen
-            color: '#DB9DE1'
+         # - layer: F.Silkscreen
+         #   color: '#DB9DE1'
           - layer: F.Fab
             exclude_filter: '@FAB_EXCLUDE_FILTER@'
             color: '#744679'
@@ -89,8 +89,8 @@ outputs:
             color: '#B9B9B9'
           - layer: B.Paste
             color: '#BCB9DD'
-          - layer: B.Silkscreen
-            color: '#DB9DE1'
+         # - layer: B.Silkscreen
+         #   color: '#DB9DE1'
           - layer: B.Fab
             exclude_filter: '@FAB_EXCLUDE_FILTER@'
             color: '#400080'

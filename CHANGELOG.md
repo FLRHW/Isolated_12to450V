@@ -2,11 +2,29 @@
 
 ## [Unreleased]
 
+### Added R29 as feed-forward option
+Isolated primary ("LV") and secondary ("HV") sides
+Updated reverse polarity protection (based on P-channel MOSFET)
+Added dedicated connectors for supply input
+Replaced C6 (100 uF elco -> 4.7 uF + 100 nF MLCCs)
+Added C25 to support testing
+Replaced packages (U1: DIP-8 -> SOIC-8; U21: TO-92 -> SOT-23)
+Replaced U20 (SH816 -> TCMT1108)
+Replaced Q20 (2N2222 -> BC817)
+Reworked slope compensation
+Updated F1 footprint and 3D model
+Added part number to D4
+Updated Mod20 decoupling and added R30 as load
+Added testpoints
+Added clearance rules
+
+TODO
+- check sizes on paper mock update
+- check fabrication
+
 ## [1.0.0] - 2026-01-24
 
-### Change description
-
-Cloned non-isolated design revision 1.1.0 as a working base.
+### Cloned non-isolated design revision 1.1.0 as a working base.
 Updated R10 and R11 to 240 kΩ (cloned design incorrectly used 140 kΩ).
 Updated U1 to UC3845 (cloned design incorrectly used UC3843).
 Reworked feedback loop to include opto-coupler while keeping the same reference on both sides to facilitate testing / reuse of original board.

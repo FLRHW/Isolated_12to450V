@@ -5,13 +5,13 @@
 	(uuid "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c")
 	(paper "A3")
 	(title_block
-		(date "2025-12-20")
+		(date "2026-02-07")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
-		(comment 9 "NA")
+		(comment 9 "FR")
 	)
 	(lib_symbols)
-	(text "Variant: ${VARIANT}"
+	(text "Status: ${VARIANT}"
 		(exclude_from_sim no)
 		(at 25.4 58.42 0)
 		(effects
@@ -25,62 +25,6 @@
 			(justify left bottom)
 		)
 		(uuid "000ea912-7563-47e5-be4a-8607b961f825")
-	)
-	(text "${SHEET_NAME_5}"
-		(exclude_from_sim no)
-		(at 45.72 114.3 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#7")
-		)
-		(uuid "09a8b001-8e04-4cc1-8d9b-8535bd79adf1")
-	)
-	(text "7"
-		(exclude_from_sim no)
-		(at 35.56 129.54 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#7")
-		)
-		(uuid "1c576109-caea-431e-8644-8543de749b79")
-	)
-	(text "${SHEET_NAME_8}"
-		(exclude_from_sim no)
-		(at 45.72 137.16 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#8")
-		)
-		(uuid "28b58a16-122b-49e8-afa7-48c2618dc53d")
-	)
-	(text "10"
-		(exclude_from_sim no)
-		(at 35.56 152.4 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#10")
-		)
-		(uuid "29df70b5-9e00-4105-9e4f-bc7dc20e3f72")
 	)
 	(text "${SHEET_NAME_2}"
 		(exclude_from_sim no)
@@ -138,20 +82,6 @@
 			(href "#1")
 		)
 		(uuid "4b0ed47a-9b59-42f0-a2af-ecaccf5a89c3")
-	)
-	(text "${SHEET_NAME_6}"
-		(exclude_from_sim no)
-		(at 45.72 121.92 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#6")
-		)
-		(uuid "58cf0eb5-a6da-463e-aeda-fbe87a3cd079")
 	)
 	(text "Rev ${REVISION}"
 		(exclude_from_sim no)
@@ -225,34 +155,6 @@
 		)
 		(uuid "87564db8-be77-4805-a256-abae1e9d7c5b")
 	)
-	(text "${SHEET_NAME_7}"
-		(exclude_from_sim no)
-		(at 45.72 129.54 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#7")
-		)
-		(uuid "89dd6e8c-069a-4815-966a-9a118eca524b")
-	)
-	(text "5"
-		(exclude_from_sim no)
-		(at 35.56 114.3 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "8b821864-881a-4cb0-856b-2d9a97f6404e")
-	)
 	(text "${BOARD_NAME}"
 		(exclude_from_sim no)
 		(at 25.4 40.64 0)
@@ -282,34 +184,6 @@
 		)
 		(uuid "afc0bb31-890a-4961-a87a-e0895bcdf665")
 	)
-	(text "${SHEET_NAME_9}"
-		(exclude_from_sim no)
-		(at 45.72 144.78 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#9")
-		)
-		(uuid "b5ff3e63-17a3-45d1-8810-34d8d7fe669a")
-	)
-	(text "8"
-		(exclude_from_sim no)
-		(at 35.56 137.16 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#8")
-		)
-		(uuid "bc946718-a2ab-40c8-8097-9c7e05954e3f")
-	)
 	(text "${SHEET_NAME_3}"
 		(exclude_from_sim no)
 		(at 45.72 99.06 0)
@@ -338,20 +212,6 @@
 		)
 		(uuid "ce023428-5906-4952-b62a-b62507403698")
 	)
-	(text "${SHEET_NAME_10}"
-		(exclude_from_sim no)
-		(at 45.72 152.4 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#10")
-		)
-		(uuid "d794f70b-0900-43e4-9530-3b5babcc433e")
-	)
 	(text "Index"
 		(exclude_from_sim no)
 		(at 45.72 71.12 0)
@@ -366,20 +226,6 @@
 		)
 		(uuid "e26ac9c4-c495-4cb1-ac42-54859d23390e")
 	)
-	(text "6"
-		(exclude_from_sim no)
-		(at 35.56 121.92 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#6")
-		)
-		(uuid "ea04c009-8a6e-4df8-a10e-287d81493227")
-	)
 	(text "${SHEET_NAME_4}"
 		(exclude_from_sim no)
 		(at 45.72 106.68 0)
@@ -393,20 +239,6 @@
 			(href "#4")
 		)
 		(uuid "f38b3e41-64f1-4162-9fc3-42a2ad6ca733")
-	)
-	(text "9"
-		(exclude_from_sim no)
-		(at 35.56 144.78 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-			(href "#9")
-		)
-		(uuid "f5bbe170-3943-4a40-9782-9cbd23ca5c03")
 	)
 	(text "4"
 		(exclude_from_sim no)
