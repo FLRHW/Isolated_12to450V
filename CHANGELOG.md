@@ -21,10 +21,6 @@ Updated Mod20 decoupling and added R30 as load
 Added testpoints
 Added clearance rules
 
-TODO
-
--   check sizes on paper mock update
--   check fabrication
 
 ## [1.0.0] - 2026-01-24
 
