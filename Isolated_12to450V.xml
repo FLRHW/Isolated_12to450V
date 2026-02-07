@@ -13,8 +13,8 @@
 
 3)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
-    <textvar name="BOARD_NAME">Module</textvar>
-    <textvar name="COMPANY">FR</textvar>
+    <textvar name="BOARD_NAME">Step-Up</textvar>
+    <textvar name="COMPANY">null</textvar>
     <textvar name="DESIGNER">FR</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
 
@@ -35,7 +35,7 @@
 4)	SURFACE FINISH: IMMERSION GOLD
 
 5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
-	BE LPI, COLOR TOP: #8071501A / BOTTOM: GREEN.
+	BE LPI, COLOR YELLOW.
 
 6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
 	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
@@ -57,7 +57,7 @@
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
 	BOARD SIZE				85.000 × 47.546 mm
-	BOARD THICKNESS		1.660 mm
+	BOARD THICKNESS		1.602 mm
 	TRACE WIDTH			0.400 mm
 	TRACE TO TRACE		-0.000 mm
 	MIN. HOLE (PTH)			0.250 mm
@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">78dc7f5</textvar>
-    <textvar name="GIT_HASH_SCH">f30bd39</textvar>
+    <textvar name="GIT_HASH_PCB">5fb04d2</textvar>
+    <textvar name="GIT_HASH_SCH">5fb04d2</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -147,7 +147,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company>FR</company>
+        <company>null</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Isolated_12to450V.kicad_sch</source>
@@ -159,13 +159,13 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <comment number="6" value=""/>
         <comment number="7" value=""/>
         <comment number="8" value=""/>
-        <comment number="9" value="NA"/>
+        <comment number="9" value="FR"/>
       </title_block>
     </sheet>
     <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
       <title_block>
         <title>Block Diagram</title>
-        <company>FR</company>
+        <company>null</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
@@ -177,13 +177,13 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <comment number="6" value=""/>
         <comment number="7" value=""/>
         <comment number="8" value=""/>
-        <comment number="9" value="NA"/>
+        <comment number="9" value="FR"/>
       </title_block>
     </sheet>
     <sheet number="3" name="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/">
       <title_block>
         <title>Schematic</title>
-        <company>FR</company>
+        <company>null</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Schematic.kicad_sch</source>
@@ -195,13 +195,13 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <comment number="6" value=""/>
         <comment number="7" value=""/>
         <comment number="8" value=""/>
-        <comment number="9" value="NA"/>
+        <comment number="9" value="FR"/>
       </title_block>
     </sheet>
     <sheet number="4" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
-        <company>FR</company>
+        <company>null</company>
         <rev>1.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
@@ -213,7 +213,7 @@ Updated parts placement where suitable to reuse existing layout and added an aux
         <comment number="6" value=""/>
         <comment number="7" value=""/>
         <comment number="8" value=""/>
-        <comment number="9" value="NA"/>
+        <comment number="9" value="FR"/>
       </title_block>
     </sheet>
   </design>
