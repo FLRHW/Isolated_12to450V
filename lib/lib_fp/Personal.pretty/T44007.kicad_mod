@@ -88,7 +88,7 @@
 		(uuid "54b463a8-f8c3-4e22-a486-dbca5da837d6")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 8.89 0)
+		(at 0 0.039 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "469e8d82-2dda-48f5-97cf-4e28fb7c6ae9")
@@ -137,6 +137,17 @@
 	)
 	(embedded_fonts no)
 	(model "F:/Installed_SW/KiCad_pers_lib/3D/T44007_base.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D_models/T44007_base.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -335,18 +335,6 @@
 		(uuid "c540dcf0-164a-43a9-bfbd-ac20002f494d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -5.08 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "1ac35327-3713-4f0a-89d6-ff99f2de741f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "5e52cae9-5f05-4b1d-9625-99ba9e9c65f6")
@@ -423,6 +411,39 @@
 		)
 		(rotate
 			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D_models/fuse_compl.step"
+		(offset
+			(xyz -9.8 0 6.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D_models/fuse_holder.step"
+		(offset
+			(xyz -7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D_models/fuse_holder.step"
+		(offset
+			(xyz 7.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
 		)
 	)
 )
