@@ -2,7 +2,10 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-02-07
+
 ### Added R29 as feed-forward option
+
 Isolated primary ("LV") and secondary ("HV") sides
 Updated reverse polarity protection (based on P-channel MOSFET)
 Added dedicated connectors for supply input
@@ -19,12 +22,14 @@ Added testpoints
 Added clearance rules
 
 TODO
-- check sizes on paper mock update
-- check fabrication
+
+-   check sizes on paper mock update
+-   check fabrication
 
 ## [1.0.0] - 2026-01-24
 
 ### Cloned non-isolated design revision 1.1.0 as a working base.
+
 Updated R10 and R11 to 240 kΩ (cloned design incorrectly used 140 kΩ).
 Updated U1 to UC3845 (cloned design incorrectly used UC3843).
 Reworked feedback loop to include opto-coupler while keeping the same reference on both sides to facilitate testing / reuse of original board.
@@ -35,6 +40,8 @@ Increased C5 to 100 nF.
 Adjusted C4 to 1.5 nF and R6 to 1 kΩ (similar time constant) to facilitate ramp injection.
 Updated parts placement where suitable to reuse existing layout and added an auxiliary perf-board to accomodate the new parts.
 
-[Unreleased]: https://github.com/FLRHW/Isolated_12to450V/compare/1.0.0...HEAD
+[Unreleased]: https://github.com/FLRHW/Isolated_12to450V/compare/2.0.0...HEAD
+
+[2.0.0]: https://github.com/FLRHW/Isolated_12to450V/compare/1.0.0...2.0.0
 
 [1.0.0]: https://github.com/FLRHW/Isolated_12to450V/compare/f8c9afb6a11647257dfa5ab046e95b1ec53fcfd7...1.0.0
