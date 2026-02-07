@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">fb82674</textvar>
-    <textvar name="GIT_HASH_SCH">fb82674</textvar>
+    <textvar name="GIT_HASH_PCB">cf9908e</textvar>
+    <textvar name="GIT_HASH_SCH">13a8efd</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -124,13 +124,7 @@ Updated Mod20 decoupling and added R30 as load
 
 Added testpoints
 
-Added clearance rules
-
-TODO
-
--   check sizes on paper mock update
-
--   check fabrication</textvar>
+Added clearance rules</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">07-Feb-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-02-07</textvar>
@@ -140,7 +134,7 @@ TODO
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-02-07</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.0.0</textvar>
+    <textvar name="REVISION">2.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -181,12 +175,12 @@ TODO
     <textvar name="SHEET_NAME_7">......................................</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>NA</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Isolated_12to450V.kicad_sch</source>
         <comment number="1" value=""/>
@@ -204,7 +198,7 @@ TODO
       <title_block>
         <title>Block Diagram</title>
         <company>NA</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -222,7 +216,7 @@ TODO
       <title_block>
         <title>Schematic</title>
         <company>NA</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Schematic.kicad_sch</source>
         <comment number="1" value=""/>
@@ -240,7 +234,7 @@ TODO
       <title_block>
         <title>Revision History</title>
         <company>NA</company>
-        <rev>2.0.0</rev>
+        <rev>2.0.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
