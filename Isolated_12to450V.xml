@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">b578a46</textvar>
-    <textvar name="GIT_HASH_SCH">120601b</textvar>
+    <textvar name="GIT_HASH_PCB">f30bd39</textvar>
+    <textvar name="GIT_HASH_SCH">f30bd39</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -95,8 +95,8 @@ Updated parts placement where suitable to reuse existing layout and added an aux
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">06-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-06</textvar>
+    <textvar name="RELEASE_DATE">07-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-07</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
