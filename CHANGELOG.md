@@ -1,6 +1,27 @@
 # Changelog
 
 ## [Unreleased]
+C3 decreased for shorter dead time
+R15 increased to compensate C3 
+R26 increased to reduce slope compensation
+R31 added as alternative for slope compensation
+C4 updated to 1 nF
+C20, C21 and R20 updated (slower compensation)
+R3 increased (gain = 1 on error amp.)
+C2 not fitted (secondary side compensation only)
+R8 package increased to 1206
+D23 removed
+Default optocoupler supply swapped R29->R28
+R32 added to facilitate compensation tests
+Added snubber accross D4
+Enlarged C24 and C27 footprint
+Silk typos fixed (HV+/HV-)
+Fixed R9 footprint and added alternative footprint (R35)
+
+wrong footprint for shunt
+add snubber (pri)
+
+
 
 ## [2.0.0] - 2026-02-07
 
