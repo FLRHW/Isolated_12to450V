@@ -14,13 +14,13 @@ D23 removed
 Default optocoupler supply swapped R29->R28
 R32 added to facilitate compensation tests
 Added snubber accross D4
-Enlarged C24 and C27 footprint
+Enlarged C6, C24 and C27 footprint
 Silk typos fixed (HV+/HV-)
 Fixed R9 footprint and added alternative footprint (R35)
+Decreased R23 to prevent overvoltage at low load
 
-wrong footprint for shunt
 add snubber (pri)
-
+output clamp (low load reg)
 
 
 ## [2.0.0] - 2026-02-07
