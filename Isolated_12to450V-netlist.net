@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-zk53xoml/Isolated_12to450V.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-cg7wa0qf/Isolated_12to450V.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES") "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	DO NOT POPULATE PARTS MARKED WITH A RED CROSS.\n\n2)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n3)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n	WHEN VIEWED FROM THE TOP.")
@@ -200,11 +200,11 @@
       (tstamps "175e8416-638e-4b24-8db1-7a8f73fd282a"))
     (comp (ref "C6")
       (value "4.7u")
-      (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
       (datasheet "~")
       (description "Unpolarized capacitor")
       (fields
-        (field (name "Footprint") "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+        (field (name "Footprint") "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
         (field (name "Datasheet") "~")
         (field (name "Description") "Unpolarized capacitor"))
       (libsource (lib "Device") (part "C") (description "Unpolarized capacitor"))

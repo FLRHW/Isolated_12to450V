@@ -5,7 +5,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 4,1,C29,1.5n,~,C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal,Unpolarized capacitor,,,
 5,1,C22,10n,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,,,
 6,3,C5 C20 C26,100n,~,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,Unpolarized capacitor,,,
-7,3,C6 C24 C27,4.7u,~,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,Unpolarized capacitor,,,
+7,3,C6 C24 C27,4.7u,~,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,Unpolarized capacitor,,,
 8,1,C8,10u,~,CP_Radial_D10.0mm_P5.00mm,Polarized capacitor,,,
 9,1,C28,100u,~,CP_Radial_D6.3mm_P2.50mm,Polarized capacitor,,,
 10,1,C7,1000u,~,CP_Radial_D10.0mm_P5.00mm,Polarized capacitor,,,
