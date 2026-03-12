@@ -13,15 +13,14 @@ R8 package increased to 1206
 D23 removed
 Default optocoupler supply swapped R29->R28
 R32 added to facilitate compensation tests
+Added snubber accross Q1
 Added snubber accross D4
 Enlarged C6, C24 and C27 footprint
 Silk typos fixed (HV+/HV-)
-Fixed R9 footprint and added alternative footprint (R35)
+Fixed R9 footprint
 Decreased R23 to prevent overvoltage at low load
-
-add snubber (pri)
-output clamp (low load reg)
-
+Added R34 to facilitate testing
+Soft start circuit moved to primary side
 
 ## [2.0.0] - 2026-02-07
 
