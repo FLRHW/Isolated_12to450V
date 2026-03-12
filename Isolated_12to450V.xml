@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">c11f01a</textvar>
+    <textvar name="GIT_HASH_PCB">421439f</textvar>
     <textvar name="GIT_HASH_SCH">13a8efd</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -126,8 +126,8 @@ Added testpoints
 
 Added clearance rules</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">10-Mar-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-03-10</textvar>
+    <textvar name="RELEASE_DATE">12-Mar-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-03-12</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -431,25 +431,6 @@ Added clearance rules</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>4905e7e4-0371-4256-8863-fade48c91e6a</tstamps>
     </comp>
-    <comp ref="C23">
-      <value>100u</value>
-      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Polarized capacitor</description>
-      <fields>
-        <field name="Footprint">Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Polarized capacitor</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <property name="ki_fp_filters" value="CP_*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>f0090533-fa6a-4456-b9e2-f1d003fe49e1</tstamps>
-    </comp>
     <comp ref="C24">
       <value>4.7u</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
@@ -561,11 +542,11 @@ Added clearance rules</textvar>
     </comp>
     <comp ref="C30">
       <value>220p</value>
-      <footprint>Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_THT:C_Rect_L16.5mm_W5.0mm_P15.00mm_MKT</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -576,6 +557,42 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>fde50303-83fd-4e1b-b6ab-5e5052e50f50</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>2.7n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>d87e176f-7299-4160-94d9-42b0c19e8283</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>7852640e-0166-4eac-aabf-1b3394fee7ea</tstamps>
     </comp>
     <comp ref="D4">
       <value>UF4007</value>
@@ -618,29 +635,6 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="D*SOD?123F*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>96108887-603a-4752-a091-083d0cfa8181</tstamps>
-    </comp>
-    <comp ref="D21">
-      <value>1N4148W</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
-      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
-      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
-      <fields>
-        <field name="Sim.Device">D</field>
-        <field name="Sim.Pins">1=K 2=A</field>
-        <field name="Footprint">Diode_SMD:D_SOD-123</field>
-        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
-        <field name="Description">75V 0.15A Fast Switching Diode, SOD-123</field>
-      </fields>
-      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
-      <property name="Sim.Device" value="D"/>
-      <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_keywords" value="diode"/>
-      <property name="ki_fp_filters" value="D*SOD?123*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>0021f368-8d1a-44bb-8eb7-2f1ed8745911</tstamps>
     </comp>
     <comp ref="D22">
       <value>BZT52B15</value>
@@ -948,6 +942,22 @@ Added clearance rules</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>f83928ec-54cc-40f9-8181-6a0ac00cf631</tstamps>
     </comp>
+    <comp ref="P27">
+      <value>~</value>
+      <description>Local power symbol (source), cosmetic use only</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Local power symbol (source), cosmetic use only</field>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_PWR_SRC" description="Local power symbol (source), cosmetic use only"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>8052f32a-4719-4fc0-9d68-67e1b3300145</tstamps>
+    </comp>
     <comp ref="P28">
       <value>~</value>
       <description>Local power symbol (source), cosmetic use only</description>
@@ -1027,22 +1037,6 @@ Added clearance rules</textvar>
       <property name="exclude_from_board"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>9825562a-0d4f-4fe2-a19e-ea4498efd1cd</tstamps>
-    </comp>
-    <comp ref="P33">
-      <value>~</value>
-      <description>Local power symbol (sink), cosmetic use only</description>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">Local power symbol (sink), cosmetic use only</field>
-      </fields>
-      <libsource lib="personal" part="Cosmetic_PWR" description="Local power symbol (sink), cosmetic use only"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="exclude_from_board"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>0e8bcb0d-b4c8-4460-90a6-be71fe5341ab</tstamps>
     </comp>
     <comp ref="P105">
       <value>~</value>
@@ -1128,6 +1122,28 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="TO?252*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>e30399a4-cdf3-4c4c-a973-b5e00fe9cef1</tstamps>
+    </comp>
+    <comp ref="Q22">
+      <value>BC857</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC860-D.pdf</datasheet>
+      <description>0.1A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <fields>
+        <field name="Sim.Device">PNP</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC860-D.pdf</field>
+        <field name="Description">0.1A Ic, 45V Vce, PNP Transistor, SOT-23</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC857" description="0.1A Ic, 45V Vce, PNP Transistor, SOT-23"/>
+      <property name="Sim.Device" value="PNP"/>
+      <property name="Sim.Pins" value="1=B 2=E 3=C"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="PNP transistor"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>ff22af70-aeac-46cf-aa6f-cc016b4cae2c</tstamps>
     </comp>
     <comp ref="R2">
       <value>10k</value>
@@ -1453,25 +1469,6 @@ Added clearance rules</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>06b7cec1-984b-4bbe-bcf7-d063e92c5da8</tstamps>
     </comp>
-    <comp ref="R27">
-      <value>15k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <description>Resistor</description>
-      <fields>
-        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>0d764c9a-0e9b-428b-9108-3b0c213f6c27</tstamps>
-    </comp>
     <comp ref="R28">
       <value>0</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
@@ -1585,12 +1582,12 @@ Added clearance rules</textvar>
       <tstamps>835e1229-7972-49e0-bf24-a3f6bab43a99</tstamps>
     </comp>
     <comp ref="R34">
-      <value>470</value>
-      <footprint>Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P7.62mm_Vertical</footprint>
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_THT:R_Axial_DIN0918_L18.0mm_D9.0mm_P7.62mm_Vertical</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
@@ -1600,26 +1597,133 @@ Added clearance rules</textvar>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>98e55aef-4012-47c5-a9fc-4640a66f6dac</tstamps>
+      <tstamps>6996c6bb-3ace-4bc1-9bbd-24f0474b4b8a</tstamps>
     </comp>
     <comp ref="R35">
-      <value>20m</value>
-      <footprint>Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3</footprint>
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>Resistor</description>
       <fields>
-        <field name="Footprint">Resistor_SMD:R_Shunt_Vishay_WSR2_WSR3</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="dnp"/>
       <property name="ki_keywords" value="R res resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>28808c14-2d74-4280-90d5-432b4fa2a7e6</tstamps>
+      <tstamps>84567dfd-36f0-475a-9b24-b8c7cecc0e83</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>6833c2f3-4d7f-491e-8f94-5b0401c1f336</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>518f5ef8-7967-4315-bbe5-77e2794757b4</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>5cc06ed4-a758-4997-8745-7b8e865d6543</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>336807e3-6664-446c-930d-a45cd690f5bc</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>2fa6d3d3-d5ec-41da-bf12-5d82d8c74682</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>affe64f9-7977-4b8b-873a-8950e0bd30b5</tstamps>
     </comp>
     <comp ref="TP20">
       <value>TestPoint_Alt</value>
@@ -1638,42 +1742,6 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>1757ec5b-832a-4dcc-92bc-f5c575a93ce7</tstamps>
-    </comp>
-    <comp ref="TP21">
-      <value>TestPoint_Alt</value>
-      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
-      <datasheet>~</datasheet>
-      <description>test point (alternative shape)</description>
-      <fields>
-        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point (alternative shape)</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>1fb96924-3fe3-456a-979c-69c7fc763bb6</tstamps>
-    </comp>
-    <comp ref="TP22">
-      <value>TestPoint_Alt</value>
-      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
-      <datasheet>~</datasheet>
-      <description>test point (alternative shape)</description>
-      <fields>
-        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point (alternative shape)</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>6af26950-af67-488d-91c2-3ce0914e54cb</tstamps>
     </comp>
     <comp ref="TP23">
       <value>TestPoint_Alt</value>
@@ -1783,24 +1851,6 @@ Added clearance rules</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>aacd386c-7422-41e6-8201-77ab05702bee</tstamps>
     </comp>
-    <comp ref="TP29">
-      <value>TestPoint_Alt</value>
-      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
-      <datasheet>~</datasheet>
-      <description>test point (alternative shape)</description>
-      <fields>
-        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point (alternative shape)</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
-      <property name="Sheetname" value="Schematic"/>
-      <property name="Sheetfile" value="Schematic.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
-      <tstamps>3c480014-ee72-4fe8-a9b3-d1125e31dc39</tstamps>
-    </comp>
     <comp ref="TP30">
       <value>TestPoint_Alt</value>
       <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
@@ -1890,6 +1940,36 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>e1ee4023-de15-4988-a887-2c7bc53207b1</tstamps>
+    </comp>
+    <comp ref="TP35">
+      <value>~</value>
+      <footprint>Personal:Testpoint_osc_no_lead</footprint>
+      <fields>
+        <field name="Footprint">Personal:Testpoint_osc_no_lead</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="OscTestpoint" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>4c7902fb-d2cf-4b4c-8ceb-02b8dce93e1a</tstamps>
+    </comp>
+    <comp ref="TP36">
+      <value>~</value>
+      <footprint>Personal:Testpoint_osc_no_lead</footprint>
+      <fields>
+        <field name="Footprint">Personal:Testpoint_osc_no_lead</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="OscTestpoint" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>f4a0c1f2-7b1e-469a-937e-7cb87b0286c7</tstamps>
     </comp>
     <comp ref="TR1">
       <value>Custom_1:19.5</value>
@@ -2170,26 +2250,6 @@ Added clearance rules</textvar>
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="1N4148W">
-      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
-      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
-      <footprints>
-        <fp>D*SOD?123*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">1N4148W</field>
-        <field name="Footprint">Diode_SMD:D_SOD-123</field>
-        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
-        <field name="Description">75V 0.15A Fast Switching Diode, SOD-123</field>
-        <field name="Sim.Device">D</field>
-        <field name="Sim.Pins">1=K 2=A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Diode" part="BZT52Bxx">
       <description>500mW Zener Diode, SOD-123F</description>
       <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf</docs>
@@ -2298,6 +2358,27 @@ Added clearance rules</textvar>
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Transistor_BJT" part="BC857">
+      <description>0.1A Ic, 45V Vce, PNP Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC860-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC857</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC860-D.pdf</field>
+        <field name="Description">0.1A Ic, 45V Vce, PNP Transistor, SOT-23</field>
+        <field name="Sim.Device">PNP</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Transistor_FET" part="Q_NMOS_GDS">
       <description>N-MOSFET transistor, gate/drain/source</description>
       <docs>~</docs>
@@ -2357,6 +2438,19 @@ Added clearance rules</textvar>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="OscTestpoint">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value"/>
+        <field name="Footprint">Personal:Testpoint_osc_no_lead</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Sig" type="passive"/>
+        <pin num="2" name="Ref" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="personal" part="UC3845">
@@ -2430,6 +2524,7 @@ Added clearance rules</textvar>
     </net>
     <net code="2" name="/Block Diagram/Schematic/Comp" class="Default">
       <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Q22" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
       <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
@@ -2448,7 +2543,7 @@ Added clearance rules</textvar>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP35" pin="1" pinfunction="Sig" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="ISENSE" pintype="input"/>
     </net>
     <net code="6" name="/Block Diagram/Schematic/OpCol" class="Default">
@@ -2494,6 +2589,9 @@ Added clearance rules</textvar>
     </net>
     <net code="13" name="/Block Diagram/Schematic/SW" class="Default">
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
       <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="2" pintype="passive"/>
       <node ref="TR1" pin="3" pintype="passive"/>
@@ -2525,7 +2623,6 @@ Added clearance rules</textvar>
     </net>
     <net code="22" name="/Block Diagram/Schematic/Sec_OpK" class="Default">
       <node ref="C21" pin="2" pintype="passive"/>
-      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="U20" pin="2" pintype="passive"/>
@@ -2539,28 +2636,27 @@ Added clearance rules</textvar>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="25" name="/Block Diagram/Schematic/Sec_div_l" class="Default">
+    <net code="25" name="/Block Diagram/Schematic/Sec_div_h2" class="Default">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="/Block Diagram/Schematic/Sec_div_l" class="Default">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="VR1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="26" name="/Block Diagram/Schematic/Sec_ref_sns" class="Default">
+    <net code="27" name="/Block Diagram/Schematic/Sec_ref_sns" class="Default">
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
     </net>
-    <net code="27" name="/Block Diagram/Schematic/Sec_ss_cap" class="Default">
-      <node ref="C23" pin="1" pintype="passive"/>
-      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R27" pin="1" pintype="passive"/>
-    </net>
     <net code="28" name="/Block Diagram/Schematic/Src" class="Default">
+      <node ref="C31" pin="1" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R35" pin="1" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP36" pin="1" pinfunction="Sig" pintype="passive"/>
     </net>
     <net code="29" name="/Block Diagram/Schematic/U5_ref" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
@@ -2568,8 +2664,10 @@ Added clearance rules</textvar>
       <node ref="P106" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P20" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P27" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="Q20" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VREF" pintype="power_out"/>
     </net>
@@ -2579,10 +2677,8 @@ Added clearance rules</textvar>
       <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P30" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="P31" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P33" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
-      <node ref="R27" pin="2" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
       <node ref="TP34" pin="1" pinfunction="1" pintype="passive"/>
     </net>
@@ -2626,11 +2722,15 @@ Added clearance rules</textvar>
     </net>
     <net code="35" name="/Block Diagram/Schematic/U500_sn_sec" class="Default">
       <node ref="C30" pin="1" pintype="passive"/>
-      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
     </net>
     <net code="36" name="/Block Diagram/Schematic/U500_tr_sec" class="Default">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
       <node ref="TP30" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TR1" pin="7" pintype="passive"/>
     </net>
@@ -2645,7 +2745,18 @@ Added clearance rules</textvar>
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="R32" pin="2" pintype="passive"/>
     </net>
-    <net code="39" name="U0" class="Default">
+    <net code="39" name="Net-(C31-Pad2)" class="Default">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(Q22-B)" class="Default">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="Q22" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="U0" class="Default">
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
@@ -2653,24 +2764,25 @@ Added clearance rules</textvar>
       <node ref="C27" pin="2" pintype="passive"/>
       <node ref="C29" pin="1" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Mod20" pin="1" pinfunction="Vin-" pintype="passive"/>
+      <node ref="Q22" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="R35" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP33" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP35" pin="2" pinfunction="Ref" pintype="passive"/>
+      <node ref="TP36" pin="2" pinfunction="Ref" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="40" name="U0_sec" class="Default">
-      <node ref="C23" pin="2" pintype="passive"/>
+    <net code="42" name="U0_sec" class="Default">
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
