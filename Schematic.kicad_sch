@@ -3095,6 +3095,24 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
@@ -4052,6 +4070,214 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "personal:Cosmetic_IN"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "P"
+				(at 0.254 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Cosmetic_IN_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0.635) (xy -2.54 -0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 132 94 255 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 94 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 1.27)
+					(hide yes)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "personal:Cosmetic_OUT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "P"
+				(at 0 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Out_signal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Cosmetic_OUT_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 -0.635) (xy -1.27 0.635) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.0254)
+						(type solid)
+						(color 132 94 255 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 132 94 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 1.27)
+					(hide yes)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "personal:Cosmetic_PWR"
 			(pin_numbers
 				(hide yes)
@@ -4133,11 +4359,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4160,6 +4385,7 @@
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -4236,11 +4462,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 0 90)
-					(length 2.54)
-					(hide yes)
-					(name "1"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4273,7 +4498,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "Testpoint_osc_probe"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4372,7 +4597,7 @@
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -4390,7 +4615,7 @@
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -6046,8 +6271,8 @@
 	)
 	(text_box "To bypass primary side error amplifier:\n- fit R33 (0R)\n- update R12 to 0R\n- remove R2, R3, R28, R29, R32, C2 and C25"
 		(exclude_from_sim no)
-		(at 99.06 63.5 0)
-		(size 63.5 17.78)
+		(at 99.06 78.74 0)
+		(size 50.8 22.86)
 		(margins 2 2 2 2)
 		(stroke
 			(width 0.508)
@@ -6068,9 +6293,9 @@
 		)
 		(uuid "2b02eb22-7663-43fa-a332-227bdc52fa5b")
 	)
-	(text_box "${/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/ad4dd466-39da-4dc2-a3ca-59acd44d0e72:Reference} uses TL432 pinout - Verify if pinning matches in case that part is replaced."
+	(text_box "Consider using TL432 if replacing ${/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/ad4dd466-39da-4dc2-a3ca-59acd44d0e72:Reference} as the selected part does not use the standard TL431 pinout."
 		(exclude_from_sim no)
-		(at 25.4 66.04 0)
+		(at 40.64 154.94 0)
 		(size 50.8 12.7)
 		(margins 2 2 2 2)
 		(stroke
@@ -6092,9 +6317,9 @@
 		)
 		(uuid "320070fc-76d8-4495-8005-74016151a1cf")
 	)
-	(text_box "R4 limits the max. output voltage to approximately 545 V\nVR1 allows adjusting the output voltage down to approximately 169 V"
+	(text_box "R4 limits the max. output voltage to approximately 545 V\nVR1 + R4 allow adjusting the output voltage down to approximately 169 V"
 		(exclude_from_sim no)
-		(at 25.4 187.96 0)
+		(at 40.64 170.18 0)
 		(size 50.8 17.78)
 		(margins 2 2 2 2)
 		(stroke
@@ -6140,9 +6365,9 @@
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
 	)
-	(text_box "Estimated specs for unidentified / custom parts:\n- R9: ~13.7 mΩ (110 mV @ 8.04 A)\n- TR1: ~1:19.5 turns ratio, 3.54:1453 uH "
+	(text_box "Estimated specs for unidentified reused parts:\n- R9: ~13.7 mΩ (110 mV @ 8.04 A)\n- TR1: ~1:19.5 turns ratio, 3.54:1453 uH "
 		(exclude_from_sim no)
-		(at 215.9 185.42 0)
+		(at 254 213.36 0)
 		(size 63.5 12.7)
 		(margins 2 2 2 2)
 		(stroke
@@ -6303,6 +6528,12 @@
 		(uuid "5242f6f5-724b-491f-ae78-2001156fb684")
 	)
 	(junction
+		(at 299.72 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55787c8d-d71c-4fbd-a01e-8ff4c404b474")
+	)
+	(junction
 		(at 144.78 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6417,6 +6648,12 @@
 		(uuid "97819047-c0f2-4d6e-94c0-57b8bf7136f8")
 	)
 	(junction
+		(at 378.46 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98c2feab-a479-45bb-97da-cf30deea53c8")
+	)
+	(junction
 		(at 281.94 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6451,6 +6688,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7351e07-14f1-4d28-b5db-b0b75ba4b083")
+	)
+	(junction
+		(at 246.38 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf309ab0-1166-4231-ab94-94db4c3c1127")
 	)
 	(junction
 		(at 303.53 81.28)
@@ -6646,10 +6889,6 @@
 		(at 335.28 76.2)
 		(uuid "a5619e0c-f496-4d03-b84b-4f82129e4f1d")
 	)
-	(no_connect
-		(at 307.34 71.12)
-		(uuid "aaa8d12e-f6ff-444b-904f-45764344d99a")
-	)
 	(wire
 		(pts
 			(xy 342.9 114.3) (xy 350.52 114.3)
@@ -6732,6 +6971,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 109.22) (xy 299.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e49038-1614-47c7-a4b0-7932e537931a")
+	)
+	(wire
+		(pts
 			(xy 259.08 78.74) (xy 259.08 81.28)
 		)
 		(stroke
@@ -6769,6 +7018,16 @@
 			(type default)
 		)
 		(uuid "077ba983-6b93-4352-bd0b-59e54fa2e6f2")
+	)
+	(wire
+		(pts
+			(xy 303.53 109.22) (xy 299.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a153358-c0e2-4eea-936d-f63048f2c89c")
 	)
 	(wire
 		(pts
@@ -7071,6 +7330,16 @@
 			(type default)
 		)
 		(uuid "1e653f57-be88-4139-afbf-7abf30e50162")
+	)
+	(wire
+		(pts
+			(xy 378.46 101.6) (xy 388.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c6ad6d-84ce-439b-a1eb-64c8df4be601")
 	)
 	(wire
 		(pts
@@ -7575,6 +7844,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 111.76) (xy 297.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a97006-4a9b-4204-b33c-e50b5cf81f54")
+	)
+	(wire
+		(pts
 			(xy 303.53 81.28) (xy 303.53 83.82)
 		)
 		(stroke
@@ -8039,7 +8318,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 101.6) (xy 388.62 101.6)
+			(xy 365.76 101.6) (xy 378.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8099,7 +8378,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 111.76) (xy 297.18 111.76)
+			(xy 304.8 111.76) (xy 299.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8319,7 +8598,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 71.12) (xy 314.96 71.12)
+			(xy 309.88 71.12) (xy 314.96 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9234,12 +9513,12 @@
 		(uuid "3ff55c90-2f5c-4184-af57-895a5f3b989b")
 	)
 	(label "SW"
-		(at 290.83 111.76 0)
+		(at 303.53 109.22 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5063c49d-b275-42c9-9955-f108b91713a1")
 	)
@@ -9960,6 +10239,72 @@
 			(project "Isolated_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "P22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 246.38 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0985af7f-5d1e-4eab-b5a6-744fda90506d")
+		(property "Reference" "#FLG0101"
+			(at 248.285 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 248.92 68.58 90)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 246.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7febfc17-0c2b-4be8-871e-926826a394cb")
+		)
+		(instances
+			(project "Isolated_12to450V"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -13670,6 +14015,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 378.46 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68813484-5f8e-4a61-8a41-89367d63c565")
+		(property "Reference" "#FLG0103"
+			(at 378.46 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 378.46 97.79 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0453812b-7238-4cd0-83fd-1cb4d27e4f22")
+		)
+		(instances
+			(project "Isolated_12to450V"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "#FLG0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 22.86 128.27 0)
 		(unit 1)
@@ -15732,6 +16143,74 @@
 		)
 	)
 	(symbol
+		(lib_id "personal:Cosmetic_OUT")
+		(at 303.53 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7ccf65-12d7-4165-a226-3718a6a409be")
+		(property "Reference" "P102"
+			(at 303.53 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Out_signal"
+			(at 303.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e5a1496-610a-436e-9b0f-3e27d42c1ec7")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "P102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 208.28 119.38 0)
 		(unit 1)
@@ -16384,6 +16863,24 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 238.76 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 238.76 129.54 0)
 			(effects
 				(font
@@ -18037,6 +18534,74 @@
 			(project "Isolated_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 309.88 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d863fe22-14ab-44c1-9823-818bdad05e34")
+		(property "Reference" "P101"
+			(at 310.134 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 311.15 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "927203fb-ccbb-4309-a1a4-6403a7a57e55")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "P101")
 					(unit 1)
 				)
 			)
