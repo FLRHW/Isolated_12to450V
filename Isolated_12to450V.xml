@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">f6d4a43</textvar>
+    <textvar name="GIT_HASH_PCB">7f19023</textvar>
     <textvar name="GIT_HASH_SCH">f6d4a43</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -175,7 +175,7 @@ Added clearance rules</textvar>
     <textvar name="SHEET_NAME_7">TP6x18_2</textvar>
     <textvar name="SHEET_NAME_8">TP6x18_3</textvar>
     <textvar name="SHEET_NAME_9">TP6x24_1</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -2269,6 +2269,82 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="Potentiometer*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>c985b7bd-b5db-40f6-9af0-796988b813ca</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PerfBoard"/>
+      <property name="Sheetfile" value="PerfBoard.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/PerfBoard/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/6984dd16-734f-4619-a433-2734549d16d7/"/>
+      <tstamps>bc210dc6-c9c4-4022-89af-3b8177837d56</tstamps>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PerfBoard"/>
+      <property name="Sheetfile" value="PerfBoard.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/PerfBoard/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/6984dd16-734f-4619-a433-2734549d16d7/"/>
+      <tstamps>94d77124-6935-422e-9d0b-496d6935c4f4</tstamps>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PerfBoard"/>
+      <property name="Sheetfile" value="PerfBoard.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/PerfBoard/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/6984dd16-734f-4619-a433-2734549d16d7/"/>
+      <tstamps>2f9f9e0b-9783-43f8-9951-1ccd5cb5c582</tstamps>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PerfBoard"/>
+      <property name="Sheetfile" value="PerfBoard.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/Block Diagram/PerfBoard/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/6984dd16-734f-4619-a433-2734549d16d7/"/>
+      <tstamps>9d2296c0-3472-4540-9b6d-794bc64f1383</tstamps>
     </comp>
     <comp ref="TP425">
       <value>TestPoint</value>
