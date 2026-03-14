@@ -21,6 +21,7 @@ Fixed R9 footprint
 Decreased R23 to prevent overvoltage at low load
 Added R34 to facilitate testing
 Soft start circuit moved to primary side
+Added D9 to support series connected modules
 
 ## [2.0.0] - 2026-02-07
 
