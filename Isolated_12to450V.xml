@@ -66,8 +66,8 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">dc98ce0</textvar>
-    <textvar name="GIT_HASH_SCH">13a8efd</textvar>
+    <textvar name="GIT_HASH_PCB">f6d4a43</textvar>
+    <textvar name="GIT_HASH_SCH">f6d4a43</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -126,8 +126,8 @@ Added testpoints
 
 Added clearance rules</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">13-Mar-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-03-13</textvar>
+    <textvar name="RELEASE_DATE">14-Mar-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-03-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -136,7 +136,7 @@ Added clearance rules</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">2.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
-    <textvar name="SHEET_NAME_10">......................................</textvar>
+    <textvar name="SHEET_NAME_10">TP6x24_2</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
     <textvar name="SHEET_NAME_12">......................................</textvar>
     <textvar name="SHEET_NAME_13">......................................</textvar>
@@ -170,11 +170,11 @@ Added clearance rules</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
     <textvar name="SHEET_NAME_4">Revision History</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">......................................</textvar>
-    <textvar name="SHEET_NAME_6">......................................</textvar>
-    <textvar name="SHEET_NAME_7">......................................</textvar>
-    <textvar name="SHEET_NAME_8">......................................</textvar>
-    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="SHEET_NAME_5">PerfBoard</textvar>
+    <textvar name="SHEET_NAME_6">TP6x18_1</textvar>
+    <textvar name="SHEET_NAME_7">TP6x18_2</textvar>
+    <textvar name="SHEET_NAME_8">TP6x18_3</textvar>
+    <textvar name="SHEET_NAME_9">TP6x24_1</textvar>
     <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1218,6 +1218,36 @@ Added clearance rules</textvar>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>9825562a-0d4f-4fe2-a19e-ea4498efd1cd</tstamps>
     </comp>
+    <comp ref="P101">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_IN" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>d863fe22-14ab-44c1-9823-818bdad05e34</tstamps>
+    </comp>
+    <comp ref="P102">
+      <value>Out_signal</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="personal" part="Cosmetic_OUT" description=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>9a7ccf65-12d7-4165-a226-3718a6a409be</tstamps>
+    </comp>
     <comp ref="P105">
       <value>~</value>
       <description>Local power symbol (sink), cosmetic use only</description>
@@ -1273,11 +1303,15 @@ Added clearance rules</textvar>
       <datasheet>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</datasheet>
       <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
       <fields>
+        <field name="Sim.Device">NPN</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
         <field name="Description">0.8A Ic, 45V Vce, NPN Transistor, SOT-23</field>
       </fields>
       <libsource lib="Transistor_BJT" part="BC817" description="0.8A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <property name="Sim.Device" value="NPN"/>
+      <property name="Sim.Pins" value="1=B 2=E 3=C"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <property name="ki_keywords" value="NPN Transistor"/>
@@ -18101,6 +18135,8 @@ Added clearance rules</textvar>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC818-D.pdf</field>
         <field name="Description">0.8A Ic, 45V Vce, NPN Transistor, SOT-23</field>
+        <field name="Sim.Device">NPN</field>
+        <field name="Sim.Pins">1=B 2=E 3=C</field>
       </fields>
       <pins>
         <pin num="1" name="B" type="input"/>
@@ -18164,6 +18200,30 @@ Added clearance rules</textvar>
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="personal" part="Cosmetic_IN">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Cosmetic_OUT">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Out_signal</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="personal" part="Cosmetic_PWR">
       <description>Local power symbol (sink), cosmetic use only</description>
       <fields>
@@ -18174,7 +18234,7 @@ Added clearance rules</textvar>
         <field name="Description">Local power symbol (sink), cosmetic use only</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
+        <pin num="1" name="" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="personal" part="Cosmetic_PWR_SRC">
@@ -18187,13 +18247,13 @@ Added clearance rules</textvar>
         <field name="Description">Local power symbol (source), cosmetic use only</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
+        <pin num="1" name="" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="personal" part="OscTestpoint">
       <fields>
         <field name="Reference">TP</field>
-        <field name="Value"/>
+        <field name="Value">Testpoint_osc_probe</field>
         <field name="Footprint">Personal:Testpoint_osc_no_lead</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -18338,6 +18398,8 @@ Added clearance rules</textvar>
       <node ref="R31" pin="1" pintype="passive"/>
     </net>
     <net code="13" name="/Block Diagram/Schematic/SW" class="Default">
+      <node ref="P101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P102" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="R36" pin="1" pintype="passive"/>
       <node ref="R37" pin="1" pintype="passive"/>
@@ -18410,11 +18472,11 @@ Added clearance rules</textvar>
     </net>
     <net code="29" name="/Block Diagram/Schematic/U5_ref" class="Default">
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="P105" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P106" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P20" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P22" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P105" pin="1" pintype="power_in"/>
+      <node ref="P106" pin="1" pintype="power_in"/>
+      <node ref="P20" pin="1" pintype="power_in"/>
+      <node ref="P22" pin="1" pintype="power_in"/>
+      <node ref="P27" pin="1" pintype="power_in"/>
       <node ref="Q20" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R28" pin="1" pintype="passive"/>
       <node ref="R35" pin="1" pintype="passive"/>
@@ -18424,9 +18486,9 @@ Added clearance rules</textvar>
     <net code="30" name="/Block Diagram/Schematic/U5_sec" class="Default">
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="Mod20" pin="4" pinfunction="Vo+" pintype="passive"/>
-      <node ref="P29" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P30" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P29" pin="1" pintype="power_in"/>
+      <node ref="P30" pin="1" pintype="power_in"/>
+      <node ref="P31" pin="1" pintype="power_in"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
@@ -18452,11 +18514,11 @@ Added clearance rules</textvar>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="Mod20" pin="2" pinfunction="Vin+" pintype="passive"/>
-      <node ref="P21" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P23" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P24" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P25" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P21" pin="1" pintype="power_in"/>
+      <node ref="P23" pin="1" pintype="power_in"/>
+      <node ref="P24" pin="1" pintype="power_in"/>
+      <node ref="P25" pin="1" pintype="power_in"/>
+      <node ref="P26" pin="1" pintype="power_in"/>
       <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
@@ -18469,8 +18531,8 @@ Added clearance rules</textvar>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="P28" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="P32" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P28" pin="1" pintype="power_in"/>
+      <node ref="P32" pin="1" pintype="power_in"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
     </net>
