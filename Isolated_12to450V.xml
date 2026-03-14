@@ -66,7 +66,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">7f19023</textvar>
+    <textvar name="GIT_HASH_PCB">9fc4300</textvar>
     <textvar name="GIT_HASH_SCH">f6d4a43</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -797,6 +797,31 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>d3403016-f6ea-4152-b070-14ed88679e72</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>S15M</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <datasheet>~</datasheet>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Notes"/>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>213a7ad9-65ee-4cf0-b9fc-cc1a21677d31</tstamps>
     </comp>
     <comp ref="D20">
       <value>PMEG4010CEH</value>
@@ -1938,6 +1963,42 @@ Added clearance rules</textvar>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
       <tstamps>affe64f9-7977-4b8b-873a-8950e0bd30b5</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>910e75ed-d41b-42bb-bf79-82d112515eb3</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint_Alt</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</footprint>
+      <datasheet>~</datasheet>
+      <description>test point (alternative shape)</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point (alternative shape)</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Sheetname" value="Schematic"/>
+      <property name="Sheetfile" value="Schematic.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
+      <tstamps>ab83986d-ab5d-4720-876e-f090c1f7d8f4</tstamps>
     </comp>
     <comp ref="TP20">
       <value>TestPoint_Alt</value>
@@ -18513,6 +18574,7 @@ Added clearance rules</textvar>
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U20" pin="2" pintype="passive"/>
       <node ref="U21" pin="2" pinfunction="K" pintype="passive"/>
     </net>
@@ -18537,6 +18599,7 @@ Added clearance rules</textvar>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R34" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U21" pin="1" pinfunction="REF" pintype="passive"/>
     </net>
     <net code="28" name="/Block Diagram/Schematic/Src" class="Default">
@@ -18606,6 +18669,7 @@ Added clearance rules</textvar>
       <node ref="C30" pin="2" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="P28" pin="1" pintype="power_in"/>
       <node ref="P32" pin="1" pintype="power_in"/>
@@ -19774,6 +19838,7 @@ Added clearance rules</textvar>
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Mod20" pin="3" pinfunction="0V" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>

@@ -34,7 +34,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "Q22","BC857","SOT-23",52.0830,19.8960,-90.0000,bottom
 "R2","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",23.5080,18.6260,90.0000,bottom
 "R3","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",21.9840,18.6260,90.0000,bottom
-"R4","2k7","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",76.2130,38.4380,90.0000,bottom
+"R4","2k7","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",72.5300,37.8030,0.0000,bottom
 "R5","15k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",22.2380,13.2920,0.0000,bottom
 "R6","1k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",14.4910,14.3080,180.0000,bottom
 "R7","5k1","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",44.4630,40.7240,90.0000,bottom
@@ -45,7 +45,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R12","1k2","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",61.1000,20.2770,-90.0000,bottom
 "R20","100k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",74.5620,34.1200,90.0000,bottom
 "R21","10k","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",20.5870,33.8660,180.0000,bottom
-"R22","2k2","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",76.5940,18.6260,-90.0000,bottom
+"R22","2k2","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",74.0540,27.7700,0.0000,bottom
 "R23","470","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",75.0700,18.6260,90.0000,bottom
 "R24","4k7","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",22.2380,10.2440,180.0000,bottom
 "R25","2k2","R_0603_1608Metric_Pad0.98x0.95mm_HandSolder",22.2380,7.1960,180.0000,bottom
@@ -60,18 +60,20 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R39","470","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",44.4630,8.5930,0.0000,bottom
 "R40","470","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",39.3830,8.5930,180.0000,bottom
 "R41","470","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",49.5430,8.5930,180.0000,bottom
+"TP9","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",67.3230,35.0090,0.0000,top
+"TP10","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",76.9750,17.6100,0.0000,top
 "TP20","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",56.5280,44.6610,0.0000,top
 "TP23","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",29.3500,14.6220,0.0000,top
 "TP24","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",15.1260,20.9120,0.0000,top
 "TP25","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",21.9840,23.1980,0.0000,top
 "TP26","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",29.2230,21.9280,0.0000,top
-"TP27","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",66.3070,11.3870,0.0000,top
+"TP27","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",60.4650,6.5610,0.0000,top
 "TP28","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",80.0230,6.8150,0.0000,top
 "TP30","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",34.5570,6.5610,0.0000,top
 "TP31","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",40.7800,44.6610,0.0000,top
 "TP32","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",15.1260,16.5940,0.0000,top
 "TP33","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",35.0650,44.6610,0.0000,top
-"TP34","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",66.6880,33.4850,0.0000,top
+"TP34","TestPoint_Alt","TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded",64.9100,31.4530,0.0000,top
 "TP35","~","Testpoint_osc_no_lead",12.0780,6.6981,0.0000,top
 "TP36","~","Testpoint_osc_no_lead",5.6010,8.9740,0.0000,top
 "TP101","TestPoint","PerfBoardPad",17.9200,-1.4400,0.0000,top
@@ -942,4 +944,4 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "U1","UC3845","DIP-8_W7.62mm",18.4330,19.3880,0.0000,top
 "U20","TCMT1108","SOP-4_4.4x2.6mm_P1.27mm",69.7360,18.6260,180.0000,bottom
 "U21","TL431M","SOT-23",70.2440,34.1200,180.0000,bottom
-"VR1","5k","Potentiometer_Bourns_3296W_Vertical",67.7040,38.8190,180.0000,top
+"VR1","5k","Potentiometer_Bourns_3296W_Vertical",68.3390,39.8350,180.0000,top
