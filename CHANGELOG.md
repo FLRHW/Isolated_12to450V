@@ -3,8 +3,8 @@
 ## [Unreleased]
 C3 decreased for shorter dead time
 R15 increased to compensate C3 
-R26 increased to reduce slope compensation
-R31 added as alternative for slope compensation
+R26 increased to reduce artificial ramp
+R31 added as alternative for artificial ramp
 C4 updated to 1 nF
 C20, C21 and R20 updated (slower compensation)
 R3 increased (gain = 1 on error amp.)
@@ -22,6 +22,8 @@ Decreased R23 to prevent overvoltage at low load
 Added R34 to facilitate testing
 Soft start circuit moved to primary side
 Added D9 to support series connected modules
+Added MLCCs in parallel with C7 to improve decoupling 
+
 
 ## [2.0.0] - 2026-02-07
 
