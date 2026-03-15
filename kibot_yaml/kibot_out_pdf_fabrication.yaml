@@ -102,7 +102,7 @@ outputs:
 
       - scaling: @SCALING@
         mirror: true
-        mirror_pcb_text: false
+        mirror_pcb_text: true   # test
         title: '@DOC_TITLE@'
         sheet: 'Bottom Fabrication (Scale @SCALING@:1)'
         layer_var: 'Bottom Fabrication (Scale @SCALING@:1)'
