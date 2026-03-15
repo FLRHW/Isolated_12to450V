@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased]
+
+## [3.0.0] - 2026-03-15
+
 C3 decreased for shorter dead time
 R15 increased to compensate C3 
 R26 increased to reduce artificial ramp
@@ -24,7 +27,6 @@ Soft start circuit moved to primary side
 Added D9 to support series connected modules
 Added MLCCs in parallel with C7 to improve decoupling 
 
-
 ## [2.0.0] - 2026-02-07
 
 ### Added R29 as feed-forward option
@@ -44,7 +46,6 @@ Updated Mod20 decoupling and added R30 as load
 Added testpoints
 Added clearance rules
 
-
 ## [1.0.0] - 2026-01-24
 
 ### Cloned non-isolated design revision 1.1.0 as a working base.
@@ -59,7 +60,9 @@ Increased C5 to 100 nF.
 Adjusted C4 to 1.5 nF and R6 to 1 kΩ (similar time constant) to facilitate ramp injection.
 Updated parts placement where suitable to reuse existing layout and added an auxiliary perf-board to accomodate the new parts.
 
-[Unreleased]: https://github.com/FLRHW/Isolated_12to450V/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/FLRHW/Isolated_12to450V/compare/3.0.0...HEAD
+
+[3.0.0]: https://github.com/FLRHW/Isolated_12to450V/compare/2.0.0...3.0.0
 
 [2.0.0]: https://github.com/FLRHW/Isolated_12to450V/compare/1.0.0...2.0.0
 
