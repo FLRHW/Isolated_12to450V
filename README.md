@@ -18,20 +18,16 @@
 
 ***
 
-# **Isolated step-up module**
-This repository contains KiCad schematic and PCB layout of a step-up module prototype, isolated, capable of producing outputs in the range of 160 V to 450 V from a 12 V supply.
+# **StepUp_module_12to450V**
+This repository contains a reverse‑engineered KiCad schematic and PCB layout from a commercial module originally purchased from AliExpress.
 
 ## Project overview
-This project documents the conversion of a commercial non-isolated step-up module originally purchased from AliExpress into isolated.
+This project documents the electrical design and PCB layout of a third‑party module by recreating them from scratch in KiCad for learning, repair, and interoperability purposes. The repository does not include any original vendor design files, firmware, branding, or trademarks.
 
 ## Origin and scope
 Original hardware: generic module purchased from AliExpress (exact vendor and listing may change over time, the following terms can help finding similar modules: "70W DC-DC 12V 24V To 200V-450V Voltage Adjustable Boost Power Converter Nixie Clock Tube Amplifier Capacitor Charging").  
-
-Redesigned hardware: new schematic and PCB layout, but several parts from the original module have been reused (controller, transformer, connector, fuse and its holder, power MOSFET, output diode, trim-pot, power resistors and electrolytic capacitors). 
-
-Status: prototype, not yet fully tested. Not affiliated with, endorsed by, or supported by the original manufacturer or seller.  
-
-Contents: KiCad design files and supporting documentation.
+Status: unofficial, reverse‑engineered reference design; not affiliated with, endorsed by, or supported by the original manufacturer or seller.  
+Contents: KiCad schematic, PCB layout, netlists, and supporting documentation created from measurements and inspection of a physical unit.
 
 ## Intended use
 This repository is intended for:
@@ -41,14 +37,11 @@ This repository is intended for:
 
 ## License
 The KiCad design files and documentation in this repository are released under the CERN Open Hardware Licence v2 – Permissive (CERN‑OHL‑P‑2.0). SPDX identifier: CERN-OHL-P-2.0 See the LICENSE file for the full legal text and conditions.  
-
 In short and non‑legal terms, you are free to use, modify, manufacture, and distribute hardware based on these files, provided you respect attribution requirements and the terms in the license.
 
 ## Trademarks and third‑party rights
 All product names, logos, and brands of the original module are the property of their respective owners and are not included or licensed here.  
-
 Any reference to third‑party marks is purely descriptive and does not imply endorsement or affiliation.  
-
 If you are the rights holder for the original hardware and have concerns about this documentation, please open an issue in the repository.
 
 ## Safety and disclaimer
@@ -57,7 +50,7 @@ If you are the rights holder for the original hardware and have concerns about t
 * High voltage can cause injury, death, or damage to equipment; ensure appropriate protections and testing procedures.
 
 ## Contributing
-Contributions are welcome.
+Contributions are welcome. Please use pull requests and issues to propose changes or discuss potential improvements.
 
 ***
 
@@ -90,8 +83,10 @@ Contributions are welcome.
     │     ├─ Drill Tables # CSV drill tables
     │     └─ Gerbers      # Gerbers
     │
-    ├─ Reports            # Reports for ERC/DRC
+    ├─ Report             # Reports for ERC/DRC
     ├─ Schematic          # PDF of schematic
     ├─ Templates          # Title block templates
-    └─ Testing
-       └─ Testpoints      # Testpoints tables
+    ├─ Testing
+    │  └─ Testpoints      # Testpoints tables      
+    │
+    └─ Variants           # Outputs for assembly variants
