@@ -93,10 +93,10 @@ outputs:
             color: '#E2E2E2'
           - layer: F.Silkscreen
             color: '#DBDBDB'
-          - layer: F.Fab
-            plot_footprint_refs: false
-            plot_footprint_values: false
-            color: '#818181'
+        #  - layer: F.Fab
+        #    plot_footprint_refs: false
+        #    plot_footprint_values: false
+        #    color: '#818181'
           - layer: F.Dimensions
             color: '#000000'
 
@@ -120,10 +120,10 @@ outputs:
             color: '#E2E2E2'
           - layer: B.Silkscreen
             color: '#DBDBDB'
-          - layer: B.Fab
-            plot_footprint_refs: false
-            plot_footprint_values: false
-            color: '#818181'
+        #  - layer: B.Fab
+        #    plot_footprint_refs: false
+        #    plot_footprint_values: false
+        #    color: '#818181'
           - layer: B.Dimensions
             color: '#000000'
 
@@ -160,11 +160,11 @@ outputs:
             color: '#CECECE'
           - layer: F.Silkscreen
             color: '#C7C7C7'
-          - layer: F.Fab
-            exclude_filter: '@FAB_EXCLUDE_FILTER@'
-            plot_footprint_values: false
-            sketch_pads_on_fab_layers: false
-            color: '#E10000'
+        #  - layer: F.Fab
+        #    exclude_filter: '@FAB_EXCLUDE_FILTER@'
+        #    plot_footprint_values: false
+        #    sketch_pads_on_fab_layers: false
+        #    color: '#E10000'
           - layer: '@LAYER_TP_LIST_TOP@'
             color: '#000000'
 
@@ -209,6 +209,8 @@ outputs:
         # repeat_layers: 'copper'
         layers:
           - layer: 'F.Cu'
+          - layer: Edge.Cuts
+            color: '#000000'          
 
     # Entirely new block
       - scaling: @SCALING@
@@ -220,7 +222,8 @@ outputs:
         holes_color: "#FFFFFF"
         layers:
           - layer: 'B.Cu'
-
+          - layer: Edge.Cuts
+            color: '#000000'
 
 ...
 definitions:
