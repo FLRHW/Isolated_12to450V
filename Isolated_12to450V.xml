@@ -55,7 +55,7 @@
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
 	BOARD SIZE				85.000 × 100.000 mm
-	BOARD THICKNESS		1.532 mm
+	BOARD THICKNESS		1.600 mm
 	TRACE WIDTH			0.300 mm
 	TRACE TO TRACE		0.020 mm
 	MIN. HOLE (PTH)			0.250 mm
@@ -64,7 +64,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">c282e4c</textvar>
+    <textvar name="GIT_HASH_PCB">26c8ee0</textvar>
     <textvar name="GIT_HASH_SCH">f6d4a43</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
