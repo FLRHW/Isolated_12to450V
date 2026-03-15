@@ -142,31 +142,31 @@ outputs:
           - layer: 'Edge.Cuts'
             color: '#000000'
 
-      - scaling: @SCALING@
-        title: '@DOC_TITLE@'
-        sheet: 'Top Test Points (Scale @SCALING@:1)'
-        layer_var: 'Top Test Points (Scale @SCALING@:1)'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: Edge.Cuts
-            color: '#000000'
-          - layer: F.Cu
-            color: '#E5E5E5'
-          - layer: F.Mask
-            color: '#CECECE'
-          - layer: F.Paste
-            color: '#CECECE'
-          - layer: F.Silkscreen
-            color: '#C7C7C7'
+     # - scaling: @SCALING@
+      #  title: '@DOC_TITLE@'
+      #  sheet: 'Top Test Points (Scale @SCALING@:1)'
+      #  layer_var: 'Top Test Points (Scale @SCALING@:1)'
+      #  sheet_reference_color: '#000000'
+      #  colored_holes: true
+      #  holes_color: "#FFFFFF"
+      #  layers:
+      #    - layer: Edge.Cuts
+      #      color: '#000000'
+      #    - layer: F.Cu
+      #      color: '#E5E5E5'
+      #    - layer: F.Mask
+      #      color: '#CECECE'
+      #    - layer: F.Paste
+      #      color: '#CECECE'
+      #    - layer: F.Silkscreen
+      #      color: '#C7C7C7'
         #  - layer: F.Fab
         #    exclude_filter: '@FAB_EXCLUDE_FILTER@'
         #    plot_footprint_values: false
         #    sketch_pads_on_fab_layers: false
         #    color: '#E10000'
-          - layer: '@LAYER_TP_LIST_TOP@'
-            color: '#000000'
+      #    - layer: '@LAYER_TP_LIST_TOP@'
+      #      color: '#000000'
 
       # - scaling: @SCALING@
         # mirror : true
@@ -224,6 +224,64 @@ outputs:
           - layer: 'B.Cu'
           - layer: Edge.Cuts
             color: '#000000'
+
+    # Entirely new block
+      - scaling: @SCALING@
+        # sheet: '%ln (Scale @SCALING@:1)'
+        # layer_var: '%ln (Scale @SCALING@:1)'
+        sheet: 'F.Mask (Scale @SCALING@:1)'
+        layer_var: 'F.Mask (Scale @SCALING@:1)'
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'F.Mask'
+          - layer: Edge.Cuts
+            color: '#000000'          
+
+    # Entirely new block
+      - scaling: @SCALING@
+        sheet: 'B.Mask (Scale @SCALING@:1)'          
+        layer_var: 'B.Mask (Scale @SCALING@:1)'      
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'B.Mask'
+          - layer: Edge.Cuts
+            color: '#000000'
+
+    # Entirely new block
+      - scaling: @SCALING@
+        # sheet: '%ln (Scale @SCALING@:1)'
+        # layer_var: '%ln (Scale @SCALING@:1)'
+        sheet: 'F.Silkscreen (Scale @SCALING@:1)'
+        layer_var: 'F.Silkscreen (Scale @SCALING@:1)'
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'F.Silkscreen'
+          - layer: Edge.Cuts
+            color: '#000000'          
+
+    # Entirely new block
+      - scaling: @SCALING@
+        sheet: 'B.Silkscreen (Scale @SCALING@:1)'          
+        layer_var: 'B.Silkscreen (Scale @SCALING@:1)'      
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: 'B.Silkscreen'
+          - layer: Edge.Cuts
+            color: '#000000'
+
+
 
 ...
 definitions:

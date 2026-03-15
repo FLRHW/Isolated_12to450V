@@ -89,27 +89,17 @@
 		(layer "F.CrtYd")
 		(uuid "7cf80179-6656-492a-80d9-2c5c9e30d52f")
 	)
-	(fp_rect
-		(start -5.8 -3)
-		(end 5.8 3)
+	(fp_poly
+		(pts
+			(xy -5.715 -2.921) (xy 5.715 -2.921) (xy 5.715 3.175) (xy -4.445 3.175) (xy -5.715 1.905)
+		)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "1b2a6127-39da-4692-b3a8-7a886d553288")
-	)
-	(fp_circle
-		(center -3.81 2.1)
-		(end -3.556 2.413)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "6ff6e859-87b7-4e50-b442-616e5b8bfde2")
+		(uuid "13d1637e-7b35-4f3e-ada5-1ad6c5976295")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.1 0)
