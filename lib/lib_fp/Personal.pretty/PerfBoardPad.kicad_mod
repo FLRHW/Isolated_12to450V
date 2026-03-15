@@ -1,0 +1,82 @@
+(footprint "PerfBoardPad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.445 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aac2e366-1287-4aba-b365-116483bd7643")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PerfBoardPad"
+		(at 0 0.57 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "653047e0-1fd2-4afa-aa7d-a1a5c17968a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "815d9d13-aaae-424b-be3e-60ffb11db55c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "525e26e6-efb8-43c4-ab21-4bb649965fb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b24c406-5c42-4dff-93f9-91466ff10a62")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape circle)
+				(size 1.2 1.2)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 1.2 1.2)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -74,7 +74,7 @@ outputs:
       - scaling: @SCALING@
         layer_var: "Bottom Assembly (Scale @SCALING@:1)"
         mirror: true
-        mirror_pcb_text: false
+        mirror_pcb_text: true #test
         title: '@DOC_TITLE@'
         sheet: Bottom Assembly (Scale @SCALING@:1)
         sheet_reference_color: '#000000'

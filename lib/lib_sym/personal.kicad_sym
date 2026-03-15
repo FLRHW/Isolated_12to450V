@@ -1298,14 +1298,14 @@
 			(pin passive line
 				(at -7.62 10.16 0)
 				(length 2.54)
-				(name "1B"
+				(name "9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1B"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1316,14 +1316,14 @@
 			(pin passive line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "2B"
+				(name "10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2B"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1334,14 +1334,14 @@
 			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "3A"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3A"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1352,14 +1352,14 @@
 			(pin passive line
 				(at -7.62 -5.08 0)
 				(length 2.54)
-				(name "3B"
+				(name "11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3B"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1370,14 +1370,14 @@
 			(pin passive line
 				(at -7.62 -10.16 0)
 				(length 2.54)
-				(name "4A"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4A"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1388,14 +1388,14 @@
 			(pin passive line
 				(at -7.62 -12.7 0)
 				(length 2.54)
-				(name "4B"
+				(name "12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4B"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1406,14 +1406,14 @@
 			(pin passive line
 				(at 7.62 12.7 180)
 				(length 2.54)
-				(name "8A"
+				(name "8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8A"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1424,14 +1424,14 @@
 			(pin passive line
 				(at 7.62 10.16 180)
 				(length 2.54)
-				(name "8B"
+				(name "16"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8B"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1442,14 +1442,14 @@
 			(pin passive line
 				(at 7.62 5.08 180)
 				(length 2.54)
-				(name "7A"
+				(name "7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7A"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1460,14 +1460,14 @@
 			(pin passive line
 				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "7B"
+				(name "15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7B"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1478,14 +1478,14 @@
 			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 2.54)
-				(name "6A"
+				(name "6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6A"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1496,14 +1496,14 @@
 			(pin passive line
 				(at 7.62 -5.08 180)
 				(length 2.54)
-				(name "6B"
+				(name "14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6B"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1521,7 +1521,7 @@
 						)
 					)
 				)
-				(number "5A"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1532,14 +1532,14 @@
 			(pin passive line
 				(at 7.62 -12.7 180)
 				(length 2.54)
-				(name "5B"
+				(name "13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5B"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1563,14 +1563,14 @@
 			(pin passive line
 				(at -7.62 12.7 0)
 				(length 2.54)
-				(name "1A"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1A"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1581,14 +1581,14 @@
 			(pin passive line
 				(at -7.62 5.08 0)
 				(length 2.54)
-				(name "2A"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2A"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2575,12 +2575,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "In_signal"
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2618,7 +2619,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2631,7 +2632,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
@@ -2678,12 +2679,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "IO_signal"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2721,7 +2723,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2734,7 +2736,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2747,7 +2749,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
@@ -2794,12 +2796,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "Out_signal"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2837,7 +2840,7 @@
 				(stroke
 					(width 0.0254)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type outline)
@@ -2850,7 +2853,7 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 0 132 0 1)
 				)
 				(fill
 					(type none)
@@ -2940,7 +2943,7 @@
 				(stroke
 					(width 0.2032)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
@@ -2953,17 +2956,16 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 0 90)
-				(length 2.54)
-				(hide yes)
-				(name "1"
+				(length 0)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2986,6 +2988,7 @@
 			(hide yes)
 		)
 		(pin_names
+			(offset 0)
 			(hide yes)
 		)
 		(exclude_from_sim no)
@@ -3043,7 +3046,7 @@
 				(stroke
 					(width 0.2032)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type outline)
@@ -3056,17 +3059,16 @@
 				(stroke
 					(width 0)
 					(type solid)
-					(color 132 94 255 1)
+					(color 132 0 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 0 90)
-				(length 2.54)
-				(hide yes)
-				(name "1"
+				(length 0)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4440,6 +4442,146 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OscTestpoint"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 1.778 0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Testpoint_osc_probe"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Personal:Testpoint_osc_no_lead"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "OscTestpoint_0_1"
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.635 0)
+				(mid 0 -0.635)
+				(end -0.635 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.635) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "OscTestpoint_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "Sig"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "Ref"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
 				)
 			)
 		)

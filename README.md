@@ -27,11 +27,11 @@ This project documents the conversion of a commercial non-isolated step-up modul
 ## Origin and scope
 Original hardware: generic module purchased from AliExpress (exact vendor and listing may change over time, the following terms can help finding similar modules: "70W DC-DC 12V 24V To 200V-450V Voltage Adjustable Boost Power Converter Nixie Clock Tube Amplifier Capacitor Charging").  
 
-Redesigned hardware: new schematic and PCB layout, but several parts from the original module have been reused (controller, transformer, connector, fuse and its holder, power MOSFET, output diode, trim-pot, high pwer resistors and electrolytic capacitors). 
+Redesigned hardware: new schematic and PCB layout, but several parts from the original module have been reused (controller, transformer, connector, fuse and its holder, power MOSFET, output diode, trim-pot, power resistors and electrolytic capacitors). 
 
 Status: prototype, not yet fully tested. Not affiliated with, endorsed by, or supported by the original manufacturer or seller.  
 
-Contents: KiCad schematic, PCB layout, netlists, and supporting documentation.
+Contents: KiCad design files and supporting documentation.
 
 ## Intended use
 This repository is intended for:
@@ -57,7 +57,7 @@ If you are the rights holder for the original hardware and have concerns about t
 * High voltage can cause injury, death, or damage to equipment; ensure appropriate protections and testing procedures.
 
 ## Contributing
-Contributions are welcome. Please use pull requests and issues to propose changes or discuss potential improvements.
+Contributions are welcome.
 
 ***
 
@@ -94,5 +94,4 @@ Contributions are welcome. Please use pull requests and issues to propose change
     ├─ Schematic          # PDF of schematic
     ├─ Templates          # Title block templates
     └─ Testing
-       └─ Testpoints      # Testpoints tables      
-  
+       └─ Testpoints      # Testpoints tables

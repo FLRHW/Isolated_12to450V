@@ -60,8 +60,8 @@
 	)
 	(text_box "${RELEASE_BODY_1.0.0}"
 		(exclude_from_sim no)
-		(at 86.36 33.02 0)
-		(size 63.5 154.94)
+		(at 152.4 33.02 0)
+		(size 63.5 116.84)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -80,9 +80,9 @@
 		)
 		(uuid "212b625e-4169-46f2-a2fc-afc6cbef07cd")
 	)
-	(text_box "${RELEASE_TITLE_1.0.2}"
+	(text_box "${RELEASE_TITLE_3.0.0}"
 		(exclude_from_sim no)
-		(at 152.4 31.75 0)
+		(at 20.32 30.48 0)
 		(size 63.5 3.81)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -103,10 +103,10 @@
 		)
 		(uuid "61447e65-3862-4ca7-a61e-5d8506cb38bb")
 	)
-	(text_box "${RELEASE_BODY_1.0.2}"
+	(text_box "${RELEASE_BODY_3.0.0}"
 		(exclude_from_sim no)
-		(at 152.4 35.56 0)
-		(size 63.5 111.76)
+		(at 20.32 33.02 0)
+		(size 63.5 157.48)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -127,8 +127,8 @@
 	)
 	(text_box "${RELEASE_BODY_2.0.0}"
 		(exclude_from_sim no)
-		(at 20.32 33.02 0)
-		(size 63.5 162.56)
+		(at 86.36 33.02 0)
+		(size 63.5 116.84)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -149,7 +149,7 @@
 	)
 	(text_box "${RELEASE_TITLE_1.0.0}"
 		(exclude_from_sim no)
-		(at 86.36 30.48 0)
+		(at 152.4 30.48 0)
 		(size 63.5 3.81)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -172,7 +172,7 @@
 	)
 	(text_box "${RELEASE_TITLE_2.0.0}"
 		(exclude_from_sim no)
-		(at 20.32 30.48 0)
+		(at 86.36 30.48 0)
 		(size 63.5 3.81)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke

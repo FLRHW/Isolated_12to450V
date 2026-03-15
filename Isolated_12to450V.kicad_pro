@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|190504346|43821000|1bdda93d-5799-410d-8a19-b8f2f421fd65|2ac019d5-0157-4678-ac7b-efe302fd3d74",
+          "Ok, hole wont use screw"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -68,7 +73,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -78,7 +83,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -275,12 +280,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "no_connect_connected|2895600|1143000|b8245360-94d7-4ccf-b10e-f133cc77c395|aaa8d12e-f6ff-444b-904f-45764344d99a|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -574,6 +574,7 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -609,6 +610,7 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
         "name": "NR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
@@ -617,6 +619,7 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "Primary",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -626,6 +629,7 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "Secondary",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -685,7 +689,7 @@
     "page_layout_descr_file": "Templates/KDT_Template_PCB_A4.kicad_wks"
   },
   "schematic": {
-    "annotate_start_num": 19,
+    "annotate_start_num": 7,
     "bom_export_filename": "Manufacturing/Assembly/KDT_Hierarchical_KiBot-bom-k8.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -831,16 +835,40 @@
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
       "Revision History"
+    ],
+    [
+      "6984dd16-734f-4619-a433-2734549d16d7",
+      "PerfBoard"
+    ],
+    [
+      "b35ef66e-bfd4-4f75-bced-268a263e66a9",
+      "TP6x18_1"
+    ],
+    [
+      "bd102348-3fff-477f-9640-908ea1743018",
+      "TP6x18_2"
+    ],
+    [
+      "69fc9312-d58f-410c-8c3f-b8eaf6e51aef",
+      "TP6x18_3"
+    ],
+    [
+      "d77cece3-1139-44c2-babc-63f67ef28a81",
+      "TP6x24_1"
+    ],
+    [
+      "898c5d4a-6fa1-4cb2-9955-525cdb5b1831",
+      "TP6x24_2"
     ]
   ],
   "text_variables": {
-    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS MARKED WITH A RED CROSS.\n\n2)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n3)\tDOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n\tWHEN VIEWED FROM THE TOP.",
+    "ASSEMBLY_NOTES": "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tDO NOT POPULATE PARTS MARKED WITH A RED CROSS.\n\n2)\tIF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n\tFILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n3)\tDOT/CHAMFER/TRIANGLE/CROSS IDENTIFY PIN #1 LOCATION.",
     "BOARD_NAME": "Step-Up",
     "COMPANY": "NA",
     "DESIGNER": "FR",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING ARE FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tARE FOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR YELLOW.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY NA.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t85.000 \u00d7 47.546 mm\n\tBOARD THICKNESS\t\t1.602 mm\n\tTRACE WIDTH\t\t\t0.400 mm\n\tTRACE TO TRACE\t\t-0.000 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t2.100 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.200 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm",
-    "GIT_HASH_PCB": "cf9908e",
-    "GIT_HASH_SCH": "13a8efd",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS SHOWN ON THIS DRAWING ARE FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tARE FOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL LEAD-FREE\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR YELLOW.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY BUYER.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t85.000 \u00d7 100.000 mm\n\tBOARD THICKNESS\t\t1.600 mm\n\tTRACE WIDTH\t\t\t0.300 mm\n\tTRACE TO TRACE\t\t0.020 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t2.100 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.200 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm",
+    "GIT_HASH_PCB": "85c4a65",
+    "GIT_HASH_SCH": "d30231f",
     "GIT_URL": "https://github.com/FLRHW/Isolated_12to450V",
     "PROJECT_NAME": "Isolated step-up 12:450 V",
     "RELEASE_BODY_1.0.0": "___________________________________\n\nCloned non-isolated design revision 1.1.0 as a working base.\n\nUpdated R10 and R11 to 240 k\u03a9 (cloned design incorrectly used 140 k\u03a9).\n\nUpdated U1 to UC3845 (cloned design incorrectly used UC3843).\n\nReworked feedback loop to include opto-coupler while keeping the same reference on both sides to facilitate testing / reuse of original board.\n\nAdded two options of slope compensation / ramp injection (from U1 RT_CT pin and from U1 OUTPUT pin).\n\nAdjusted R2 to 10 k\u03a9, R3 to 5 k\u03a9 and C2 to 1 nF to improve behaviour (output swaps from bursts to 0 % duty periodically).\n\nAdded soft-start (D21, R27 and C23).\n\nIncreased C5 to 100 nF.\n\nAdjusted C4 to 1.5 nF and R6 to 1 k\u03a9 (similar time constant) to facilitate ramp injection.\n\nUpdated parts placement where suitable to reuse existing layout and added an auxiliary perf-board to accomodate the new parts.",
@@ -848,18 +876,20 @@
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
     "RELEASE_BODY_2.0.0": "___________________________________\n\nAdded R29 as feed-forward option\n\nIsolated primary (\"LV\") and secondary (\"HV\") sides\n\nUpdated reverse polarity protection (based on P-channel MOSFET)\n\nAdded dedicated connectors for supply input\n\nReplaced C6 (100 uF elco -> 4.7 uF + 100 nF MLCCs)\n\nAdded C25 to support testing\n\nReplaced packages (U1: DIP-8 -> SOIC-8; U21: TO-92 -> SOT-23)\n\nReplaced U20 (SH816 -> TCMT1108)\n\nReplaced Q20 (2N2222 -> BC817)\n\nReworked slope compensation\n\nUpdated F1 footprint and 3D model\n\nAdded part number to D4\n\nUpdated Mod20 decoupling and added R30 as load\n\nAdded testpoints\n\nAdded clearance rules",
+    "RELEASE_BODY_3.0.0": "Version 3.0.0 not found.",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "07-Feb-2026",
-    "RELEASE_DATE_NUM": "2026-02-07",
+    "RELEASE_DATE": "15-Mar-2026",
+    "RELEASE_DATE_NUM": "2026-03-15",
     "RELEASE_TITLE_1.0.0": "Version 1.0.0 - 2026-01-24",
     "RELEASE_TITLE_1.0.1": "Version 1.0.1 - 2025-12-21",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
     "RELEASE_TITLE_2.0.0": "Version 2.0.0 - 2026-02-07",
+    "RELEASE_TITLE_3.0.0": "Version 3.0.0 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "2.0.0+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "......................................",
+    "SHEET_NAME_10": "TP6x24_2",
     "SHEET_NAME_11": "......................................",
     "SHEET_NAME_12": "......................................",
     "SHEET_NAME_13": "......................................",
@@ -893,11 +923,11 @@
     "SHEET_NAME_39": "......................................",
     "SHEET_NAME_4": "Revision History",
     "SHEET_NAME_40": "......................................",
-    "SHEET_NAME_5": "......................................",
-    "SHEET_NAME_6": "......................................",
-    "SHEET_NAME_7": "......................................",
-    "SHEET_NAME_8": "......................................",
-    "SHEET_NAME_9": "......................................",
+    "SHEET_NAME_5": "PerfBoard",
+    "SHEET_NAME_6": "TP6x18_1",
+    "SHEET_NAME_7": "TP6x18_2",
+    "SHEET_NAME_8": "TP6x18_3",
+    "SHEET_NAME_9": "TP6x24_1",
     "VARIANT": "CHECKED"
   }
 }
