@@ -212,7 +212,6 @@ outputs:
           - layer: Edge.Cuts
             color: '#000000'          
 
-    # Entirely new block
       - scaling: @SCALING@
         sheet: 'B.Cu (Scale @SCALING@:1)'          
         layer_var: 'B.Cu (Scale @SCALING@:1)'      
@@ -225,10 +224,7 @@ outputs:
           - layer: Edge.Cuts
             color: '#000000'
 
-    # Entirely new block
       - scaling: @SCALING@
-        # sheet: '%ln (Scale @SCALING@:1)'
-        # layer_var: '%ln (Scale @SCALING@:1)'
         sheet: 'F.Mask (Scale @SCALING@:1)'
         layer_var: 'F.Mask (Scale @SCALING@:1)'
         title: '@DOC_TITLE@'
@@ -240,7 +236,6 @@ outputs:
           - layer: Edge.Cuts
             color: '#000000'          
 
-    # Entirely new block
       - scaling: @SCALING@
         sheet: 'B.Mask (Scale @SCALING@:1)'          
         layer_var: 'B.Mask (Scale @SCALING@:1)'      
@@ -253,10 +248,7 @@ outputs:
           - layer: Edge.Cuts
             color: '#000000'
 
-    # Entirely new block
       - scaling: @SCALING@
-        # sheet: '%ln (Scale @SCALING@:1)'
-        # layer_var: '%ln (Scale @SCALING@:1)'
         sheet: 'F.Silkscreen (Scale @SCALING@:1)'
         layer_var: 'F.Silkscreen (Scale @SCALING@:1)'
         title: '@DOC_TITLE@'
@@ -265,10 +257,10 @@ outputs:
         holes_color: "#FFFFFF"
         layers:
           - layer: 'F.Silkscreen'
+            color: '#000000'          
           - layer: Edge.Cuts
             color: '#000000'          
 
-    # Entirely new block
       - scaling: @SCALING@
         sheet: 'B.Silkscreen (Scale @SCALING@:1)'          
         layer_var: 'B.Silkscreen (Scale @SCALING@:1)'      
@@ -278,6 +270,7 @@ outputs:
         holes_color: "#FFFFFF"
         layers:
           - layer: 'B.Silkscreen'
+            color: '#000000'          
           - layer: Edge.Cuts
             color: '#000000'
 
