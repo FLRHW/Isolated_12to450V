@@ -256,7 +256,7 @@
 	)
 	(text "NOTE STYLING CONVENTION"
 		(exclude_from_sim no)
-		(at 26.67 256.54 0)
+		(at 26.67 255.27 0)
 		(effects
 			(font
 				(face "Arial")
