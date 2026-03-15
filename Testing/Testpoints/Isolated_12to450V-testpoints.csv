@@ -13,8 +13,8 @@ TP31,/Block Diagram/Schematic/U12_p,Default,40.7800,44.6610,top,THRU,TestPoint_A
 TP32,U0,GND,15.1260,16.5940,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
 TP33,U0,GND,35.0650,44.6610,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
 TP34,/Block Diagram/Schematic/U5_sec,"Secondary,Default",64.9100,31.4530,top,THRU,TestPoint_Alt,TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
-TP35,"/Block Diagram/Schematic/Isns,U0","GND,Default",12.0780,6.6981,top,THRU,~,Testpoint_osc_no_lead
-TP36,"U0,/Block Diagram/Schematic/Src","GND,Default",5.6010,8.9740,top,THRU,~,Testpoint_osc_no_lead
+TP35,"U0,/Block Diagram/Schematic/Isns","Default,GND",12.0780,6.6981,top,THRU,~,Testpoint_osc_no_lead
+TP36,"/Block Diagram/Schematic/Src,U0","Default,GND",5.6010,8.9740,top,THRU,~,Testpoint_osc_no_lead
 TP101,Net-(TP101-Pad1),Default,17.9200,-1.4400,top,THRU,TestPoint,PerfBoardPad
 TP102,Net-(TP101-Pad1),Default,20.4600,-1.4400,top,THRU,TestPoint,PerfBoardPad
 TP103,Net-(TP101-Pad1),Default,23.0000,-1.4400,top,THRU,TestPoint,PerfBoardPad

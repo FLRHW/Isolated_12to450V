@@ -125,14 +125,16 @@ Updated Mod20 decoupling and added R30 as load
 Added testpoints
 
 Added clearance rules</textvar>
+    <textvar name="RELEASE_BODY_3.0.0">Version 3.0.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">14-Mar-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-03-14</textvar>
+    <textvar name="RELEASE_DATE">15-Mar-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-03-15</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-02-07</textvar>
+    <textvar name="RELEASE_TITLE_3.0.0">Version 3.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">2.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -18340,7 +18342,7 @@ Added clearance rules</textvar>
     <libpart lib="personal" part="Cosmetic_IN">
       <fields>
         <field name="Reference">P</field>
-        <field name="Value"/>
+        <field name="Value">In_signal</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
         <field name="Description"/>
