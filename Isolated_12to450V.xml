@@ -64,8 +64,8 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">85c4a65</textvar>
-    <textvar name="GIT_HASH_SCH">d30231f</textvar>
+    <textvar name="GIT_HASH_PCB">f3b6ed1</textvar>
+    <textvar name="GIT_HASH_SCH">f3b6ed1</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
     <textvar name="RELEASE_BODY_1.0.0">___________________________________
@@ -123,7 +123,49 @@ Updated Mod20 decoupling and added R30 as load
 Added testpoints
 
 Added clearance rules</textvar>
-    <textvar name="RELEASE_BODY_3.0.0">Version 3.0.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_3.0.0">C3 decreased for shorter dead time
+
+R15 increased to compensate C3 
+
+R26 increased to reduce artificial ramp
+
+R31 added as alternative for artificial ramp
+
+C4 updated to 1 nF
+
+C20, C21 and R20 updated (slower compensation)
+
+R3 increased (gain = 1 on error amp.)
+
+C2 not fitted (secondary side compensation only)
+
+R8 package increased to 1206
+
+D23 removed
+
+Default optocoupler supply swapped R29-&gt;R28
+
+R32 added to facilitate compensation tests
+
+Added snubber accross Q1
+
+Added snubber accross D4
+
+Enlarged C6, C24 and C27 footprint
+
+Silk typos fixed (HV+/HV-)
+
+Fixed R9 footprint
+
+Decreased R23 to prevent overvoltage at low load
+
+Added R34 to facilitate testing
+
+Soft start circuit moved to primary side
+
+Added D9 to support series connected modules
+
+Added MLCCs in parallel with C7 to improve decoupling</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">15-Mar-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-03-15</textvar>
@@ -132,9 +174,9 @@ Added clearance rules</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-02-07</textvar>
-    <textvar name="RELEASE_TITLE_3.0.0">Version 3.0.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_3.0.0">Version 3.0.0 - 2026-03-15</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.0.0+ (Unreleased)</textvar>
+    <textvar name="REVISION">3.0.0</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">TP6x24_2</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -175,12 +217,12 @@ Added clearance rules</textvar>
     <textvar name="SHEET_NAME_7">TP6x18_2</textvar>
     <textvar name="SHEET_NAME_8">TP6x18_3</textvar>
     <textvar name="SHEET_NAME_9">TP6x24_1</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>NA</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>3.0.0</rev>
         <date>Date2</date>
         <source>Isolated_12to450V.kicad_sch</source>
         <comment number="1" value=""/>
@@ -198,7 +240,7 @@ Added clearance rules</textvar>
       <title_block>
         <title>Block Diagram</title>
         <company>NA</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>3.0.0</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -216,7 +258,7 @@ Added clearance rules</textvar>
       <title_block>
         <title>Schematic</title>
         <company>NA</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>3.0.0</rev>
         <date>Date2</date>
         <source>Schematic.kicad_sch</source>
         <comment number="1" value=""/>
@@ -234,7 +276,7 @@ Added clearance rules</textvar>
       <title_block>
         <title>Revision History</title>
         <company>NA</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>3.0.0</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
