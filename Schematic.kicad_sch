@@ -1157,6 +1157,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -8613,6 +8796,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 147.32) (xy 355.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4740c4-2a1f-49b6-b4ce-4f49ce2319e2")
+	)
+	(wire
+		(pts
 			(xy 325.12 60.96) (xy 335.28 60.96)
 		)
 		(stroke
@@ -9215,6 +9408,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 160.02) (xy 355.6 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e743590a-e7f9-4feb-ac9a-a514a6f3d97f")
+	)
+	(wire
+		(pts
 			(xy 388.62 101.6) (xy 391.16 101.6)
 		)
 		(stroke
@@ -9352,6 +9555,16 @@
 			(type default)
 		)
 		(uuid "f4dbc2bb-6525-4d35-a814-911df22b637c")
+	)
+	(wire
+		(pts
+			(xy 355.6 137.16) (xy 355.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f93946-c784-41cd-be79-b2dcfe2f1e93")
 	)
 	(wire
 		(pts
@@ -9527,6 +9740,16 @@
 		)
 		(uuid "24bf2a04-78bf-4ce9-b855-90bfeae6073e")
 	)
+	(label "LED_A_sec"
+		(at 355.6 149.86 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "302d0fdc-6ee0-479c-884a-f10379a4c40c")
+	)
 	(label "Comp"
 		(at 161.29 160.02 0)
 		(effects
@@ -9607,6 +9830,17 @@
 			(justify left bottom)
 		)
 		(uuid "6ad5da57-f29c-4d34-ab0b-067fa0cb54b6")
+	)
+	(label "U5_sec"
+		(at 355.6 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cd8970e-5a2a-4428-aaf1-619d1bd1f34d")
 	)
 	(label "OpCol"
 		(at 109.22 129.54 0)
@@ -10636,7 +10870,7 @@
 			(uuid "f2b51648-ea91-469c-8d1c-cd6fa6f762f2")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "TP20")
 					(unit 1)
@@ -11107,7 +11341,7 @@
 			(uuid "f3b34669-f2f5-49c7-adfb-bf55ffc898d0")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "C7")
 					(unit 1)
@@ -11404,7 +11638,7 @@
 			(uuid "80323518-9cad-43f2-b52c-d919f52948e7")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "D22")
 					(unit 1)
@@ -11801,7 +12035,7 @@
 			(uuid "6c2093fd-0c6e-4ee8-a8b5-e759dc363dfb")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R7")
 					(unit 1)
@@ -11888,7 +12122,7 @@
 			(uuid "b7829a87-1b32-40a9-ae7b-56827626ba9c")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "U1")
 					(unit 1)
@@ -12229,7 +12463,7 @@
 			(uuid "fad92fe2-b97b-4985-a501-468844924f62")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R10")
 					(unit 1)
@@ -12370,6 +12604,85 @@
 			(project "Isolated_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 355.6 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d4b6723-211b-49f6-9cde-fb4712db496d")
+		(property "Reference" "D9"
+			(at 359.41 156.5274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 359.41 159.0674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 355.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 355.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 355.6 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca1b9145-5403-4b0e-bc29-28b0ce421e9e")
+		)
+		(pin "2"
+			(uuid "0d0de349-f10f-4064-8349-75ed7e6b4c5e")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -12633,9 +12946,74 @@
 			(uuid "8dc4c04d-aedb-4f18-bdce-d2eeefdf97f4")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 355.6 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4679d38d-9fc0-4181-9f2a-695395e80568")
+		(property "Reference" "#PWR08"
+			(at 355.6 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "U0_sec"
+			(at 355.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , supply ground"
+			(at 355.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49ce7894-8dc7-4cfc-8e1e-fe8e280ddb3e")
+		)
+		(instances
+			(project "Isolated_12to450V"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12901,7 +13279,7 @@
 			(uuid "d349016a-2687-4be2-b3ba-c6b528a93c3b")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "C22")
 					(unit 1)
@@ -12971,7 +13349,7 @@
 			(uuid "862c51f6-b228-4bcc-8352-b0ebc570e237")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "TP35")
 					(unit 1)
@@ -13040,7 +13418,7 @@
 			(uuid "2b5b0fb4-25d8-4b35-8dbb-f14d78ac12e0")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R5")
 					(unit 1)
@@ -13181,7 +13559,7 @@
 			(uuid "d95f565e-5802-4245-abda-0aad89b206dd")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "Q1")
 					(unit 1)
@@ -13464,7 +13842,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 100.33 247.65 0)
+		(at 101.6 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -13473,7 +13851,7 @@
 		(fields_autoplaced yes)
 		(uuid "58fa05f5-9776-45f8-8b6c-6d7f44428da2")
 		(property "Reference" "H1"
-			(at 102.87 246.3799 0)
+			(at 104.14 246.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13482,7 +13860,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 102.87 248.9199 0)
+			(at 104.14 248.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,7 +13869,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 100.33 247.65 0)
+			(at 101.6 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,7 +13878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 247.65 0)
+			(at 101.6 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +13887,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 100.33 247.65 0)
+			(at 101.6 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13518,7 +13896,7 @@
 			)
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "H1")
 					(unit 1)
@@ -13586,6 +13964,75 @@
 			(project "Isolated_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_PWR")
+		(at 355.6 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c8cdc4b-ea3a-4a15-9886-ddcf3ea475c5")
+		(property "Reference" "P8"
+			(at 355.6 131.826 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 358.14 134.8822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c022fc-fd46-47fb-a5f3-a20b28bdccb8")
+		)
+		(instances
+			(project "Isolated_12to450V"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "P8")
 					(unit 1)
 				)
 			)
@@ -13721,7 +14168,7 @@
 			(uuid "6cef67da-f535-4c4b-9614-6dd8d292607b")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R11")
 					(unit 1)
@@ -14000,7 +14447,7 @@
 			(uuid "552535c0-08b4-45b4-ad35-34bec53c9087")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "U20")
 					(unit 1)
@@ -14283,7 +14730,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 100.33 266.7 0)
+		(at 101.6 266.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14292,7 +14739,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a4c4f2d-b06b-4a2b-9b91-76f4855fa11f")
 		(property "Reference" "H4"
-			(at 102.87 265.4299 0)
+			(at 104.14 265.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14301,7 +14748,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 102.87 267.9699 0)
+			(at 104.14 267.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14310,7 +14757,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 100.33 266.7 0)
+			(at 101.6 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14319,7 +14766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 266.7 0)
+			(at 101.6 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14775,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 100.33 266.7 0)
+			(at 101.6 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14337,7 +14784,7 @@
 			)
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "H4")
 					(unit 1)
@@ -14950,7 +15397,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 100.33 254 0)
+		(at 101.6 254 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14959,7 +15406,7 @@
 		(fields_autoplaced yes)
 		(uuid "79dfb53a-707a-4148-aa60-fc72bd89333b")
 		(property "Reference" "H2"
-			(at 102.87 252.7299 0)
+			(at 104.14 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14968,7 +15415,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 102.87 255.2699 0)
+			(at 104.14 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14977,7 +15424,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 100.33 254 0)
+			(at 101.6 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14986,7 +15433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 254 0)
+			(at 101.6 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14995,7 +15442,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 100.33 254 0)
+			(at 101.6 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15004,7 +15451,7 @@
 			)
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "H2")
 					(unit 1)
@@ -15511,7 +15958,7 @@
 			(uuid "3688e917-ec29-401f-9f79-6752d49e884a")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "TR1")
 					(unit 1)
@@ -15645,7 +16092,7 @@
 			(uuid "ef08bcd1-e6c7-48d7-9bec-a61f688c7982")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "C2")
 					(unit 1)
@@ -15719,7 +16166,7 @@
 			(uuid "549a5388-0351-4823-8f3e-9e50960d6ee4")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "J1")
 					(unit 1)
@@ -15788,7 +16235,7 @@
 			(uuid "5d7d3c6f-2bed-4880-ac21-1360c9f4b1b0")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "C4")
 					(unit 1)
@@ -16123,7 +16570,7 @@
 			(uuid "6ff5f513-7ed2-454d-b041-f863a540f086")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "C8")
 					(unit 1)
@@ -16190,7 +16637,7 @@
 			(uuid "3b130b43-ae66-4f89-b029-44fc02e35b4c")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R8")
 					(unit 1)
@@ -16398,7 +16845,7 @@
 			(uuid "b5f5f303-cb21-4a42-be74-950bcf27f43f")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "F1")
 					(unit 1)
@@ -16466,7 +16913,7 @@
 			(uuid "9e5a1496-610a-436e-9b0f-3e27d42c1ec7")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "P102")
 					(unit 1)
@@ -16600,7 +17047,7 @@
 			(uuid "98357c2a-8a75-421c-8314-7e536e67539d")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R6")
 					(unit 1)
@@ -17231,7 +17678,7 @@
 			(uuid "21b208d4-7f0e-4b98-8724-a7b6bf093b79")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "Q20")
 					(unit 1)
@@ -17323,7 +17770,7 @@
 			(uuid "3bba7d4d-1071-465c-bb25-ec9c6c52276b")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "U21")
 					(unit 1)
@@ -17526,7 +17973,7 @@
 			(uuid "de261790-83d7-4f58-97df-1574c0ad0022")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "#PWR07")
 					(unit 1)
@@ -17693,7 +18140,7 @@
 			(uuid "f75fee6f-4b87-4c81-b0ea-42fcedc39d80")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "Mod20")
 					(unit 1)
@@ -17892,7 +18339,7 @@
 			(uuid "0a8f7fba-a8cf-4930-bac2-0d5f5fd12d3f")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R9")
 					(unit 1)
@@ -18095,7 +18542,7 @@
 			(uuid "c758afc9-0903-4e7c-9516-82669e6bbc84")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R21")
 					(unit 1)
@@ -18229,7 +18676,7 @@
 			(uuid "c5bf8877-fc26-404a-a396-ca96b9e35274")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "C3")
 					(unit 1)
@@ -18635,7 +19082,7 @@
 			(uuid "e1c2aee1-37ce-493e-98eb-e9786b6971e4")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "VR1")
 					(unit 1)
@@ -18798,7 +19245,7 @@
 			(uuid "b8544791-6131-4bb7-ba09-e3d11160c2f3")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "D4")
 					(unit 1)
@@ -18931,7 +19378,7 @@
 			(uuid "927203fb-ccbb-4309-a1a4-6403a7a57e55")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "P101")
 					(unit 1)
@@ -19203,7 +19650,7 @@
 			(uuid "e18993e7-c5e6-4305-8a07-931f73ed6010")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "R3")
 					(unit 1)
@@ -19567,7 +20014,7 @@
 			(uuid "0d3458d7-36a4-4e80-bfe2-e451325857b8")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "Q21")
 					(unit 1)
@@ -19704,6 +20151,75 @@
 			(project "Isolated_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 355.6 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef6028a6-30d2-4bdb-a420-e2fb3c973b79")
+		(property "Reference" "R13"
+			(at 356.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 356.87 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 353.822 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 355.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8249476f-f7da-40d2-a658-49d4334de434")
+		)
+		(pin "1"
+			(uuid "9f913ffb-3b97-4932-80f6-1725b8ab4c77")
+		)
+		(instances
+			(project "Isolated_12to450V"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -20363,7 +20879,7 @@
 			(uuid "2f28a870-d7fe-4f60-9159-13a4c7c82a0d")
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "Q22")
 					(unit 1)
@@ -20373,7 +20889,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 100.33 260.35 0)
+		(at 101.6 260.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20382,7 +20898,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff26e46b-d4ec-4f68-933d-0216b3901d5c")
 		(property "Reference" "H3"
-			(at 102.87 259.0799 0)
+			(at 104.14 259.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20391,7 +20907,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 102.87 261.6199 0)
+			(at 104.14 261.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20400,7 +20916,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 100.33 260.35 0)
+			(at 101.6 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20409,7 +20925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 260.35 0)
+			(at 101.6 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20418,7 +20934,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 100.33 260.35 0)
+			(at 101.6 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20427,7 +20943,7 @@
 			)
 		)
 		(instances
-			(project "Isolated_12to450V"
+			(project "StepUp_module_12to450V"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b"
 					(reference "H3")
 					(unit 1)
