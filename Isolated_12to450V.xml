@@ -123,9 +123,9 @@ Updated Mod20 decoupling and added R30 as load
 Added testpoints
 
 Added clearance rules</textvar>
-    <textvar name="RELEASE_BODY_3.0.0">C3 decreased for shorter dead time
+    <textvar name="RELEASE_BODY_3.0.0">___________________________________
 
-R15 increased to compensate C3 
+C3 and R15 updated for shorter dead time
 
 R26 increased to reduce artificial ramp
 
@@ -139,27 +139,19 @@ R3 increased (gain = 1 on error amp.)
 
 C2 not fitted (secondary side compensation only)
 
-R8 package increased to 1206
-
 D23 removed
 
 Default optocoupler supply swapped R29-&gt;R28
 
-R32 added to facilitate compensation tests
+R32 and R34 added to facilitate testing
 
-Added snubber accross Q1
+Added snubber accross Q1 and D4
 
-Added snubber accross D4
+Enlarged R8, C6, C24 and C27 footprint
 
-Enlarged C6, C24 and C27 footprint
-
-Silk typos fixed (HV+/HV-)
-
-Fixed R9 footprint
+Silk typos (HV+/HV-) and R9 footprint fixed
 
 Decreased R23 to prevent overvoltage at low load
-
-Added R34 to facilitate testing
 
 Soft start circuit moved to primary side
 
