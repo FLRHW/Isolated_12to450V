@@ -2,27 +2,27 @@
 
 ## [Unreleased]
 
+### Added power on LED
+
+Updated manufacturing docs
+
 ## [3.0.0] - 2026-03-15
 
-C3 decreased for shorter dead time
-R15 increased to compensate C3 
+### C3 and R15 updated for shorter dead time
+
 R26 increased to reduce artificial ramp
 R31 added as alternative for artificial ramp
 C4 updated to 1 nF
 C20, C21 and R20 updated (slower compensation)
 R3 increased (gain = 1 on error amp.)
 C2 not fitted (secondary side compensation only)
-R8 package increased to 1206
 D23 removed
 Default optocoupler supply swapped R29->R28
-R32 added to facilitate compensation tests
-Added snubber accross Q1
-Added snubber accross D4
-Enlarged C6, C24 and C27 footprint
-Silk typos fixed (HV+/HV-)
-Fixed R9 footprint
+R32 and R34 added to facilitate testing
+Added snubber accross Q1 and D4
+Enlarged R8, C6, C24 and C27 footprint
+Silk typos (HV+/HV-) and R9 footprint fixed
 Decreased R23 to prevent overvoltage at low load
-Added R34 to facilitate testing
 Soft start circuit moved to primary side
 Added D9 to support series connected modules
 Added MLCCs in parallel with C7 to improve decoupling 
