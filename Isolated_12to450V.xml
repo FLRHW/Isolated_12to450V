@@ -54,7 +54,7 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				85.000 × 100.000 mm
+	BOARD SIZE				85.000 × 47.540 mm
 	BOARD THICKNESS		1.600 mm
 	TRACE WIDTH			0.300 mm
 	TRACE TO TRACE		0.020 mm
@@ -64,7 +64,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">e39c46b</textvar>
+    <textvar name="GIT_HASH_PCB">e887a36</textvar>
     <textvar name="GIT_HASH_SCH">d30231f</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -178,7 +178,7 @@ Added MLCCs in parallel with C7 to improve decoupling</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">3.0.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
-    <textvar name="SHEET_NAME_10">TP6x24_2</textvar>
+    <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
     <textvar name="SHEET_NAME_12">......................................</textvar>
     <textvar name="SHEET_NAME_13">......................................</textvar>
@@ -212,11 +212,11 @@ Added MLCCs in parallel with C7 to improve decoupling</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
     <textvar name="SHEET_NAME_4">Revision History</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">PerfBoard</textvar>
-    <textvar name="SHEET_NAME_6">TP6x18_1</textvar>
-    <textvar name="SHEET_NAME_7">TP6x18_2</textvar>
-    <textvar name="SHEET_NAME_8">TP6x18_3</textvar>
-    <textvar name="SHEET_NAME_9">TP6x24_1</textvar>
+    <textvar name="SHEET_NAME_5">......................................</textvar>
+    <textvar name="SHEET_NAME_6">......................................</textvar>
+    <textvar name="SHEET_NAME_7">......................................</textvar>
+    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_9">......................................</textvar>
     <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
