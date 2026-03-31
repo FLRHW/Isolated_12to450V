@@ -12184,6 +12184,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RC1206JR-07470RL"
+			(at 341.63 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa93f6d4-bd3a-4f83-b982-179babbe07c7")
 		)
@@ -12380,6 +12389,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 341.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206JR-07470RL"
+			(at 341.63 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,6 +16171,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "Generic screw terminal"
+			(at 396.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9f20d70-69eb-45ab-8a3d-8e63b5b238a5")
 		)
@@ -17308,6 +17335,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RC0603FR-07470RL"
+			(at 78.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e84f119-61de-4a22-a7a4-7c9f7a6fab7b")
 		)
@@ -17894,6 +17930,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 341.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC1206JR-07470RL"
+			(at 341.63 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19002,6 +19047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "RC1206JR-07470RL"
+			(at 342.9 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9fe246b0-be13-41b2-a554-10aaf6753acd")
 		)
@@ -19793,6 +19847,15 @@
 		)
 		(property "Field6" "LCSC"
 			(at 126.365 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "T44007"
+			(at 134.62 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20773,6 +20836,15 @@
 		)
 		(property "Field6" "LCSC"
 			(at 126.365 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "T44007"
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

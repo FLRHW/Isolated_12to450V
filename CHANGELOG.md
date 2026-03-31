@@ -5,6 +5,8 @@
 ### Added power on LED
 
 Updated manufacturing docs
+Added some MPNs so different parts are on separate BOM lines
+
 
 ## [3.0.0] - 2026-03-15
 
@@ -20,7 +22,7 @@ D23 removed
 Default optocoupler supply swapped R29->R28
 R32 and R34 added to facilitate testing
 Added snubber accross Q1 and D4
-Enlarged R8, C6, C24 and C27 footprint
+Enlarged R8, C6, C24 and C27 footprints
 Silk typos (HV+/HV-) and R9 footprint fixed
 Decreased R23 to prevent overvoltage at low load
 Soft start circuit moved to primary side

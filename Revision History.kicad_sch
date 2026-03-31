@@ -12,9 +12,9 @@
 		(comment 9 "FR")
 	)
 	(lib_symbols)
-	(text_box "${RELEASE_BODY_1.1.0}"
+	(text_box "${RELEASE_BODY_3.0.1}"
 		(exclude_from_sim no)
-		(at 29.21 35.56 0)
+		(at 20.32 35.56 0)
 		(size 63.5 111.76)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -106,7 +106,7 @@
 	(text_box "${RELEASE_BODY_3.0.0}"
 		(exclude_from_sim no)
 		(at 86.36 33.02 0)
-		(size 63.5 157.48)
+		(size 63.5 118.11)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -193,9 +193,9 @@
 		)
 		(uuid "ed7f1ff6-56f6-4427-ab7f-2ffe27717c3d")
 	)
-	(text_box "${RELEASE_TITLE_1.1.0}"
+	(text_box "${RELEASE_TITLE_3.0.1}"
 		(exclude_from_sim no)
-		(at 29.21 31.75 0)
+		(at 20.32 31.75 0)
 		(size 63.5 3.81)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
