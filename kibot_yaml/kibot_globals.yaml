@@ -10,6 +10,7 @@ global:
   dnp_cross_bottom_layer: '@LAYER_DNP_BOTTOM@'
   disable_kicad_cross_on_fab: true
   extra_pth_drill: 0 # for annular ring computation.
+  log_level: WARN  # This will hopfully reduce kibot_run.log size
   filters:
     # 'KiCad config without environment.vars section'
     - number: 9
