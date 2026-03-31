@@ -3,8 +3,7 @@
 
 kibot:
   version: 1
-  global:
-    verbosity: 1  # 0=errors only, 1=warnings, 2=info (default), 3=debug
+
 variants:
 
   # Project variants
@@ -61,7 +60,7 @@ groups:
       - @PDF_SCHEMATIC_OUTPUT@
       - @MD_README_OUTPUT@
       # - @HTML_KICANVAS_OUTPUT@ # Very experimental, we exclude it for now
-      - @HTML_KIRI_OUTPUT@
+      #- @HTML_KIRI_OUTPUT@
       - @HTML_NAV_RES_OUTPUT@
 
   - name: all_group_k9
@@ -74,7 +73,7 @@ groups:
       - @PDF_SCHEMATIC_OUTPUT@
       - @MD_README_OUTPUT@
       # - @HTML_KICANVAS_OUTPUT@ # Very experimental, we exclude it for now
-      - @HTML_KIRI_OUTPUT@
+      #- @HTML_KIRI_OUTPUT@
       - @HTML_NAV_RES_OUTPUT@
 
   - name: draft_group
@@ -526,11 +525,11 @@ import:
       DIR: KiCanvas
 
   # Generate webpage with diffs between commits
-  - file: kibot_out_html_kiri.yaml
-    definitions:
-      NAME: @HTML_KIRI_OUTPUT@
-      COMMENT: KiRI webpage
-      DIR: KiRI
+ # - file: kibot_out_html_kiri.yaml
+ #   definitions:
+ #     NAME: @HTML_KIRI_OUTPUT@
+ #     COMMENT: KiRI webpage
+ #     DIR: KiRI
 
   # README.md file generation
   - file: kibot_out_md_report.yaml
