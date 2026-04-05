@@ -2,11 +2,12 @@
 
 ## [Unreleased]
 
+## [3.0.1] - 2026-04-05
+
 ### Added power on LED
 
 Updated manufacturing docs
 Added some MPNs so different parts are on separate BOM lines
-
 
 ## [3.0.0] - 2026-03-15
 
@@ -62,7 +63,9 @@ Increased C5 to 100 nF.
 Adjusted C4 to 1.5 nF and R6 to 1 kΩ (similar time constant) to facilitate ramp injection.
 Updated parts placement where suitable to reuse existing layout and added an auxiliary perf-board to accomodate the new parts.
 
-[Unreleased]: https://github.com/FLRHW/Isolated_12to450V/compare/3.0.0...HEAD
+[Unreleased]: https://github.com/FLRHW/Isolated_12to450V/compare/3.0.1...HEAD
+
+[3.0.1]: https://github.com/FLRHW/Isolated_12to450V/compare/3.0.0...3.0.1
 
 [3.0.0]: https://github.com/FLRHW/Isolated_12to450V/compare/2.0.0...3.0.0
 
