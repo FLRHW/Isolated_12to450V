@@ -843,8 +843,8 @@
     "COMPANY": "NA",
     "DESIGNER": "FR",
     "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS SHOWN ON THIS DRAWING ARE FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tARE FOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL LEAD-FREE\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR YELLOW.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY BUYER.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t85.000 \u00d7 47.540 mm\n\tBOARD THICKNESS\t\t1.600 mm\n\tTRACE WIDTH\t\t\t0.300 mm\n\tTRACE TO TRACE\t\t0.020 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t2.100 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.200 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm",
-    "GIT_HASH_PCB": "edc928b",
-    "GIT_HASH_SCH": "d30231f",
+    "GIT_HASH_PCB": "0689f74",
+    "GIT_HASH_SCH": "0689f74",
     "GIT_URL": "https://github.com/FLRHW/Isolated_12to450V",
     "PROJECT_NAME": "Isolated step-up 12:450 V",
     "RELEASE_BODY_1.0.0": "___________________________________\n\nCloned non-isolated design revision 1.1.0 as a working base.\n\nUpdated R10 and R11 to 240 k\u03a9 (cloned design incorrectly used 140 k\u03a9).\n\nUpdated U1 to UC3845 (cloned design incorrectly used UC3843).\n\nReworked feedback loop to include opto-coupler while keeping the same reference on both sides to facilitate testing / reuse of original board.\n\nAdded two options of slope compensation / ramp injection (from U1 RT_CT pin and from U1 OUTPUT pin).\n\nAdjusted R2 to 10 k\u03a9, R3 to 5 k\u03a9 and C2 to 1 nF to improve behaviour (output swaps from bursts to 0 % duty periodically).\n\nAdded soft-start (D21, R27 and C23).\n\nIncreased C5 to 100 nF.\n\nAdjusted C4 to 1.5 nF and R6 to 1 k\u03a9 (similar time constant) to facilitate ramp injection.\n\nUpdated parts placement where suitable to reuse existing layout and added an auxiliary perf-board to accomodate the new parts.",
@@ -853,7 +853,7 @@
     "RELEASE_BODY_1.1.0": "",
     "RELEASE_BODY_2.0.0": "___________________________________\n\nAdded R29 as feed-forward option\n\nIsolated primary (\"LV\") and secondary (\"HV\") sides\n\nUpdated reverse polarity protection (based on P-channel MOSFET)\n\nAdded dedicated connectors for supply input\n\nReplaced C6 (100 uF elco -> 4.7 uF + 100 nF MLCCs)\n\nAdded C25 to support testing\n\nReplaced packages (U1: DIP-8 -> SOIC-8; U21: TO-92 -> SOT-23)\n\nReplaced U20 (SH816 -> TCMT1108)\n\nReplaced Q20 (2N2222 -> BC817)\n\nReworked slope compensation\n\nUpdated F1 footprint and 3D model\n\nAdded part number to D4\n\nUpdated Mod20 decoupling and added R30 as load\n\nAdded testpoints\n\nAdded clearance rules",
     "RELEASE_BODY_3.0.0": "___________________________________\n\nC3 and R15 updated for shorter dead time\n\nR26 increased to reduce artificial ramp\n\nR31 added as alternative for artificial ramp\n\nC4 updated to 1 nF\n\nC20, C21 and R20 updated (slower compensation)\n\nR3 increased (gain = 1 on error amp.)\n\nC2 not fitted (secondary side compensation only)\n\nD23 removed\n\nDefault optocoupler supply swapped R29->R28\n\nR32 and R34 added to facilitate testing\n\nAdded snubber accross Q1 and D4\n\nEnlarged R8, C6, C24 and C27 footprints\n\nSilk typos (HV+/HV-) and R9 footprint fixed\n\nDecreased R23 to prevent overvoltage at low load\n\nSoft start circuit moved to primary side\n\nAdded D9 to support series connected modules\n\nAdded MLCCs in parallel with C7 to improve decoupling",
-    "RELEASE_BODY_3.0.1": "Version 3.0.1 not found.",
+    "RELEASE_BODY_3.0.1": "___________________________________\n\nAdded power on LED\n\nUpdated manufacturing docs\n\nAdded some MPNs so different parts are on separate BOM lines",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_DATE": "05-Apr-2026",
     "RELEASE_DATE_NUM": "2026-04-05",
@@ -863,9 +863,9 @@
     "RELEASE_TITLE_1.1.0": "",
     "RELEASE_TITLE_2.0.0": "Version 2.0.0 - 2026-02-07",
     "RELEASE_TITLE_3.0.0": "Version 3.0.0 - 2026-03-15",
-    "RELEASE_TITLE_3.0.1": "Version 3.0.1 not found.",
+    "RELEASE_TITLE_3.0.1": "Version 3.0.1 - 2026-04-05",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "3.0.0+ (Unreleased)",
+    "REVISION": "3.0.1",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -906,6 +906,6 @@
     "SHEET_NAME_7": "......................................",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "CHECKED"
+    "VARIANT": "RELEASED"
   }
 }
