@@ -9,6 +9,7 @@ on:
       - main
       - dev
       - dev*
+      - pdev*
     paths-ignore:
       - '*.md'
 

@@ -29,15 +29,15 @@ Original hardware: generic module purchased from AliExpress (exact vendor and li
 
 Redesigned hardware: new schematic and PCB layout, but several parts from the original module have been reused (controller, transformer, connector, fuse and its holder, power MOSFET, output diode, trim-pot, power resistors and electrolytic capacitors). 
 
-Status: prototype, not yet fully tested. Not affiliated with, endorsed by, or supported by the original manufacturer or seller.  
+Status: prototype, partially tested. Not affiliated with, endorsed by, or supported by the original manufacturer or seller.
 
 Contents: KiCad design files and supporting documentation.
 
 ## Intended use
 This repository is intended for:
-* Educational use and study of the circuit;
-* Repair, modification, or replacement of compatible hardware;
-* Integration into hobby or research projects, subject to any third‑party IP that may apply in your jurisdiction. Users are responsible for checking any patent, copyright, or regulatory constraints that may apply to their own use.
+* Educational use and study of the circuit
+* Repair, modification, or replacement of compatible hardware
+* Integration into hobby or research projects, subject to any third‑party IP that may apply in your jurisdiction. Users are responsible for checking any patent, copyright, or regulatory constraints that may apply to their own use
 
 ## License
 The KiCad design files and documentation in this repository are released under the CERN Open Hardware Licence v2 – Permissive (CERN‑OHL‑P‑2.0). SPDX identifier: CERN-OHL-P-2.0 See the LICENSE file for the full legal text and conditions.  
@@ -52,9 +52,12 @@ Any reference to third‑party marks is purely descriptive and does not imply en
 If you are the rights holder for the original hardware and have concerns about this documentation, please open an issue in the repository.
 
 ## Safety and disclaimer
-* The design is provided as is, with no warranty of any kind;
-* Use it at your own risk; always review the schematic, layout, and component ratings before using it;
-* High voltage can cause injury, death, or damage to equipment; ensure appropriate protections and testing procedures.
+* The author takes no responsibility for any injury, death or damage arising from the use, direct or indirect, of the design or otherwise any information from this repository
+* You shall not build this or any prototype based on this design unless you are absolutely sure of your abilities dealing with this type of circuit
+* High voltage can cause injury, death, or damage to equipment. Ensure appropriate protections and testing procedures are followed
+* Use it at your own risk. Always review the schematic, layout, and component ratings before using it
+* The design is provided as is, with no warranty of any kind
+
 
 ## Contributing
 Contributions are welcome.
