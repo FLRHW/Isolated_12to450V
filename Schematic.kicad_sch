@@ -14452,6 +14452,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" "TCMT1108"
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "711513ab-03fd-4ef6-8f02-d030da200497")
 		)
@@ -17778,7 +17787,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FOSAN TL431M-0.3%-6AF"
+		(property "Manufacturer Part Number" "TL431M-0.3%-6AF"
 			(at 63.5 142.24 90)
 			(effects
 				(font
@@ -17788,6 +17797,15 @@
 			)
 		)
 		(property "Link" "https://www.lcsc.com/product-detail/C48947167.html"
+			(at 63.5 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOSAN"
 			(at 63.5 142.24 90)
 			(effects
 				(font
@@ -18163,7 +18181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "WB2405S-1W"
+		(property "Manufacturer Part Number" "WB2405S-1W"
 			(at 322.834 209.55 0)
 			(effects
 				(font
