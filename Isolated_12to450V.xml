@@ -64,7 +64,7 @@
 	COPPER TO HOLE		0.200 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm</textvar>
-    <textvar name="GIT_HASH_PCB">9653abd</textvar>
+    <textvar name="GIT_HASH_PCB">edc928b</textvar>
     <textvar name="GIT_HASH_SCH">d30231f</textvar>
     <textvar name="GIT_URL">https://github.com/FLRHW/Isolated_12to450V</textvar>
     <textvar name="PROJECT_NAME">Isolated step-up 12:450 V</textvar>
@@ -160,8 +160,8 @@ Added D9 to support series connected modules
 Added MLCCs in parallel with C7 to improve decoupling</textvar>
     <textvar name="RELEASE_BODY_3.0.1">Version 3.0.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">31-Mar-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-03-31</textvar>
+    <textvar name="RELEASE_DATE">05-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-05</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 - 2026-01-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.1">Version 1.0.1 - 2025-12-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -975,7 +975,7 @@ Added MLCCs in parallel with C7 to improve decoupling</textvar>
       <fields>
         <field name="LCSC PN">C20598690</field>
         <field name="Manufacturer">RLT</field>
-        <field name="Manufacturer PN">WB2405S-1W</field>
+        <field name="Manufacturer Part Number">WB2405S-1W</field>
         <field name="Footprint">Personal:WB___S-1W</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -983,7 +983,7 @@ Added MLCCs in parallel with C7 to improve decoupling</textvar>
       <libsource lib="personal" part="WB____S-1W_long" description=""/>
       <property name="LCSC PN" value="C20598690"/>
       <property name="Manufacturer" value="RLT"/>
-      <property name="Manufacturer PN" value="WB2405S-1W"/>
+      <property name="Manufacturer Part Number" value="WB2405S-1W"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <sheetpath names="/Block Diagram/Schematic/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/b0fdce11-0fa7-4399-9147-4b60eb490e1b/"/>
@@ -2278,11 +2278,13 @@ Added MLCCs in parallel with C7 to improve decoupling</textvar>
       <datasheet>http://www.vishay.com/docs/83510/tcmt1100.pdf</datasheet>
       <description>Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4</description>
       <fields>
+        <field name="Manufacturer Part Number">TCMT1108</field>
         <field name="Footprint">Package_SO:SOP-4_4.4x2.6mm_P1.27mm</field>
         <field name="Datasheet">http://www.vishay.com/docs/83510/tcmt1100.pdf</field>
         <field name="Description">Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4</field>
       </fields>
       <libsource lib="Isolator" part="TCMT1108" description="Optocoupler, Vce 70V, CTR 130-260%, Viso 3750V (RMS), SOP-4"/>
+      <property name="Manufacturer Part Number" value="TCMT1108"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <property name="ki_keywords" value="NPN DC opto"/>
@@ -2295,15 +2297,17 @@ Added MLCCs in parallel with C7 to improve decoupling</textvar>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <description>Shunt Regulator, SOT-23</description>
       <fields>
-        <field name="MPN">FOSAN TL431M-0.3%-6AF</field>
+        <field name="Manufacturer Part Number">TL431M-0.3%-6AF</field>
         <field name="Link">https://www.lcsc.com/product-detail/C48947167.html</field>
+        <field name="Manufacturer">FOSAN</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet"/>
         <field name="Description">Shunt Regulator, SOT-23</field>
       </fields>
       <libsource lib="Reference_Voltage" part="TL432DBZ" description="Shunt Regulator, SOT-23"/>
-      <property name="MPN" value="FOSAN TL431M-0.3%-6AF"/>
+      <property name="Manufacturer Part Number" value="TL431M-0.3%-6AF"/>
       <property name="Link" value="https://www.lcsc.com/product-detail/C48947167.html"/>
+      <property name="Manufacturer" value="FOSAN"/>
       <property name="Sheetname" value="Schematic"/>
       <property name="Sheetfile" value="Schematic.kicad_sch"/>
       <property name="ki_keywords" value="diode device shunt regulator"/>
